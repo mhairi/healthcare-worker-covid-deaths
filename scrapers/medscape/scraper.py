@@ -19,17 +19,14 @@ for p in paragraphs[7:]: # First 7 paragraphs are introduction (this might chang
     
     link = p.find("a")
     if link is not None:
-        link_text = link.text
-        link_href = link["href"]
+        name = link.text
         other_text = link.next_sibling
     else:
-        link_text = None
-        link_href = None
+        name = None
         other_text = p.text
         
     outputs.append({
-        "link_href" : link_href,
-        "link_text" : link_text,
+        "name" : name,
         "other_text": other_text
     })
 
@@ -40,7 +37,7 @@ file_name = "data/" + today + ".csv"
 
 # Write to CSV
 with open(file_name, "w") as f:
-    field_names = ["link_href", "link_text", "other_text"]
+    field_names = ["name", "other_text"]
     writer = DictWriter(f, fieldnames = field_names)
     writer.writeheader()
     writer.writerows(outputs)
