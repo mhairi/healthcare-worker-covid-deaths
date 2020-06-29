@@ -36,10 +36,10 @@ df <-
 # translations <- list(occupations = occupations)
 # write_rds(
 #   translations,
-#   "cleaning/translations/italy.rds"
+#   "cleaning/api_response/italy.rds"
 # )
 
-translations <- read_rds("cleaning/translations/italy.rds")
+translations <- read_rds("cleaning/api_response/italy.rds")
 
 df <- df %>% 
   mutate(

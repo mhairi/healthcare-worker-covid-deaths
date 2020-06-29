@@ -78,10 +78,10 @@ df_original <-
 # 
 # write_rds(
 #   translations,
-#   "cleaning/translations/russia.rds"
+#   "cleaning/api_response/russia.rds"
 # )
 
-translations <- read_rds("cleaning/translations/russia.rds")
+translations <- read_rds("cleaning/api_response/russia.rds")
 
 
 ###########################

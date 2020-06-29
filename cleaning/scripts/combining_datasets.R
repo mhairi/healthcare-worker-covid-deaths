@@ -111,4 +111,4 @@ df <-
   plyr::rbind.fill(italy_only) %>% 
   plyr::rbind.fill(russia)
 
-write_csv(df, "covid_deaths.csv")
+write_csv(df, "cleaning/data/combined_data.csv")
