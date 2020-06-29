@@ -43,7 +43,11 @@ translations <- read_rds("cleaning/translations/italy.rds")
 
 df <- df %>% 
   mutate(
-    occupation = str_to_title(translations$occupations),
+    occupation = str_to_title(translations$occupations)
   )
+
+# Reordering
+
+df <- df %>% transmute(name, occupation, dod, country = "Italy", occupation_original)
 
 write_csv(df, "cleaning/data/clean_italy.csv")

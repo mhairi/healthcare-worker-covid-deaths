@@ -28,5 +28,7 @@ df <- read_csv(str_c("scrapers/uk/data/", most_recent_file)) %>%
     age = as.integer(age)
   )
   
+df <- df %>% transmute(name, age, occupation, country = "UK", dod)
+
 write_csv(df, "cleaning/data/clean_uk.csv")
 
