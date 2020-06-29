@@ -43,6 +43,12 @@ get_city <- function(output){
     }
   }
   
+  for (component in components){
+    if (component$types[[1]] == "administrative_area_level_1"){
+      return(component$long_name[[1]])
+    }
+  }
+  
   return(NA_character_)
 }
 
