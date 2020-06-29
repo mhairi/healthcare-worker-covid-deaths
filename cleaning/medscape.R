@@ -11,7 +11,9 @@ list.files("scrapers/medscape/data/") %>%
   max %>% 
   str_c(".csv")
 
-df <- read_csv(str_c("scrapers/medscape/data/", most_recent_file))# %>% mutate(raw_other_text = other_text) 
+df <- read_csv(str_c("scrapers/medscape/data/", most_recent_file))
+
+# %>% mutate(raw_other_text = other_text) 
  # Un-comment if you want to check accuracy of cleaning.  
 
 # Last entry is wrong (name Facebook)
@@ -48,7 +50,7 @@ extract_information <- function(item){
   age_position <- coalesce(age_unknown, age_number, 1L)
   len <- length(item)
   
-  job_title <- item[age_position + 1]
+  occupation <- item[age_position + 1]
   
   # If there is enough items, then last is normally country
   country <- if_else(age_position + 2 <= len, item[len], NA_character_)
@@ -59,7 +61,7 @@ extract_information <- function(item){
   return(
     data.frame(
       age = age,
-      job_title = job_title,
+      occupation = occupation,
       location = location,
       country = country
     )
@@ -81,7 +83,7 @@ df <- mutate(df, name = if_else(str_sub(name, start = -1) == ",", str_sub(name, 
 # Country and job title cannot be empty string
 df <- 
 mutate(df, 
-  job_title = if_else(job_title == "", NA_character_, job_title),
+  occupation = if_else(occupation == "", NA_character_, occupation),
   country = if_else(country == "", NA_character_, country)
 )
 
@@ -94,12 +96,12 @@ df <- mutate(df, location = if_else(str_sub(location, end = 2) == "” ", str_su
 
 df <-
 mutate(df, 
-  job_title = case_when(
+  occupation = case_when(
     name == "Khulisani Nkala" & age == 46 ~ "Mental Health Nurse",
     name == "Ate Wilma Banaag" & country == "England" ~ "Nurse",
     name == "Ana Arreaga" & country == "Ecuador" ~ "Nurse",
-    name == "Anonymous Ambulance Driver" & job_title == "Volyn Region" ~ "Ambulance Driver",
-    TRUE ~ job_title
+    name == "Anonymous Ambulance Driver" & occupation == "Volyn Region" ~ "Ambulance Driver",
+    TRUE ~ occupation
   ),
   location = case_when(
     location == "and New York; last assignment in Brooklyn" ~ "Brooklyn", 

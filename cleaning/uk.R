@@ -1,8 +1,5 @@
 library(tidyverse)
 library(lubridate)
-library(stringr)
-library(readr)
-library(purrr)
 
 most_recent_file <-
   list.files("scrapers/uk/data/") %>% 
@@ -12,9 +9,8 @@ most_recent_file <-
   str_c(".csv")
 
 df <- read_csv(str_c("scrapers/uk/data/", most_recent_file)) %>%
-  # Rename for consistancy with other scrapers
+  # Rename for consistency with other scrapers
   rename(
-    job_title = occupation,
     location = place_of_work
   ) %>% 
   # Create name and age columns
