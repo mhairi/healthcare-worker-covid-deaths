@@ -8,7 +8,10 @@ most_recent_file <-
   max %>% 
   str_c(".csv")
 
-df <- read_csv(str_c("scrapers/uk/data/", most_recent_file)) %>%
+df_raw <- read_csv(str_c("scrapers/uk/data/", most_recent_file))
+
+df <- 
+  df_raw %>%
   # Rename for consistency with other scrapers
   rename(
     location = place_of_work
@@ -28,7 +31,15 @@ df <- read_csv(str_c("scrapers/uk/data/", most_recent_file)) %>%
     age = as.integer(age)
   )
   
-df <- df %>% transmute(name, age, occupation, country = "UK", dod)
+df <- df %>%
+  transmute(
+    name,
+    age,
+    occupation,
+    country = "UK",
+    dod,
+    raw_data = paste(df_raw$name_and_age, df_raw$occupation, df_raw$place_of_work, df_raw$dod, sep = ", ")
+  )
 
 write_csv(df, "cleaning/data/clean_uk.csv")
 

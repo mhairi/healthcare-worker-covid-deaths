@@ -1,7 +1,7 @@
 library(ggmap)
 library(tidyverse)
 
-df <- read_csv("cleaning/data/combined_data.csv")
+df <- read_csv("cleaning/data/combined_data.csv", guess_max = 2000)
 
 get_lat <- function(output){
   lat <- output$results[[1]]$geometry$location$lat
@@ -75,15 +75,31 @@ df %>%
   ) 
 
 
-# api_response <- map(df$address, geocode, output = "all")
-# write_rds(api_response, "cleaning/api_responses/google_maps.api")
+address_info <- read_rds("cleaning/api_responses/google_maps.rds")
 
-api_response <- read_rds("cleaning/api_responses/google_maps.api")
+new_addresses <- df$address[!(df$address %in% address_info$address)]
 
-address_info <- map_df(api_response, get_address_info)
+if (length(new_addresses) != 0){
+  
+  api_response <- map(new_addresses, geocode, output = "all")
+  address_info_new <- map_df(api_response, get_address_info) %>% 
+    mutate(address = new_addresses)
+  
+  address_info <- rbind(address_info, address_info_new)
+  
+  address_info <- address_info %>% distinct(address, .keep_all = TRUE)
+  
+  write_rds(address_info, "cleaning/api_responses/google_maps.rds")
+  
+}
 
-df <- cbind(df, address_info)
+df <- left_join(df, address_info, by = "address")
 
+# Save in three places
+# 1. Add to historical record
+# 2. Add to intermediate data
+# 3. Overwrite final clean data
+
+write_csv(df, paste0("cleaning/data/old_data/", lubridate::today(), ".csv"))
 write_csv(df, "cleaning/data/data_with_address_info.csv")
 write_csv(df, "covid_deaths.csv")
-

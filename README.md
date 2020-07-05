@@ -14,4 +14,6 @@ Currently combining data from four sources:
 
 The scraper for each website is stored in its own folder inside scrapers. The data is also stored there. A website scrape is named after the date it is carried out, so you can always track which data is the latest. The scrapers are written in Python using BeautifulSoup.
 
+Each scraper must be run from it's folder. For example, to run medscape you must be in scrapers/medscape.
+
 The scrapers generally carry out very little data cleaning. The data cleaning is done in R and can be found in the folder 'cleaning'.

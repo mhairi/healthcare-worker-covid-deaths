@@ -13,7 +13,7 @@ russia <- read_csv("cleaning/data/clean_russia.csv") %>% mutate(id = 1:nrow(.))
 # Checking #
 ############
 
-# Assuming that we only have overlaps between Medscape and others. for example 
+# Assuming that we only have overlaps between Medscape and others. For example 
 # no one should appear on both the UK and Russian lists
 
 # Checking if joins are working and 
@@ -30,8 +30,14 @@ uk_join %>%
   filter(name.x != name.y) %>% 
   select(name.x, name.y) 
 
+uk_join %>% 
+  count(id.x) %>% 
+  filter(n > 1)
 
-           
+uk_join %>% 
+  count(id.y) %>% 
+  filter(n > 1)
+
 italy_dist <- 2
 
 italy_join <-
@@ -43,19 +49,24 @@ italy_join %>%
   filter(name.x != name.y) %>% 
   select(name.x, name.y) 
 
-# S.F and S.L are different people I think
-
-italy_join <- filter(italy_join, name.x != "S. L.")
-
+italy_join %>% 
+  count(id.x) %>% 
+  filter(n > 1)
 
 italy_join %>% 
-  transmute(
-    name = name.x,
-    age = coalesce(age.x, age.y),
-    occupation = coalesce(occupation.x, occupation.y),
-    country = coalesce(country.x, country.y),
-    dod = dod
-  )
+  count(id.y) %>% 
+  filter(n > 1)
+
+
+# S.F and S.L are different people I think
+# Alberto Paolini and Alberto Pollini are different people
+
+italy_join <- italy_join %>%  
+  filter(name.x != "S. L.") %>% 
+  filter(name.x != "Alberto Paolini" &  name.y != "Alberto Pollini") %>% 
+  filter(name.x != "Alberto Pollini" &  name.y != "Alberto Paolini") 
+  
+
 # There doesn't seem to be any overlap between Medscape and the Russian dataset.
 # See file "checking_russian_overlaps.R" for an investigation.
 
@@ -74,17 +85,19 @@ uk_and_medscape <-
     age = coalesce(age.x, age.y),
     occupation = coalesce(occupation.x, occupation.y),
     country = coalesce(country.x, country.y),
-    dod = dod
+    dod = dod,
+    source = "uk_and_medscape",
+    raw_data = paste("UK:", raw_data.x, "| Medscape:", raw_data.y)
   )
 
 uk_only <-
   uk %>% 
-  filter(!(id %in% uk_join$id.y))
-
-medscape <- filter(medscape, !(id %in% uk_join$id.y))
+  filter(!(id %in% uk_join$id.y)) %>% 
+  mutate(
+    source = "uk"
+  )
 
 # Italy and Medscape overlap
-  
 
 italy_and_medscape <-   
   italy_join %>% 
@@ -94,14 +107,33 @@ italy_and_medscape <-
     occupation = coalesce(occupation.x, occupation.y),
     country = coalesce(country.x, country.y),
     dod = dod,
-    occupation_original
+    occupation_original,
+    source = "italy_and_medscape",
+    raw_data = paste("Italy:", raw_data.x, "| Medscape:", raw_data.y)
   )
 
 italy_only <-
   italy %>% 
-  filter(!(id %in% italy_join$id.y))
+  filter(!(id %in% italy_join$id.y)) %>% 
+  mutate(
+    source = "italy"
+  )
 
-medscape <- filter(medscape, !(id %in% italy_join$id.y))
+# Medscape
+
+medscape <- 
+  medscape %>% 
+  filter(!(id %in% uk_join$id.x)) %>% 
+  filter(!(id %in% italy_join$id.x)) %>% 
+  mutate(
+    source = "medscape"
+  )
+
+russia <-
+  russia %>% 
+  mutate(
+    source = "russia"
+  )
 
 df <- 
   medscape %>% 
@@ -109,6 +141,18 @@ df <-
   plyr::rbind.fill(uk_only) %>% 
   plyr::rbind.fill(italy_and_medscape) %>% 
   plyr::rbind.fill(italy_only) %>% 
-  plyr::rbind.fill(russia)
+  plyr::rbind.fill(russia) %>% 
+  select(-id)
 
 write_csv(df, "cleaning/data/combined_data.csv")
+
+
+# Checking
+# All three should return TRUE
+
+nrow(italy) == nrow(italy_and_medscape) + nrow(italy_only)
+
+nrow(uk) == nrow(uk_and_medscape) + nrow(uk_only)
+
+original_medscape <- read_csv("cleaning/data/clean_medscape.csv")
+nrow(medscape) == nrow(original_medscape) - nrow(uk_and_medscape) - nrow(italy_and_medscape)

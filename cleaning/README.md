@@ -1,9 +1,10 @@
-The structure of the cleaning is as follows:
+# Cleaning Structure
 
-- Origional data is in the "scrapers" folder.
-- Each dataset is cleaned from one of these raw datasets in the scripts folder.
-- Results of calling the Google Translate API are saved in the folder "api_responses". This means scripts can be re-run without calling the API again and saving time/API calls. 
-- Once each dataset is cleaned it is saved in "data".
-- Datasets are combined with the script "combining_datasets.R", and are saved in data.
-- Address info is added and the resulting dataset is saved in data.
+- Original data is in the "scrapers" folder.
+- Each dataset is cleaned from one of these raw datasets using a script from "country_scripts". 
+- The cleaned country datasets are stored in "data".
+- The datasets are then combined and cleaned further, using scripts from "scripts".
+- Intermediate steps are saved in "data".
 - The dataset "covid_deaths.csv" is saved at the main level.
+
+- Results of calling the APIs are "cached" in the folder "api_responses". This means scripts can be re-run without calling the API again and saving time/API calls. 

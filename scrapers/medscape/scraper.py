@@ -7,7 +7,7 @@ from datetime import date
 url = "https://www.medscape.com/viewarticle/927976"
 request = requests.get(url)
 html = request.content
-soup = BeautifulSoup(html)
+soup = BeautifulSoup(html, features="lxml")
 
 # Find all paragraphs inside the main content
 main_content = soup.find("div", id = "article-content")
@@ -16,7 +16,7 @@ paragraphs = main_content.find_all("p")
 # Pull out link, link text and other text for each paragraph
 outputs = []
 for p in paragraphs[7:]: # First 7 paragraphs are introduction (this might change)
-    
+
     link = p.find("a")
     if link is not None:
         name = link.text
@@ -24,7 +24,7 @@ for p in paragraphs[7:]: # First 7 paragraphs are introduction (this might chang
     else:
         name = None
         other_text = p.text
-        
+
     outputs.append({
         "name" : name,
         "other_text": other_text

@@ -7,7 +7,7 @@ from datetime import date
 url = "https://portale.fnomceo.it/elenco-dei-medici-caduti-nel-corso-dellepidemia-di-covid-19/"
 request = requests.get(url)
 html = request.content
-soup = BeautifulSoup(html)
+soup = BeautifulSoup(html, features="lxml")
 
 # Find the main list on the page
 main_content = soup.find("div", class_= "entry-content typography")
@@ -18,9 +18,9 @@ list_elements = main_list.find_all("li")
 # Extract information from each list element
 outputs = []
 for element in list_elements:
-    
+
     name = element.find("strong").text
-    
+
     br_tag = element.find("br")
 
     if br_tag is not None and br_tag.parent.name == "li": # Most common case
@@ -32,7 +32,7 @@ for element in list_elements:
     elif br_tag.parent.name == "strong": # Sometimes br is wrapped in strong
         occupation = br_tag.parent.next_sibling.strip()
         dod = br_tag.parent.previous_sibling
-  
+
     outputs.append({
         "name" : name,
         "occupation" : occupation,
@@ -52,4 +52,3 @@ with open(file_name, "w") as f:
     writer = DictWriter(f, fieldnames = field_names)
     writer.writeheader()
     writer.writerows(outputs)
-

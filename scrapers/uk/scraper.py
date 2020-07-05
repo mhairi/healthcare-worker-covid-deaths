@@ -7,7 +7,7 @@ from datetime import date
 url = "https://www.theguardian.com/world/2020/apr/16/doctors-nurses-porters-volunteers-the-uk-health-workers-who-have-died-from-covid-19"
 request = requests.get(url)
 html = request.content
-soup = BeautifulSoup(html)
+soup = BeautifulSoup(html, features="lxml")
 
 # Find all h2 elements, these contain the name and age
 main_article = soup.find("div", {"data-test-id": "article-review-body"})

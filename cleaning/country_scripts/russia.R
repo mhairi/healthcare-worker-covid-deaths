@@ -67,8 +67,8 @@ df_original <-
 # credential json file in .Renviron  GL_AUTH.
 # See: https://cran.r-project.org/web/packages/googleLanguageR/vignettes/setup.html
 
-# translations <- 
-#   df_original %>% 
+# translations <-
+#   df_original %>%
 #   transmute(
 #     name =  gl_translate(name, target = "en", source = "ru")$translatedText,
 #     occupation = gl_translate(occupation, target = "en", source = "ru")$translatedText,
@@ -78,10 +78,10 @@ df_original <-
 # 
 # write_rds(
 #   translations,
-#   "cleaning/api_response/russia.rds"
+#   "cleaning/api_responses/russia.rds"
 # )
 
-translations <- read_rds("cleaning/api_response/russia.rds")
+translations <- read_rds("cleaning/api_responses/russia.rds")
 
 
 ###########################
@@ -98,7 +98,8 @@ df <-
     name_original = df_original$name,
     occupation_original = df_original$occupation,
     location_original = df_original$location,
-    country_original = df_original$country
+    country_original = df_original$country,
+    raw_data = raw_data$data
   )
 
 write_csv(df, "cleaning/data/clean_russia.csv")

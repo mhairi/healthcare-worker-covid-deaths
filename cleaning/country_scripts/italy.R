@@ -10,8 +10,10 @@ most_recent_file <-
   max %>% 
   str_c(".csv")
 
+df_raw <- read_csv(str_c("scrapers/italy/data/", most_recent_file))
+
 df <- 
-  read_csv(str_c("scrapers/italy/data/", most_recent_file)) %>% 
+  df_raw %>% 
   rename(
     occupation_original = occupation
   ) %>% 
@@ -36,10 +38,10 @@ df <-
 # translations <- list(occupations = occupations)
 # write_rds(
 #   translations,
-#   "cleaning/api_response/italy.rds"
+#   "cleaning/api_responses/italy.rds"
 # )
 
-translations <- read_rds("cleaning/api_response/italy.rds")
+translations <- read_rds("cleaning/api_responses/italy.rds")
 
 df <- df %>% 
   mutate(
@@ -48,6 +50,14 @@ df <- df %>%
 
 # Reordering
 
-df <- df %>% transmute(name, occupation, dod, country = "Italy", occupation_original)
+df <- df %>% 
+  transmute(
+    name,
+    occupation,
+    dod,
+    country = "Italy",
+    occupation_original,
+    raw_data = paste(df_raw$name, df_raw$occupation, df_raw$dod, sep = ", ")
+  )
 
 write_csv(df, "cleaning/data/clean_italy.csv")
