@@ -1751,12 +1751,54 @@ summary {
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubGlicmFyeSh0aWR5dmVyc2UpXG5saWJyYXJ5KGhlcmUpXG5cbmRmIDwtIHJlYWRfY3N2KGhlcmUoXCJjb3ZpZF9kZWF0aHMuY3N2XCIpLCBndWVzc19tYXggPSAyMDAwKVxuYGBgIn0= -->
-<pre class="r"><code>library(tidyverse)
-library(here)
-
-df &lt;- read_csv(here(&quot;covid_deaths.csv&quot;), guess_max = 2000)</code></pre>
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubGlicmFyeSh0aWR5dmVyc2UpXG5gYGAifQ== -->
+<pre class="r"><code>library(tidyverse)</code></pre>
 <!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiUmVnaXN0ZXJlZCBTMyBtZXRob2RzIG92ZXJ3cml0dGVuIGJ5ICdkYnBseXInOlxuICBtZXRob2QgICAgICAgICBmcm9tXG4gIHByaW50LnRibF9sYXp5ICAgICBcbiAgcHJpbnQudGJsX3NxbCAgICAgIFxu4pSA4pSAIEF0dGFjaGluZyBwYWNrYWdlcyDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAgdGlkeXZlcnNlIDEuMy4wIOKUgOKUgFxu4pyTIGdncGxvdDIgMy4zLjIgICAgIOKckyBwdXJyciAgIDAuMy40XG7inJMgdGliYmxlICAzLjAuMSAgICAg4pyTIGRwbHlyICAgMS4wLjBcbuKckyB0aWR5ciAgIDEuMS4wICAgICDinJMgc3RyaW5nciAxLjQuMFxu4pyTIHJlYWRyICAgMS4zLjEgICAgIOKckyBmb3JjYXRzIDAuNS4wXG7ilIDilIAgQ29uZmxpY3RzIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgCB0aWR5dmVyc2VfY29uZmxpY3RzKCkg4pSA4pSAXG54IGRwbHlyOjpmaWx0ZXIoKSBtYXNrcyBzdGF0czo6ZmlsdGVyKClcbnggZHBseXI6OmxhZygpICAgIG1hc2tzIHN0YXRzOjpsYWcoKVxuIn0= -->
+<pre><code>Registered S3 methods overwritten by &#39;dbplyr&#39;:
+  method         from
+  print.tbl_lazy     
+  print.tbl_sql      
+── Attaching packages ───────────────────────────────── tidyverse 1.3.0 ──
+✓ ggplot2 3.3.2     ✓ purrr   0.3.4
+✓ tibble  3.0.1     ✓ dplyr   1.0.0
+✓ tidyr   1.1.0     ✓ stringr 1.4.0
+✓ readr   1.3.1     ✓ forcats 0.5.0
+── Conflicts ──────────────────────────────────── tidyverse_conflicts() ──
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubGlicmFyeShoZXJlKVxuYGBgIn0= -->
+<pre class="r"><code>library(here)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiaGVyZSgpIHN0YXJ0cyBhdCAvVXNlcnMvbWhhaXJpL0RvY3VtZW50cy9BbW5lc3R5L2hlYWx0aGNhcmUtd29ya2VyLWNvdmlkLWRlYXRoc1xuIn0= -->
+<pre><code>here() starts at /Users/mhairi/Documents/Amnesty/healthcare-worker-covid-deaths</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZGYgPC0gcmVhZF9jc3YoaGVyZShcImNvdmlkX2RlYXRocy5jc3ZcIiksIGd1ZXNzX21heCA9IDIwMDApXG5gYGAifQ== -->
+<pre class="r"><code>df &lt;- read_csv(here(&quot;covid_deaths.csv&quot;), guess_max = 2000)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiUGFyc2VkIHdpdGggY29sdW1uIHNwZWNpZmljYXRpb246XG5jb2xzKFxuICBuYW1lID0gY29sX2NoYXJhY3RlcigpLFxuICBhZ2UgPSBjb2xfZG91YmxlKCksXG4gIG9jY3VwYXRpb24gPSBjb2xfY2hhcmFjdGVyKCksXG4gIGxvY2F0aW9uID0gY29sX2NoYXJhY3RlcigpLFxuICBjb3VudHJ5ID0gY29sX2NoYXJhY3RlcigpLFxuICByYXdfZGF0YSA9IGNvbF9jaGFyYWN0ZXIoKSxcbiAgc291cmNlID0gY29sX2NoYXJhY3RlcigpLFxuICBkb2QgPSBjb2xfZGF0ZShmb3JtYXQgPSBcIlwiKSxcbiAgb2NjdXBhdGlvbl9vcmlnaW5hbCA9IGNvbF9jaGFyYWN0ZXIoKSxcbiAgbmFtZV9vcmlnaW5hbCA9IGNvbF9jaGFyYWN0ZXIoKSxcbiAgbG9jYXRpb25fb3JpZ2luYWwgPSBjb2xfY2hhcmFjdGVyKCksXG4gIGNvdW50cnlfb3JpZ2luYWwgPSBjb2xfY2hhcmFjdGVyKCksXG4gIGFkZHJlc3MgPSBjb2xfY2hhcmFjdGVyKCksXG4gIGxhdCA9IGNvbF9kb3VibGUoKSxcbiAgbG5nID0gY29sX2RvdWJsZSgpLFxuICBnZXRfY2l0eSA9IGNvbF9jaGFyYWN0ZXIoKSxcbiAgZ2V0X2NvdW50cnkgPSBjb2xfY2hhcmFjdGVyKClcbilcbiJ9 -->
+<pre><code>Parsed with column specification:
+cols(
+  name = col_character(),
+  age = col_double(),
+  occupation = col_character(),
+  location = col_character(),
+  country = col_character(),
+  raw_data = col_character(),
+  source = col_character(),
+  dod = col_date(format = &quot;&quot;),
+  occupation_original = col_character(),
+  name_original = col_character(),
+  location_original = col_character(),
+  country_original = col_character(),
+  address = col_character(),
+  lat = col_double(),
+  lng = col_double(),
+  get_city = col_character(),
+  get_country = col_character()
+)</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->

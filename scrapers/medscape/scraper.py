@@ -21,6 +21,7 @@ for p in paragraphs[7:]: # First 7 paragraphs are introduction (this might chang
     if link is not None:
         name = link.text
         other_text = link.next_sibling
+
     else:
         name = None
         other_text = p.text
