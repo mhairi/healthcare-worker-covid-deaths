@@ -30,6 +30,25 @@ df <-
     dod = if_else(str_detect(dod, "2020"), dod, paste(dod, "2020")) %>% dmy,
     age = as.integer(age)
   )
+
+###################
+# Manual Cleaning #
+###################
+df <-
+df %>% 
+  mutate(
+    name = case_when(
+      name == "Francis Olabode Ajanlekoko 53" ~ "Francis Olabode Ajanlekoko",
+      TRUE ~ name
+    ),
+    age = case_when(
+      name == "Francis Olabode Ajanlekoko" ~ 53L,
+      TRUE ~ age
+    )
+  )
+
+df_raw <- 
+  unite(df_raw, "raw_data", everything(), sep = ", ")
   
 df <- df %>%
   transmute(
@@ -38,7 +57,7 @@ df <- df %>%
     occupation,
     country = "UK",
     dod,
-    raw_data = paste(df_raw$name_and_age, df_raw$occupation, df_raw$place_of_work, df_raw$dod, sep = ", ")
+    raw_data = df_raw$raw_data
   )
 
 write_csv(df, "cleaning/data/clean_uk.csv")

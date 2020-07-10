@@ -93,7 +93,16 @@ if (length(new_addresses) != 0){
   
 }
 
-df <- left_join(df, address_info, by = "address")
+df <- 
+df %>% 
+  left_join(address_info, by = "address") %>% 
+  mutate(
+    raw_location = location,
+    raw_country = country,
+    location = coalesce(get_city, location),
+    country = coalesce(get_country, country)
+  ) %>% 
+  select(-get_city, -get_country, -address)
 
 # Save in three places
 # 1. Add to historical record

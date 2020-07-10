@@ -13,9 +13,13 @@ list.files("scrapers/medscape/data/") %>%
 
 df_raw <- read_csv(str_c("scrapers/medscape/data/", most_recent_file))
 
-# Last entry is wrong (name Facebook)
-df_raw <- filter(df_raw, name != "Facebook" | is.na(name))
-df_raw <- df_raw %>%  filter(!(is.na(name) & other_text == "\n\n\n"))
+# Need to filter problem rows from raw data, so raw data can be 
+# joined to cleaned up data in the end.
+df_raw <- 
+  df_raw %>%
+  filter(name != "Facebook" | is.na(name)) %>% 
+  filter(!(name == "\nBack to Top\n" & other_text == "\n\nBack to Top\n\n")) %>% 
+  filter(!(is.na(name) & str_detect(other_text, "^\\s+$")))
 
 # Split by commas
 df <- mutate(df_raw, other_text = str_split(other_text, pattern = ",") %>% map(str_trim))
@@ -67,14 +71,14 @@ extract_information <- function(item){
   )
 }
 
-# other_text <- as.list(1:nrow(df))
-# for (i in 1:nrow(df)){
-#   other_text[[i]] <- extract_information(df$other_text[[i]])
-# }
+# Run extract information on each "other text" element
+other_text <- as.list(1:nrow(df))
+for (i in 1:nrow(df)){
+  other_text[[i]] <- extract_information(df$other_text[[i]])
+}
 
-other_text <- 
-map_df(df$other_text,extract_information)
-
+# Add to data frame
+other_text <- bind_rows(other_text)
 df <- cbind(select(df, -other_text), other_text)
 
 #########################
@@ -106,6 +110,8 @@ df <-
       name == "Ate Wilma Banaag" & country == "England" ~ "Nurse",
       name == "Ana Arreaga" & country == "Ecuador" ~ "Nurse",
       name == "Anonymous Ambulance Driver" & occupation == "Volyn Region" ~ "Ambulance Driver",
+      name == "Anonymous Assistant Nurse" & occupation == "Spain" ~ "Assistant Nurse",
+      name == "Anonymous Healthcare Worker" & occupation == "Ireland" ~ "Healthcare Worker",
       TRUE ~ occupation
     ),
     location = case_when(
@@ -119,16 +125,36 @@ df <-
     ),
     country = case_when(
       country == "Tlatelolco México" ~ "Mexico",
+      name == "Anonymous Assistant Nurse" & occupation == "Assistant Nurse" ~ "Spain",
+      name == "Anonymous Healthcare Worker" & occupation == "Healthcare Worker" ~ "Ireland",
       TRUE ~ country
     )
 )
 
+# Some people have their country in the occupation field
+no_country <- 
+df$name %in% c("Gennaro Annarumma",
+            "Virgilio Briones",
+            "Orlandini Giancarlo",
+            "Adi Mirsaputra",
+            "Alberto Paolini")
+
+df <- 
+  df %>% 
+  mutate(
+    country = if_else(no_country, occupation, country),
+    occupation = if_else(no_country, NA_character_, occupation)
+  )
+             
+
+# Add raw data
 df <- mutate(df, raw_data = paste(df_raw$name, df_raw$other_text, sep = ", "))
 
-# Seems to be duplicated
+
+# Remove duplicate names when the name isn't anonymous
 df <- 
 df %>% 
-  filter(!(name == "Samar Sinjab" & occupation == "General Practitioner" & is.na(age)))
-
+  group_by(name) %>% 
+  filter(!(!str_detect(name, "A|anonymous") & row_number() != 1))
 
 write_csv(df, "cleaning/data/clean_medscape.csv")

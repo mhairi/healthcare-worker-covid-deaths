@@ -8,6 +8,7 @@ medscape <- read_csv("cleaning/data/clean_medscape.csv") %>% mutate(id = 1:nrow(
 uk <- read_csv("cleaning/data/clean_uk.csv") %>% mutate(id = 1:nrow(.))
 italy <- read_csv("cleaning/data/clean_italy.csv") %>% mutate(id = 1:nrow(.))
 russia <- read_csv("cleaning/data/clean_russia.csv") %>% mutate(id = 1:nrow(.))
+brazil <- read_csv("cleaning/data/clean_brazil.csv")
 
 ############
 # Checking #
@@ -87,7 +88,7 @@ uk_and_medscape <-
     country = coalesce(country.x, country.y),
     dod = dod,
     source = "uk_and_medscape",
-    raw_data = paste("UK:", raw_data.x, "| Medscape:", raw_data.y)
+    raw_data = paste("Medscape:", raw_data.x, "| UK:", raw_data.y)
   )
 
 uk_only <-
@@ -109,7 +110,7 @@ italy_and_medscape <-
     dod = dod,
     occupation_original,
     source = "italy_and_medscape",
-    raw_data = paste("Italy:", raw_data.x, "| Medscape:", raw_data.y)
+    raw_data = paste("Medscape:", raw_data.x, "| Italy:", raw_data.y)
   )
 
 italy_only <-
@@ -125,14 +126,25 @@ medscape <-
   medscape %>% 
   filter(!(id %in% uk_join$id.x)) %>% 
   filter(!(id %in% italy_join$id.x)) %>% 
+  filter(country != "Brazil") %>% # Drop all Brazil data and use Brazil specific data
   mutate(
     source = "medscape"
   )
+
+# Russia
 
 russia <-
   russia %>% 
   mutate(
     source = "russia"
+  )
+
+
+# Brazil
+brazil <-
+brazil %>% 
+  mutate(
+    source = "brazil"
   )
 
 df <- 
@@ -142,6 +154,7 @@ df <-
   plyr::rbind.fill(italy_and_medscape) %>% 
   plyr::rbind.fill(italy_only) %>% 
   plyr::rbind.fill(russia) %>% 
+  plyr::rbind.fill(brazil) %>% 
   select(-id)
 
 write_csv(df, "cleaning/data/combined_data.csv")

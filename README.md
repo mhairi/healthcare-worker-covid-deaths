@@ -3,12 +3,13 @@
 The aim of this project is to combine several online sources which track healthcare
 workers who have died of Coronavirus.
 
-Currently combining data from four sources:
+Currently combining data from five sources:
 
 * [Worldwide deaths on Medscape](https://www.medscape.com/viewarticle/927976)
 * [UK deaths from the Guardian](https://www.theguardian.com/world/2020/apr/16/doctors-nurses-porters-volunteers-the-uk-health-workers-who-have-died-from-covid-19)
 * [Italian deaths](https://portale.fnomceo.it/elenco-dei-medici-caduti-nel-corso-dellepidemia-di-covid-19/)
 * [Russian deaths](https://sites.google.com/view/covid-memory/home)
+* [Brazilian deaths](http://observatoriodaenfermagem.cofen.gov.br/)
 
 ### Project Structure
 

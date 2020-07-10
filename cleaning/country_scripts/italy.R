@@ -50,6 +50,9 @@ df <- df %>%
 
 # Reordering
 
+df_raw <- 
+  unite(df_raw, "raw_data", everything(), sep = ", ")
+
 df <- df %>% 
   transmute(
     name,
@@ -57,7 +60,7 @@ df <- df %>%
     dod,
     country = "Italy",
     occupation_original,
-    raw_data = paste(df_raw$name, df_raw$occupation, df_raw$dod, sep = ", ")
+    raw_data = df_raw$raw_data
   )
 
 write_csv(df, "cleaning/data/clean_italy.csv")

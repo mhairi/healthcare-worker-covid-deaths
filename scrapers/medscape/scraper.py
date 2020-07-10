@@ -15,16 +15,15 @@ paragraphs = main_content.find_all("p")
 
 # Pull out link, link text and other text for each paragraph
 outputs = []
-for p in paragraphs[7:]: # First 7 paragraphs are introduction (this might change)
+for p in paragraphs[9:]: # First 9 paragraphs are introduction (this has changed in the past)
 
     link = p.find("a")
-    if link is not None:
-        name = link.text
-        other_text = link.next_sibling
-
-    else:
+    if link is None:
         name = None
-        other_text = p.text
+    else:
+    	name = link.text
+
+    other_text = p.text
 
     outputs.append({
         "name" : name,
