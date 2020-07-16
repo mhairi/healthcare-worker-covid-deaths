@@ -27,7 +27,8 @@ for p in paragraphs[9:]: # First 9 paragraphs are introduction (this has changed
 
     outputs.append({
         "name" : name,
-        "other_text": other_text
+        "other_text": other_text,
+        "link": link
     })
 
 # CSVs will be named after the date of the scrape
