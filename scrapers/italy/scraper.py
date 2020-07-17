@@ -43,7 +43,7 @@ for element in list_elements:
 # CSVs will be named after the date of the scrape
 today = date.today()
 today = today.strftime("%Y-%m-%d")
-file_name = "data/" + today + ".csv"
+file_name = "italy/data/" + today + ".csv"
 
 
 # Write to CSV

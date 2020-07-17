@@ -29,7 +29,7 @@ outputs = output_1 + output_2
 # File will be named after the date of the scrape
 today = date.today()
 today = today.strftime("%Y-%m-%d")
-file_name = "data/" + today + ".csv"
+file_name = "russia/data/" + today + ".csv"
 
 # Write to CSV
 with open(file_name, "w") as f:
