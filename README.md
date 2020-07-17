@@ -3,6 +3,8 @@
 The aim of this project is to combine several online sources which track healthcare
 workers who have died of Coronavirus.
 
+The latest clean data can be found in `covid_deaths.csv`
+
 Currently combining data from five sources:
 
 * [Worldwide deaths on Medscape](https://www.medscape.com/viewarticle/927976)
@@ -13,8 +15,11 @@ Currently combining data from five sources:
 
 ### Project Structure
 
-The scraper for each website is stored in its own folder inside scrapers. The data is also stored there. A website scrape is named after the date it is carried out, so you can always track which data is the latest. The scrapers are written in Python using BeautifulSoup.
+The scraper for each website is written in Python and is stored in its own folder inside `scrapers`. The data is also stored there. 
 
-Each scraper must be run from it's folder. For example, to run medscape you must be in scrapers/medscape.
+The scrapers generally carry out very little data cleaning. The data cleaning is done in R and can be found in the folder `cleaning`. Cleaning makes intermediate data which is stored in `data`.
 
-The scrapers generally carry out very little data cleaning. The data cleaning is done in R and can be found in the folder 'cleaning'.
+Each of `scraper`, `cleaning` and `data` have their own README.md. 
+
+
+

@@ -104,11 +104,5 @@ df %>%
   ) %>% 
   select(-get_city, -get_country, -address)
 
-# Save in three places
-# 1. Add to historical record
-# 2. Add to intermediate data
-# 3. Overwrite final clean data
-
-write_csv(df, paste0("cleaning/data/old_data/", lubridate::today(), ".csv"))
 write_csv(df, "cleaning/data/data_with_address_info.csv")
-write_csv(df, "covid_deaths.csv")
+

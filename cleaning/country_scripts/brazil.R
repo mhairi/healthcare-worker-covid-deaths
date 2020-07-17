@@ -2,13 +2,12 @@ library(tidyverse)
 
 source("cleaning/scripts/misc/update_translations.R")
 
-df_raw <- read_csv("cleaning/country_scripts/data/arquivo_enfermagem.csv") %>% 
-  mutate(id = row_number())
+df_raw <- read_csv("cleaning/country_scripts/data/arquivo_enfermagem.csv")
 
 df <- df_raw
 
 names(df) <- c("dod", "uf", "region", "occupation", "situation", 
-               "sex", "age", "age_range", "id")
+               "sex", "age", "age_range")
 
 # Removing capitals
 df <-
@@ -42,12 +41,11 @@ df <-
 # Add raw data
 
 df_raw <- 
-unite(df_raw, "raw_data", -id, sep = ", ")
+unite(df_raw, "raw_data", everything(), sep = ", ")
 
 df <- 
 df %>% 
-  left_join(df_raw) %>% 
-  select(-id)
+  left_join(df_raw)
 
 df <- df %>%
   transmute(
@@ -56,7 +54,7 @@ df <- df %>%
     occupation,
     country = "Brazil",
     dod,
-    raw_data =raw_data
+    raw_data = raw_data
   )
 
 write_csv(df, "cleaning/data/clean_brazil.csv")

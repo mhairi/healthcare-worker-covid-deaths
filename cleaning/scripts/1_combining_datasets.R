@@ -46,6 +46,15 @@ medscape %>%
   filter(country == "Italy" | is.na(country)) %>% 
   stringdist_inner_join(italy, by = "name", max_dist = italy_dist) 
 
+
+# S.F and S.L are different people I think
+# Alberto Paolini and Alberto Pollini are different people
+
+italy_join <- italy_join %>%  
+  filter(name.x != "S. L.") %>% 
+  filter(name.x != "Alberto Paolini" &  name.y != "Alberto Pollini") %>% 
+  filter(name.x != "Alberto Pollini" &  name.y != "Alberto Paolini") 
+
 italy_join %>% 
   filter(name.x != name.y) %>% 
   select(name.x, name.y) 
@@ -58,15 +67,6 @@ italy_join %>%
   count(id.y) %>% 
   filter(n > 1)
 
-
-# S.F and S.L are different people I think
-# Alberto Paolini and Alberto Pollini are different people
-
-italy_join <- italy_join %>%  
-  filter(name.x != "S. L.") %>% 
-  filter(name.x != "Alberto Paolini" &  name.y != "Alberto Pollini") %>% 
-  filter(name.x != "Alberto Pollini" &  name.y != "Alberto Paolini") 
-  
 
 # There doesn't seem to be any overlap between Medscape and the Russian dataset.
 # See file "checking_russian_overlaps.R" for an investigation.
@@ -168,4 +168,4 @@ nrow(italy) == nrow(italy_and_medscape) + nrow(italy_only)
 nrow(uk) == nrow(uk_and_medscape) + nrow(uk_only)
 
 original_medscape <- read_csv("cleaning/data/clean_medscape.csv")
-nrow(medscape) == nrow(original_medscape) - nrow(uk_and_medscape) - nrow(italy_and_medscape)
+nrow(medscape) == nrow(original_medscape) - nrow(uk_and_medscape) - nrow(italy_and_medscape) - nrow(filter(original_medscape, country == "Brazil"))

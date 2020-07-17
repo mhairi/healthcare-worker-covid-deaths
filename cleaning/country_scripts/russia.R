@@ -89,4 +89,17 @@ df <-
     raw_data = raw_data$data
   )
 
+#########################
+# Manual cleaning steps #
+#########################
+
+df <-
+df %>% 
+  mutate(
+    occupation = if_else(name == "Zaynudinov Gayirkhan", "Unknown", occupation),
+    occupation = if_else(name == "Minko Alexander Viktorovich", "Ambulance Doctor", occupation),
+    occupation = if_else(name == "Firsova Lyubov Mikhailovna", "Nurse", occupation)
+  ) %>% 
+  filter(!is.na(name))
+
 write_csv(df, "cleaning/data/clean_russia.csv")
