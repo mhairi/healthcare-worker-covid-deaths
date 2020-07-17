@@ -1,7 +1,7 @@
 library(tidyverse)
 library(lubridate)
 
-source("cleaning/scripts/misc/update_translations.R")
+source("cleaning/misc/update_translations.R")
 
 most_recent_file <-
   list.files("scrapers/russia/data/") %>% 
@@ -102,4 +102,4 @@ df %>%
   ) %>% 
   filter(!is.na(name))
 
-write_csv(df, "cleaning/data/clean_russia.csv")
+write_csv(df, "data/intermediate_data/country_data/clean_russia.csv")

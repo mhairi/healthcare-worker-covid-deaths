@@ -13,13 +13,29 @@ Currently combining data from five sources:
 * [Russian deaths](https://sites.google.com/view/covid-memory/home)
 * [Brazilian deaths](http://observatoriodaenfermagem.cofen.gov.br/)
 
-### Project Structure
+## Project Structure
 
-The scraper for each website is written in Python and is stored in its own folder inside `scrapers`. The data is also stored there. 
+The scraper for each website is written in Python and is stored in its own folder
+inside `scrapers`. The data is also stored there. 
 
-The scrapers generally carry out very little data cleaning. The data cleaning is done in R and can be found in the folder `cleaning`. Cleaning makes intermediate data which is stored in `data`.
+The scrapers generally carry out very little data cleaning. The data cleaning is 
+done in R and can be found in the folder `cleaning`. Cleaning makes intermediate
+data which is stored in `data`.
 
 Each of `scraper`, `cleaning` and `data` have their own README.md. 
+
+## Data Dictionary for `covid_deaths.csv`
+
+| Variable              | Description                                                                                                                                                                                                      |
+|-----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| name                  | Person's name                                                                                                                                                                                                    |
+| age                   | Age at death                                                                                                                                                                                                     |
+| occupation            | Category of occupation at time of death: Doctor, Nurse, Other Medical   (including nurses assistants, dentists, radiographers etc.), Other (including   porters, firefighters, researchers), Retired and Unknown |
+| location              | Location within country - either a town, city of region of death                                                                                                                                                 |
+| country               | Country of death                                                                                                                                                                                                 |
+| lat                   | Latitute corresponding to location and country                                                                                                                                                                   |
+| lng                   | Longitude corresponding to location and country                                                                                                                                                                  |
+| dod                   | Date of death (if available)                                                                                                                                                                                     |
 
 
 

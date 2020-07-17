@@ -1,6 +1,6 @@
 library(tidyverse)
 
-df <- read_csv("cleaning/data/data_with_address_info.csv", guess_max = 2000)
+df <- read_csv("data/intermediate_data/data_with_address_info.csv", guess_max = 2000)
 
 df <- 
 df %>% 
@@ -271,6 +271,6 @@ mutate(
   occupation = if_else(occupation %in% c("Doctor", "Nurse", "Other Medical", "Other", "Retired", "Unknown"), occupation, "Other")
 )
 
-write_csv(df, "cleaning/data/data_with_cleaned_occupations.csv")
+write_csv(df, "data/intermediate_data/data_with_cleaned_occupations.csv")
 
 

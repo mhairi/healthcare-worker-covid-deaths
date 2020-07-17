@@ -181,4 +181,4 @@ df %>%
   group_by(name) %>% 
   filter(!(!str_detect(name, "A|anonymous") & row_number() != 1))
 
-write_csv(df, "cleaning/data/clean_medscape.csv")
+write_csv(df, "data/intermediate_data/country_data/clean_medscape.csv")

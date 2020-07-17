@@ -9,7 +9,7 @@ library(googleLanguageR)
 
 update_translations <- function(column_to_translate, file, source_language){
   
-  file_path <- paste0("cleaning/api_responses/", file)
+  file_path <- paste0("data/intermediate_data/api_responses/", file)
   
   if (file.exists(file_path)){
     translations <-  read_rds(file_path)

@@ -1,4 +1,4 @@
-library(lubridate)
+library(tidyverse)
 
 df <- read_csv("cleaning/data/data_with_cleaned_occupations.csv", guess_max = 2000)
 
@@ -41,7 +41,7 @@ covid_deaths_full <-
     raw_data
   )
 
-write_csv(covid_deaths_full, "cleaning/data/covid_deaths_full.csv")
+write_csv(covid_deaths_full, "data/clean_data/covid_deaths_full.csv")
 
 covid_deaths <- 
 df %>% 
@@ -61,5 +61,5 @@ df %>%
 # 1. Add to historical record
 # 2. Overwrite final clean data
 
-write_csv(covid_deaths, paste0("cleaning/data/old_data/", lubridate::today(), ".csv"))
+write_csv(covid_deaths, paste0("data/historical_data/", lubridate::today(), ".csv"))
 write_csv(covid_deaths, "covid_deaths.csv")

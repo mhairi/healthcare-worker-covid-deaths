@@ -60,5 +60,5 @@ df <- df %>%
     raw_data = df_raw$raw_data
   )
 
-write_csv(df, "cleaning/data/clean_uk.csv")
+write_csv(df, "data/intermediate_data/country_data/clean_uk.csv")
 

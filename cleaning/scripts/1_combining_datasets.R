@@ -2,13 +2,19 @@ library(tidyverse)
 library(fuzzyjoin)
 library(magrittr)
 
+#  NOTE WHEN UPDATING DATA:
+#  This script needs to be run carefully line by line, since lots can go 
+#  wrong at the combining stage. Also recommending to run 
+#  `cleaning/misc/checking_russian_overlaps.R` to ensure still no overlap between
+#  medscape and russia.
+
 # Add ID column just for joining
 
-medscape <- read_csv("cleaning/data/clean_medscape.csv") %>% mutate(id = 1:nrow(.))
-uk <- read_csv("cleaning/data/clean_uk.csv") %>% mutate(id = 1:nrow(.))
-italy <- read_csv("cleaning/data/clean_italy.csv") %>% mutate(id = 1:nrow(.))
-russia <- read_csv("cleaning/data/clean_russia.csv") %>% mutate(id = 1:nrow(.))
-brazil <- read_csv("cleaning/data/clean_brazil.csv")
+medscape <- read_csv("data/intermediate_data/country_data/clean_medscape.csv") %>% mutate(id = 1:nrow(.))
+uk <- read_csv("data/intermediate_data/country_data/clean_uk.csv") %>% mutate(id = 1:nrow(.))
+italy <- read_csv("data/intermediate_data/country_data/clean_italy.csv") %>% mutate(id = 1:nrow(.))
+russia <- read_csv("data/intermediate_data/country_data/clean_russia.csv") %>% mutate(id = 1:nrow(.))
+brazil <- read_csv("data/intermediate_data/country_data/clean_brazil.csv")
 
 ############
 # Checking #
@@ -157,7 +163,7 @@ df <-
   plyr::rbind.fill(brazil) %>% 
   select(-id)
 
-write_csv(df, "cleaning/data/combined_data.csv")
+write_csv(df, "data/intermediate_data/combined_data.csv")
 
 
 # Checking
@@ -167,5 +173,5 @@ nrow(italy) == nrow(italy_and_medscape) + nrow(italy_only)
 
 nrow(uk) == nrow(uk_and_medscape) + nrow(uk_only)
 
-original_medscape <- read_csv("cleaning/data/clean_medscape.csv")
+original_medscape <- read_csv("data/intermediate_data/country_data/clean_medscape.csv")
 nrow(medscape) == nrow(original_medscape) - nrow(uk_and_medscape) - nrow(italy_and_medscape) - nrow(filter(original_medscape, country == "Brazil"))

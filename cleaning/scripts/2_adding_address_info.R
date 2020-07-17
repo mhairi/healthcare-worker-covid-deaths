@@ -1,7 +1,7 @@
 library(ggmap)
 library(tidyverse)
 
-df <- read_csv("cleaning/data/combined_data.csv", guess_max = 2000)
+df <- read_csv("data/intermediate_data/combined_data.csv", guess_max = 2000)
 
 get_lat <- function(output){
   lat <- output$results[[1]]$geometry$location$lat
@@ -75,7 +75,7 @@ df %>%
   ) 
 
 
-address_info <- read_rds("cleaning/api_responses/google_maps.rds")
+address_info <- read_rds("data/intermediate_data/api_responses/google_maps.rds")
 
 new_addresses <- df$address[!(df$address %in% address_info$address)]
 
@@ -89,7 +89,7 @@ if (length(new_addresses) != 0){
   
   address_info <- address_info %>% distinct(address, .keep_all = TRUE)
   
-  write_rds(address_info, "cleaning/api_responses/google_maps.rds")
+  write_rds(address_info, "data/intermediate_data/api_responses/google_maps.rds")
   
 }
 
@@ -104,5 +104,5 @@ df %>%
   ) %>% 
   select(-get_city, -get_country, -address)
 
-write_csv(df, "cleaning/data/data_with_address_info.csv")
+write_csv(df, "data/intermediate_data/data_with_address_info.csv")
 
