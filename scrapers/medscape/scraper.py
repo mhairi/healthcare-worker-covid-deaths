@@ -20,15 +20,23 @@ for p in paragraphs[9:]: # First 9 paragraphs are introduction (this has changed
     link = p.find("a")
     if link is None:
         name = None
+        href = None
+
     else:
-    	name = link.text
+        name = link.text
+        try:
+            href = link["href"]
+        except (TypeError, KeyError):
+            href = None
+
+
 
     other_text = p.text
 
     outputs.append({
         "name" : name,
         "other_text": other_text,
-        "link": link
+        "link": href
     })
 
 # CSVs will be named after the date of the scrape
@@ -38,7 +46,7 @@ file_name = "data/" + today + ".csv"
 
 # Write to CSV
 with open(file_name, "w") as f:
-    field_names = ["name", "other_text"]
+    field_names = ["name", "other_text", "link"]
     writer = DictWriter(f, fieldnames = field_names)
     writer.writeheader()
     writer.writerows(outputs)

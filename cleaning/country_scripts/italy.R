@@ -1,7 +1,7 @@
 library(tidyverse)
 library(lubridate)
-library(googleLanguageR)
 
+source("cleaning/scripts/misc/update_translations.R")
 
 most_recent_file <-
   list.files("scrapers/italy/data/") %>% 
@@ -27,26 +27,8 @@ df <-
   )
 
 
-# Translation with Google Translate API
-
-# This will work if you setup Google Translate API and set the location of your 
-# credential json file in .Renviron  GL_AUTH.
-# See: https://cran.r-project.org/web/packages/googleLanguageR/vignettes/setup.html
-
-# occupations <- gl_translate(df$occupation_original, target = "en", source = "it")$translatedText
-# 
-# translations <- list(occupations = occupations)
-# write_rds(
-#   translations,
-#   "cleaning/api_responses/italy.rds"
-# )
-
-translations <- read_rds("cleaning/api_responses/italy.rds")
-
-df <- df %>% 
-  mutate(
-    occupation = str_to_title(translations$occupations)
-  )
+df$occupation <- update_translations(df$occupation_original, "italy.rds", "it") %>% 
+  str_to_title()
 
 # Reordering
 

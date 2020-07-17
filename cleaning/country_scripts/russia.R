@@ -1,6 +1,7 @@
 library(tidyverse)
 library(lubridate)
-library(googleLanguageR)
+
+source("cleaning/scripts/misc/update_translations.R")
 
 most_recent_file <-
   list.files("scrapers/russia/data/") %>% 
@@ -57,32 +58,17 @@ df_original <-
     )
   )
 
-###############
-# Translating #
-###############
 
-# Translation with Google Translate API
+# Translating 
 
-# This will work if you setup Google Translate API and set the location of your 
-# credential json file in .Renviron  GL_AUTH.
-# See: https://cran.r-project.org/web/packages/googleLanguageR/vignettes/setup.html
-
-# translations <-
-#   df_original %>%
-#   transmute(
-#     name =  gl_translate(name, target = "en", source = "ru")$translatedText,
-#     occupation = gl_translate(occupation, target = "en", source = "ru")$translatedText,
-#     location = gl_translate(location, target = "en", source = "ru")$translatedText,
-#     country = if_else(country != "Russia", gl_translate(country,  target = "en", source = "ru")$translatedText, "Russia")
-#   )
-# 
-# write_rds(
-#   translations,
-#   "cleaning/api_responses/russia.rds"
-# )
-
-translations <- read_rds("cleaning/api_responses/russia.rds")
-
+translations <-
+  df_original %>%
+  transmute(
+    name =  update_translations(name, "russia_name.rds", "ru"),
+    occupation = update_translations(occupation, "russia_occupation.rds", "ru"),
+    location = update_translations(location, "russia_location.rds", "ru"),
+    country = if_else(country != "Russia", update_translations(country, "russia_country.rds", "ru"), "Russia")
+  )
 
 ###########################
 # Put everything together #
@@ -99,6 +85,7 @@ df <-
     occupation_original = df_original$occupation,
     location_original = df_original$location,
     country_original = df_original$country,
+    link = raw_data$url,
     raw_data = raw_data$data
   )
 
