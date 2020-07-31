@@ -1,6 +1,6 @@
 library(tidyverse)
 
-df <- read_csv("cleaning/data/data_with_cleaned_occupations.csv", guess_max = 2000)
+df <- read_csv("data/intermediate_data/data_with_cleaned_occupations.csv", guess_max = 2000)
 
 # Here we are going to split the data into two datasets. 
 # 
