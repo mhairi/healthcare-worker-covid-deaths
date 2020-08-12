@@ -1,6 +1,10 @@
 library(ggmap)
 library(tidyverse)
 
+# This will work if you setup Google Translate API and set the location of your 
+# credential json file in .Renviron  GL_AUTH.
+# See: https://cran.r-project.org/web/packages/googleLanguageR/vignettes/setup.html
+
 df <- read_csv("data/intermediate_data/combined_data.csv", guess_max = 2000)
 
 get_lat <- function(output){

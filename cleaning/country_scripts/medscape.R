@@ -145,12 +145,14 @@ df <-
       name == "Anonymous Nurse" & age == 51 & country == "France" ~ "Saint-Maur-des-Fossés",
       name == "Anonymous Nurse Assistant" & is.na(age) & country == "Thailand" ~ "Bangkok",
       name == "Anonymous Pharmacy Technician" & age == 25 & country == "United States" ~ "San Diego County",
+      name == "Francesco Cortesi" & age == 59 ~ "Rome",
       TRUE ~ location
     ),
     country = case_when(
       country == "Tlatelolco México" ~ "Mexico",
       name == "Anonymous Assistant Nurse" & occupation == "Assistant Nurse" ~ "Spain",
       name == "Anonymous Healthcare Worker" & occupation == "Healthcare Worker" ~ "Ireland",
+      name == "Francesco Cortesi" & age == 59 ~ "Italy",
       TRUE ~ country
     )
 )
@@ -179,6 +181,13 @@ df <- mutate(df, raw_data = paste(df_raw$name, df_raw$other_text, sep = ", "))
 df <- 
 df %>% 
   group_by(name) %>% 
-  filter(!(!str_detect(name, "A|anonymous") & row_number() != 1))
+  filter(!(!str_detect(name, "A|anonymous") & row_number() != 1)) 
+
+# Some more duplicates
+df <-
+  df %>% 
+  filter(name != "Priscilla Charrow") %>% 
+  filter(name != "Iwan Dwi Prahasto") %>% 
+  filter(name != "Jesus Sambrano")
 
 write_csv(df, "data/intermediate_data/country_data/clean_medscape.csv")

@@ -28,7 +28,7 @@ uk_dist <- 3
 
 uk_join <-
 medscape %>% 
-  filter(country %in% c("United Kingdom", "England", "Scotland", "Wales", NA)) %>% 
+  filter(country %in% c("United Kingdom", "England", "Scotland", "Wales", NA) | name == "Rachel Makombe Chikanda") %>% #Rachel Makombe Chikanda	is a special case, appears in Medscape as from Zimbabwe
   stringdist_inner_join(uk, by = "name", max_dist = uk_dist) 
 
 uk_join %>% 
@@ -56,8 +56,8 @@ medscape %>%
 
 italy_join <- italy_join %>%  
   filter(name.x != "S. L.") %>% 
-  filter(name.x != "Alberto Paolini" &  name.y != "Alberto Pollini") %>% 
-  filter(name.x != "Alberto Pollini" &  name.y != "Alberto Paolini") 
+  filter(!(name.x == "Alberto Paolini" &  name.y == "Alberto Pollini")) %>% 
+  filter(!(name.x == "Alberto Pollini" &  name.y == "Alberto Paolini")) 
 
 italy_join %>% 
   filter(name.x != name.y) %>% 
@@ -94,6 +94,14 @@ russia_join <-
   medscape %>% 
   filter(country == "Russia" | is.na(country)) %>% 
   stringdist_inner_join(russia, by = c("name" = "joinable_name"), max_dist = russia_dist) 
+
+# Need to still check for names in the same order too
+russia_join2 <- 
+medscape %>% 
+  filter(country == "Russia" | is.na(country)) %>% 
+  stringdist_inner_join(russia, by = c("name" = "name"), max_dist = russia_dist) 
+
+russia_join <- rbind(russia_join, russia_join2)
 
 russia_join %>% 
   filter(name.x != name.y) %>% 
@@ -272,9 +280,11 @@ df <-
 
 write_csv(df, "data/intermediate_data/combined_data.csv")
 
+############
+# Checking #
+############
 
-# Checking
-# All three should return TRUE
+# All should return TRUE
 
 nrow(italy) == nrow(italy_and_medscape) + nrow(italy_only)
 
@@ -282,5 +292,24 @@ nrow(uk) == nrow(uk_and_medscape) + nrow(uk_only)
 
 nrow(russia) == nrow(russia_and_medscape) + nrow(russia_only)
 
-original_medscape <- read_csv("data/intermediate_data/country_data/clean_medscape.csv")
-nrow(medscape) == nrow(original_medscape) - nrow(uk_and_medscape) - nrow(italy_and_medscape) - nrow(russia_and_medscape) - nrow(filter(original_medscape, country == "Brazil"))
+
+# Checking repeat names
+df %>% 
+  count(name) %>% 
+  filter(n > 1)
+
+# Checking similar names
+# Takes a while to run - uncomment if you want to run this
+# names <- unique(df$name)
+# 
+# distance_matrix <- adist(names, names)
+# 
+# for (i in 1:length(names)){
+#   for (j in (i+ 1):length(names)){
+# 
+#     if (distance_matrix[i, j] < 3){
+#       cat(names[i], names[j])
+#       cat("\n")
+#     }
+#   }
+# }

@@ -9,7 +9,7 @@ df <- read_csv("data/intermediate_data/data_with_cleaned_occupations.csv", guess
 # 
 # Second "covid_deaths.csv" a simpler version designed for analysts to use.
 # 
-# Also doing some renaming of columns for consistancy
+# Also doing some renaming of columns for consistency
 
 covid_deaths_full <- 
   df %>% 
@@ -61,5 +61,5 @@ df %>%
 # 1. Add to historical record
 # 2. Overwrite final clean data
 
-write_csv(covid_deaths, paste0("data/historical_data/", lubridate::today(), ".csv"))
+write_csv(covid_deaths_full, paste0("data/historical_data/", lubridate::today(), ".csv"))
 write_csv(covid_deaths, "covid_deaths.csv")
