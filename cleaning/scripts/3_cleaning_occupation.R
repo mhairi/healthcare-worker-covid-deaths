@@ -1,6 +1,6 @@
 library(tidyverse)
 
-df <- read_csv("data/intermediate_data/data_with_address_info.csv", guess_max = 2000)
+df <- read_csv("data/intermediate_data/data_with_address_info.csv", guess_max = 10000)
 
 df <- 
 df %>% 

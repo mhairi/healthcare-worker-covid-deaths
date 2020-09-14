@@ -5,7 +5,7 @@ library(tidyverse)
 # credential json file in .Renviron  GL_AUTH.
 # See: https://cran.r-project.org/web/packages/googleLanguageR/vignettes/setup.html
 
-df <- read_csv("data/intermediate_data/combined_data.csv", guess_max = 2000)
+df <- read_csv("data/intermediate_data/combined_data.csv", guess_max = 5000)
 
 get_lat <- function(output){
   lat <- output$results[[1]]$geometry$location$lat
