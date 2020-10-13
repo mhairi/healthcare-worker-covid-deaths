@@ -313,3 +313,10 @@ df %>%
 #     }
 #   }
 # }
+
+# Verified different people:
+# Richard Kesner Richard Kisser
+# S. L. S. F.
+# María López Maria Lopez
+# José Porras José Torres
+# Alberto Paolini Alberto Pollini

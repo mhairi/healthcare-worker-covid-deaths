@@ -181,7 +181,7 @@ df <- mutate(df, raw_data = paste(df_raw$name, df_raw$other_text, sep = ", "))
 df <- 
 df %>% 
   group_by(name) %>% 
-  filter(!(!str_detect(name, "A|anonymous") & row_number() != 1)) 
+  filter(!(!str_detect(name, fixed("anonymous", ignore_case = TRUE)) & row_number() != 1)) 
 
 # Some more duplicates
 df <-
