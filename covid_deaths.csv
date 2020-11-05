@@ -6,6 +6,7 @@ Abdullah Abbasi,65,Doctor,Gorgan,Iran,36.8456427,54.4393363,NA
 Mohammad Abdelbasett Eljabri,NA,Doctor,Giza Governorate,Egypt,30.083864,31.225769,NA
 Tilmatine Abdennour,60,Doctor,Sidi M'Hamed,Algeria,36.753768,3.0587561,NA
 Ashraf Abdo,60,Doctor,New York,United States,40.7127753,-74.0059728,NA
+Mostafa El-sayed Abdo,32,Doctor,El-Mahalla El-Kubra,Egypt,30.9696706,31.168083,NA
 Amro Abed,NA,Doctor,Alexandria,Egypt,31.2000924,29.9187387,NA
 Mojtaba Abedian,NA,Doctor,Mazandaran Province,Iran,36.2262393,52.5318604,NA
 John Abruzzo,62,Nurse,Huntington,United States,40.8681539,-73.425676,NA
@@ -20,6 +21,7 @@ Tahmineh Adibi,NA,Nurse,Bandar Anzali,Iran,37.4639089,49.4798635,NA
 Mohan Adiseshiah,78,Retired,London,United Kingdom,51.5073509,-0.1277583,NA
 Elisabeth Rolande Adjibodou,43,Other Medical,Mulhouse,France,47.750839,7.335888,NA
 Ashraf Adly,60,Doctor,Qena,Egypt,26.155061,32.7160121,NA
+Alonso Adrianza,60,Doctor,Zulia,Venezuela,10.2910237,-72.1416132,NA
 José Adum Salcedo,NA,Doctor,Guayaquil,Ecuador,-2.1894128,-79.8890662,NA
 José Agapito Montero,63,Nurse,Ciudad Real,Spain,38.9848295,-3.927377799999999,NA
 Ajit Agarwal,68,Doctor,NA,United Kingdom,55.378051,-3.435973,NA
@@ -30,8 +32,11 @@ Guillermo Aguilar,NA,Doctor,San Miguelito,Panama,9.0485176,-79.5082571,NA
 Uriel Aguilar Carrillo,30,Doctor,Colima,Mexico,19.2452342,-103.7240868,NA
 Jose Aguilar Palma,NA,Doctor,Coatzacoalcos,Mexico,18.1344779,-94.4589858,NA
 Eder Eli Aguilar Rojas,NA,Doctor,Iquitos,Peru,-3.7436735,-73.25163260000001,NA
+Daniel Aguirre,NA,Nurse,Villa Lynch,Argentina,-34.587664,-58.5320001,NA
 José Aguirre,56,Nurse,Buenos Aires,Argentina,-34.6036844,-58.3815591,NA
+Amalia Magdalena Aguirre Álvarez,55,Doctor,Nuevo Leon,Mexico,25.592172,-99.99619469999999,NA
 Francisco Vianey Aguirre Anaya,NA,Other Medical,Sinaloa de Leyva,Mexico,25.8226854,-108.2216704,NA
+Duval Remigio Aguirre Guzmán,60,Doctor,Arica,Chile,-18.4782534,-70.3125988,NA
 Nabil Ahmed,NA,Other,Aden,Yemen,12.7854969,45.0186548,NA
 Jahan Iqbal Ahmed,56,Doctor,Guwahati,India,26.1445169,91.7362365,NA
 Noman Ahmed,32,Other,Karachi,Pakistan,24.8607343,67.0011364,NA
@@ -80,6 +85,7 @@ Nujood al-Khaibari,45,Nurse,Medina,Saudi Arabia,24.5246542,39.5691841,NA
 Ahmed Al-Louah,NA,Other,Sidi M'Hamed,Algeria,36.753768,3.0587561,NA
 Mohammad Al-Mansour,NA,Doctor,Sana'a,Yemen,15.3694451,44.1910066,NA
 Fausto Almaguer,50,Other Medical,Tamaulipas,Mexico,24.26694,-98.8362755,NA
+Carlos Alberto Amaya,NA,Doctor,San Salvador,El Salvador,13.6929403,-89.2181911,NA
 Raúl Alfonso Amaya Cruz,NA,Doctor,Coahuila,Mexico,27.058676,-101.7068294,NA
 Ahmed Al-Muayyad,NA,Doctor,Sana'a,Yemen,15.3694451,44.1910066,NA
 Abdel Fattah Al-Muzahmi,NA,Unknown,NA,Yemen,15.552727,48.516388,NA
@@ -90,15 +96,18 @@ Hesham Al-Saket,56,Doctor,Cairo,Egypt,30.0444196,31.2357116,NA
 Adel Al-Sarari,NA,Doctor,Aden,Yemen,12.7854969,45.0186548,NA
 Fouad Al-Shaghadari,NA,Doctor,NA,Yemen,15.552727,48.516388,NA
 Hussam Aied Alsherif,NA,Nurse,Babylon Governorate,Iraq,32.468191,44.5501935,NA
+Carolina Janeth Alvarado de Flores,NA,Nurse,La Union,El Salvador,13.3323464,-87.8500644,NA
 Elizabeth Alvarado López,NA,Other,Baja California Sur,Mexico,26.0444446,-111.6660725,NA
 Oziel Enrique Alvarado López,NA,Doctor,Guatemala City,Guatemala,14.6349149,-90.5068824,NA
 Héctor Alvarado Moreno,NA,Doctor,Puebla,Mexico,19.0414398,-98.2062727,NA
 Hector Alvarez,NA,Doctor,Quezon City,Philippines,14.7214015,121.0521411,NA
 "Dolores ""Lolita"" Álvarez Blanco",NA,Nurse,Sonora,Mexico,29.2972247,-110.3308814,NA
+Antero Edmundo Alvites,60,Doctor,Rosario,Argentina,-32.9587022,-60.69304159999999,NA
 Gazi Turki Al-Zaidi,52,Other,Baghdad,Iraq,33.315241,44.3660671,NA
 Ángel Ruben Alzurutt Riera,NA,Doctor,Guayana City,Venezuela,8.3663119,-62.6496813,NA
 Amable Amado Rodríguez,87,Doctor,Zulia,Venezuela,10.2910237,-72.1416132,NA
 María Elisa Amaya Cruz,44,Doctor,Coahuila,Mexico,27.058676,-101.7068294,NA
+Jesús María Amenábar,64,Doctor,San Miguel de Tucumán,Argentina,-26.8082848,-65.2175903,NA
 Afshar Amiri,NA,Doctor,Tehran,Iran,35.6891975,51.3889736,NA
 Abdulshakur Hazhir Amiri,NA,Other Medical,Rasht,Iran,37.2682177,49.5891233,NA
 Ruimy Amran,NA,Doctor,Casablanca,Morocco,33.5731104,-7.589843399999999,NA
@@ -110,7 +119,9 @@ Francisco Eduardo Anaya,42,Other Medical,Bogota,Colombia,4.710988599999999,-74.0
 Octavio Ernesto Anchundia Rojas,NA,Doctor,Guayaquil,Ecuador,-2.1894128,-79.8890662,NA
 Larrice Anderson,46,Nurse,New Orleans,United States,29.95106579999999,-90.0715323,NA
 Jenniffer Anderson-Davis,44,Nurse,Ballwin,United States,38.5950532,-90.54623389999999,NA
+Daniel Andrada,NA,Unknown,José C. Paz,Argentina,-34.5151052,-58.7662461,NA
 Amadeo Gualberto Andriuoli Jaramillo,NA,Doctor,Babahoyo,Ecuador,-1.801926,-79.5346459,NA
+Carlos Anes,NA,Doctor,Nueva Esparta,Venezuela,10.9970723,-63.91132959999999,NA
 Gustavo Ángeles Moreno,NA,Doctor,Mexico City,Mexico,19.4326077,-99.133208,NA
 Juan Anguiano Pérez,NA,Doctor,Michoacán,Mexico,19.5665192,-101.7068294,NA
 Roberto Angulo Arévalo,NA,Doctor,Atlantico,Colombia,10.6966159,-74.8741045,NA
@@ -126,6 +137,7 @@ Araceli Arellano Rodríguez,60,Other,Heroica Veracruz,Mexico,19.173773,-96.13422
 Heriberto Arenas Solís,32,Nurse,Ciudad López Mateos,Mexico,19.5562275,-99.2674713,NA
 Raul Argumedo-Castillo,NA,Doctor,Iquitos,Peru,-3.7436735,-73.25163260000001,NA
 Margarita Arias,NA,Nurse,Guayaquil,Ecuador,-2.1894128,-79.8890662,NA
+Eduardo Arias Ayala,54,Doctor,San José,Costa Rica,9.9280694,-84.0907246,NA
 Vicente Xavier Arias Paredes,NA,Doctor,Guayaquil,Ecuador,-2.1894128,-79.8890662,NA
 Jorge Manuel Arjona Conrado,NA,Doctor,Campeche,Mexico,19.8301251,-90.5349087,NA
 José Nicasio Armas Montes,NA,Doctor,Loreto,Peru,-4.232472899999999,-74.21793260000001,NA
@@ -134,8 +146,9 @@ Ana Arreaga,NA,Nurse,Guayaquil,Ecuador,-2.1894128,-79.8890662,NA
 Rubén Arreola,NA,Other,Mexico City,Mexico,19.4326077,-99.133208,NA
 Dragoslav Arsic,71,Doctor,Varvarin,Serbia,43.7217636,21.3563894,NA
 Ibrahim Arslan,55,Other,İstanbul,Turkey,41.0082376,28.9783589,NA
-Ricardo Arteaga,51,Other Medical,Quito,Ecuador,-0.1806532,-78.4678382,NA
+Braulio Arteaga,NA,Doctor,Caracas,Venezuela,10.4805937,-66.90360629999999,NA
 Trinidad Arteaga,NA,Retired,Morelos,Mexico,18.6813049,-99.1013498,NA
+Ricardo Arteaga Mora,51,Other Medical,Quito,Ecuador,-0.1806532,-78.4678382,NA
 Nina Nikolayevna Artemyeva,83,Doctor,Saint Petersburg,Russia,59.9310584,30.3609096,NA
 Porfirio Arvizu Acosta,NA,Doctor,Mexico City,Mexico,19.4326077,-99.133208,NA
 Yusuf Aryobi,48,Doctor,Kabul,Afghanistan,34.5553494,69.207486,NA
@@ -163,11 +176,13 @@ Diane Wilson Bahun,45,Nurse,Paris,France,48.856614,2.3522219,NA
 Earl Bailey,45,Nurse,Florida,United States,26.190096,-80.365865,NA
 Mohammad Bakhshalizadeh,NA,Doctor,Rasht,Iran,37.2682177,49.5891233,NA
 Ayla Balac,NA,Nurse,İstanbul,Turkey,41.0082376,28.9783589,NA
+Cristhian Raúl Balladares Holguin,NA,Doctor,Santiago Metropolitan Region,Chile,-33.4488897,-70.6692655,NA
 Nicanor Baltazar,60,Nurse,New York,United States,40.7674987,-73.833079,NA
 Celia Yap Banago,65,Nurse,Kansas City,United States,39.0997265,-94.5785667,NA
 Marsha Bantle,65,Nurse,Newburgh,United States,37.9444882,-87.4052865,NA
 Rebeca Baque,NA,Nurse,Guayaquil,Ecuador,-2.1894128,-79.8890662,NA
 Julio César Baquerizo Plúas,51,Other,Guayaquil,Ecuador,-2.1894128,-79.8890662,NA
+Carlos Alberto Barahona Gálvez,NA,Doctor,Zacatecoluca,El Salvador,13.5122393,-88.8694951,NA
 Emma Altagracia Barba Demorizi,NA,Retired,San Francisco de Macoris,Dominican Republic,19.2844455,-70.2417859,NA
 Catalin Barbulescu,65,Doctor,Bucharest,Romania,44.4267674,26.1025384,NA
 Glenn Barquet,50,Doctor,Miami,United States,25.7616798,-80.1917902,NA
@@ -175,6 +190,7 @@ Manuel Barragan,63,Doctor,Córdoba,Spain,37.8881751,-4.7793835,NA
 Miguel Barragán Nocua,NA,Doctor,Bogota,Colombia,4.710988599999999,-74.072092,NA
 José Manuel Barrera Mojica,NA,Doctor,Oaxaca,Mexico,17.0731842,-96.7265889,NA
 Mariano Barrios,35,Doctor,Trinidad,Bolivia,-14.8321487,-64.9019015,NA
+Douglas Barroso,NA,Doctor,Zulia,Venezuela,10.2910237,-72.1416132,NA
 Jenni Claire Bartolome,45,Nurse,Emerson,United States,40.976209,-74.0262505,NA
 Lyubov Alexandrovna Balashevich,73,Doctor,Lyantor,Russia,61.6218907,72.1547791,NA
 Alex Bass,53,Doctor,New York,United States,40.6781784,-73.9441579,NA
@@ -216,13 +232,16 @@ Idris Bey,60,Other Medical,New York,United States,40.7127753,-74.0059728,NA
 Tanveer Akram Bhatti,NA,Doctor,Sargodha,Pakistan,32.0739787,72.6860696,NA
 Chittaranjan Bhave,56,Doctor,Mumbai,India,19.0759837,72.8776559,NA
 Diego Bianco,47,Other Medical,Lombardy,Italy,45.47906709999999,9.8452433,NA
+Enrique Antonio Blanco,51,Other Medical,San Miguel,El Salvador,13.4792922,-88.1779182,NA
 Terry Billingham,NA,Retired,Clinton,United States,40.6367682,-74.90988999999999,NA
 Younis Anis Bin Taleb,NA,Doctor,Aden,Yemen,12.7854969,45.0186548,NA
 Barbara Birchenough,65,Nurse,Belleville,United States,40.7936744,-74.15004689999999,NA
 Billy Birmingham,69,Other Medical,Kansas City,United States,39.0997265,-94.5785667,NA
 Luis Bitar Mahuad,82,Doctor,Guayaquil,Ecuador,-2.1894128,-79.8890662,NA
+Eduardo Bizarro,NA,Doctor,Anzoategui,Venezuela,8.5913073,-63.95861110000001,NA
 "William B. ""Brad"" Blackman",56,Other Medical,Philadelphia,United States,39.9525839,-75.1652215,NA
 Gresmor Blackman-Douglas,58,Other Medical,New York,United States,40.6781784,-73.9441579,NA
+Luis Miguel Boada Cedeño,70,Doctor,Sucre,Venezuela,10.4055886,-63.297505,NA
 Harry Owusu Boateng,42,Doctor,Kumasi,Ghana,6.6666004,-1.6162709,NA
 Jean-Marie Boegle,66,Doctor,Mulhouse,France,47.750839,7.335888,NA
 Csaba Bóhak,41,Other,Tatabánya,Hungary,47.569246,18.404818,NA
@@ -243,6 +262,7 @@ Sean D. Boynes,49,Other Medical,Greenbelt,United States,39.0045544,-76.875528199
 Kenneth Bradshaw,64,Retired,Memphis,United States,35.1495343,-90.0489801,NA
 Derik Braswell,57,Other,New York,United States,40.7282239,-73.7948516,NA
 Sergio Bretado Rodríguez,NA,Other,Chihuahua,Mexico,28.6329957,-106.0691004,NA
+Cipriano José Brito,78,Doctor,Ciudad Ojeda,Venezuela,10.2214803,-71.3111773,NA
 Francisco Brito Barrera,58,Doctor,Quintana Roo,Mexico,19.1817393,-88.4791376,NA
 Sara Bravo López,28,Doctor,Cuenca,Spain,40.0703925,-2.1374162,NA
 Lorna Breen,49,Doctor,New York,United States,40.8730537,-73.9126905,NA
@@ -269,10 +289,12 @@ Benjamin Cabrera,NA,Other,Chimalhuacan,Mexico,19.4314047,-98.95820479999999,NA
 Óscar Miguel Cabrera,28,Doctor,Quito,Ecuador,-0.1806532,-78.4678382,NA
 Gloria Cabrera González,NA,Nurse,Morelos,Mexico,18.6813049,-99.1013498,NA
 Tomás Alberto Cáceres,59,Other Medical,San Pedro Sula,Honduras,15.5038827,-88.01386190000001,NA
+Cristóbal Cáceres Soto,NA,Doctor,Warnes,Bolivia,-17.5227749,-63.16786679999999,NA
 Maria Guia Cabillon,NA,Nurse,New York,United States,40.6781784,-73.9441579,NA
 Gladys (Ivy) Cadore-Williams,62,Retired,New York,United States,40.6781784,-73.9441579,NA
 Marlino Cagas,62,Nurse,New York,United States,40.8143104,-73.93950869999999,NA
 Patrick Cain,52,Nurse,Flint,United States,43.0125274,-83.6874562,NA
+Carlos Calcaño,NA,Other Medical,Ciudad Bolívar,Venezuela,8.088279100000001,-63.5535552,NA
 Luis Caldera-Nieves,63,Doctor,Miami,United States,25.7616798,-80.1917902,NA
 Juan José Callejas Esponda,NA,Retired,Puebla,Mexico,19.0414398,-98.2062727,NA
 Elard Roberto Calli Araca,NA,Other Medical,Iquitos,Peru,-3.7436735,-73.25163260000001,NA
@@ -281,6 +303,7 @@ Josué Ismael Calíx Ardón,63,Doctor,Tegucigalpa,Honduras,14.065049,-87.1715002
 Juan Alfredo Camacho Perlstein,NA,Doctor,Heroica Veracruz,Mexico,19.173773,-96.1342241,NA
 Norman Campbell,60,Other Medical,England,United Kingdom,53.81081760000001,-1.76261,NA
 Iván Leonardo Canal García,NA,Doctor,Ecatepec de Morelos,Mexico,19.6057728,-99.03651119999999,NA
+Jorge Alberto Cañas,NA,Doctor,San Miguel,El Salvador,13.4792922,-88.1779182,NA
 Stelian Candiba,66,Doctor,Chișinău,Moldova,47.0104529,28.8638102,NA
 Jhony Cano Suárez,NA,Doctor,Ancash,Peru,-9.3250497,-77.5619419,NA
 Miriam Cantú de Llanes,NA,Other Medical,Coahuila,Mexico,27.058676,-101.7068294,NA
@@ -291,7 +314,7 @@ Carlos Cárdenas,71,Doctor,Managua,Nicaragua,12.1149926,-86.2361744,NA
 Ángel Cárdenas Sánchez,NA,Doctor,Morelos,Mexico,18.6813049,-99.1013498,NA
 John P. Careccia,NA,Other,Woodbridge Township,United States,40.5575986,-74.2846022,NA
 Rafael Cargill,60,Other,New York,United States,40.6781784,-73.9441579,NA
-Priscilla Carrow,65,Other,New York,United States,40.74516939999999,-73.8857314,NA
+Yaletzy Coromoto Carrillo,58,Nurse,New York,United States,40.74516939999999,-73.8857314,NA
 José Enrique Castillo Solares,NA,Other,Puebla,Mexico,19.0414398,-98.2062727,NA
 César Antonio Carrillo Védova,78,Doctor,Guayaquil,Ecuador,-2.1894128,-79.8890662,NA
 Karen Cashin Carmello,56,Nurse,New York,United States,40.789142,-73.13496099999999,NA
@@ -314,9 +337,12 @@ Sandra Luz Cazares Jimenez,54,Other,Mexico,Mexico,23.634501,-102.552784,NA
 Pedro Luis Cedeño,56,Doctor,Anaco,Venezuela,9.429229699999999,-64.4674203,NA
 Arango Vélez Celso Emilio,72,Doctor,Bogota,Colombia,4.710988599999999,-74.072092,NA
 Salih Cenap Cevli,57,Doctor,İstanbul,Turkey,41.0082376,28.9783589,NA
+Ana Cecilia Cerón,49,Other Medical,San Miguel,El Salvador,13.4792922,-88.1779182,NA
 Vladimir Pavel Cervantes Cavero,36,Doctor,Metropolitan Municipality of Lima,Peru,-12.2056614,-76.9531145,NA
 Guillermina Inés Cervantes Ortíz,NA,Doctor,Ecatepec de Morelos,Mexico,19.6057728,-99.03651119999999,NA
+Balbino Chacón,NA,Other Medical,San Salvador,El Salvador,13.6863332,-89.1887954,NA
 Sara Chambi Mendez,NA,Doctor,NA,Bolivia,-16.290154,-63.58865299999999,NA
+Amilcar Andrey Chambi Mollo,30,Other,NA,Bolivia,-16.290154,-63.58865299999999,NA
 Phag Chand,NA,Doctor,Swabi,Pakistan,34.1240709,72.4613191,NA
 Alexander Chang,35,Other Medical,Caracas,Venezuela,10.4805937,-66.90360629999999,NA
 Mavis Charles,63,Nurse,New York,United States,40.689321,-73.997247,NA
@@ -345,6 +371,7 @@ Jesús Clavero,NA,Other Medical,Zulia,Venezuela,10.2910237,-72.1416132,NA
 José Clavier,66,Doctor,Ciudad Bolívar,Venezuela,8.088279100000001,-63.5535552,NA
 Betty Lafuente Clemente,74,Nurse,Bloomfield,United States,40.8067546,-74.1854209,NA
 Rolando Clemente Jr,41,Nurse,Gilbert,United States,33.3528264,-111.789027,NA
+Yolanda Coar,40,Nurse,Augusta,United States,33.4734978,-82.0105148,NA
 John Cofrancesco,52,Other,Montclair,United States,40.8222443,-74.2226008,NA
 Roy Coleman,64,Other Medical,Shreveport,United States,32.5251516,-93.7501789,NA
 Albert Coll Nus,63,Doctor,Lleida,Spain,41.6175899,0.6200146,NA
@@ -359,6 +386,7 @@ Eden Cordova Lázaro,NA,Doctor,Tabasco,Mexico,17.8409173,-92.6189273,NA
 Daniel Coronel,52,Nurse,New York,United States,40.789241,-73.9545211,NA
 Emilio Úcar Corral,58,Other Medical,Madrid,Spain,40.4167754,-3.7037902,NA
 Daniel Alejandro Corrales Álvarez,25,Nurse,Coatzacoalcos,Mexico,18.1344779,-94.4589858,NA
+Carmen Corro,NA,Nurse,Caracas,Venezuela,10.4805937,-66.90360629999999,NA
 Joseph J. Costa,56,Doctor,Baltimore,United States,39.2903848,-76.6121893,NA
 Sergio Ricardo Coto,NA,Doctor,San Salvador,El Salvador,13.6929403,-89.2181911,NA
 Francesco Counselor,NA,Other Medical,NA,Italy,41.87194,12.56738,NA
@@ -369,6 +397,8 @@ Maurilia Cruz Aca,NA,Other,Heroica Veracruz,Mexico,19.173773,-96.1342241,NA
 Palermo Wilson Cruz Acuria,62,Doctor,Guayaquil,Ecuador,-2.1894128,-79.8890662,NA
 Zoilo Marcelo Cruz Espinoza,75,Doctor,Guayaquil,Ecuador,-2.1894128,-79.8890662,NA
 Lourdes Esther Cruz Martínez,NA,Doctor,Oaxaca,Mexico,17.0731842,-96.7265889,NA
+Antonio Cruz Perdomo,NA,Doctor,Morelos,Mexico,18.6813049,-99.1013498,NA
+Carlos Balmore Cruz Villalta,NA,Doctor,San Salvador,El Salvador,13.7032589,-89.2032029,NA
 Betty Marlene Cruz Yagual,NA,Doctor,Guayaquil,Ecuador,-2.1894128,-79.8890662,NA
 lemencia Cuadra,NA,Nurse,Guayaquil,Ecuador,-2.1894128,-79.8890662,NA
 Marvin Edgar Cuenca Bejarano,30,Doctor,Callao Region,Peru,-12.0463731,-77.042754,NA
@@ -387,6 +417,7 @@ Dana Davis,51,Nurse,Louisville,United States,38.2526647,-85.7584557,NA
 Dorothy Pearl Davis,60,Nurse,San Antonio,United States,29.4241219,-98.49362819999999,NA
 Emma Davis,37,Nurse,Southampton,United Kingdom,50.90970040000001,-1.4043509,NA
 Jenniffer Davis,NA,Doctor,Ballwin,United States,38.5950532,-90.54623389999999,NA
+Alfonso Pablo Dávoli,47,Doctor,Rosario,Argentina,-32.9587022,-60.69304159999999,NA
 Hamidreza Davoudi,NA,Other Medical,Babol,Iran,36.5386629,52.6764543,NA
 Nihat Dayanıklı,70,Doctor,İzmir,Turkey,38.423734,27.142826,NA
 Siamak Dayushli,NA,Doctor,Bandar Anzali,Iran,37.4639089,49.4798635,NA
@@ -399,7 +430,9 @@ Claudio Sergio de la Fuente Burton,73,Doctor,Cancún,Mexico,21.161908,-86.851527
 "Ernesto ""Audie"" DeLeon",61,Other,New York,United States,40.7390729,-73.9750165,NA
 Marco Antonio De Leon,44,Nurse,New York (from Brownsville,Texas),NA,NA,NA
 Elizabeth B. DelMundo,59,Nurse,Dover,United States,40.883988,-74.5621025,NA
+Adela del Carmen Valero,62,Nurse,Barinas,Venezuela,8.6231498,-70.2371045,NA
 Edwin Kilmer del Cid Vásquez,48,Doctor,Tegucigalpa,Honduras,14.065049,-87.1715002,NA
+Carlos Alberto del Nogal Lovera,NA,Other Medical,Aragua,Venezuela,10.0635758,-67.2847875,NA
 Andrés del Orbe,NA,Doctor,Guasdualito,Venezuela,7.2397806,-70.70495199999999,NA
 Carlos Torres del Pozo,62,Doctor,Toledo,Spain,39.8628316,-4.027323099999999,NA
 Wilbur Jan Robert Demafiles,30,Doctor,Las Pinas,Philippines,14.444546,120.9938736,NA
@@ -408,6 +441,7 @@ Ahmed Deraz,NA,Doctor,Ash Sharqia Governorate,Egypt,30.7326622,31.7195459,NA
 Luis Díaz,NA,Other,San Cristobal,Venezuela,7.771357200000001,-72.22614659999999,NA
 Roberto Diaz,78,Doctor,Buenos Aires,Argentina,-34.6036844,-58.3815591,NA
 Joaquín Díaz Domínguez,64,Doctor,Madrid,Spain,40.4167754,-3.7037902,NA
+Carmen Pragedes Díaz Ruiz,NA,Nurse,Barinas,Venezuela,8.6231498,-70.2371045,NA
 Modesta Díaz Sánchez,NA,Other,Heroica Veracruz,Mexico,19.173773,-96.1342241,NA
 Alma Díaz Sarabia,NA,Doctor,Mexico City,Mexico,19.4326077,-99.133208,NA
 Aldo Diego Aguilar,NA,Other,Oaxaca,Mexico,17.0731842,-96.7265889,NA
@@ -425,6 +459,7 @@ Juan Carlos Domínguez,35,Doctor,Cabo San Lucas,Mexico,22.8824876,-109.9139116,N
 Karla Dominguez,33,Nurse,El Paso,United States,31.7618778,-106.4850217,NA
 Carlos María Domínguez Sánchez,NA,Doctor,Ciudad del Este,Paraguay,-25.4987076,-54.6636526,NA
 Solomon Donald,41,Other Medical,Elizabeth,United States,40.6639916,-74.2107006,NA
+Ángel Alexis Dorante Pérez,56,Doctor,Portuguesa,Venezuela,9.094399899999999,-69.097023,NA
 Igor Dorogoi,55,Doctor,Balti,Moldova,47.7539947,27.9184148,NA
 Daisy Doronila,NA,Nurse,Kearny,United States,40.7684342,-74.1454214,NA
 Maurice Dotson,51,Other,Austin,United States,30.267153,-97.7430608,NA
@@ -452,6 +487,7 @@ Norman Einhorn,69,Other,Belmar,United States,40.1784471,-74.02180369999999,NA
 Obinna Chibueze Eke,NA,Nurse,Irvington,United States,40.7263249,-74.22864349999999,NA
 Carmen Elena,NA,Nurse,Sucre,Venezuela,10.4055886,-63.297505,NA
 Ahmed el Lawah,54,Doctor,Port Said,Egypt,31.2652893,32.3018661,NA
+Yasser El-sharkawy,41,Doctor,El-Mahalla El-Kubra,Egypt,30.9696706,31.168083,NA
 Uriel Elias Guzmán,NA,Doctor,Mexico City,Mexico,19.4326077,-99.133208,NA
 Si Ahmed El Mahdi,58,Other,Blida,Algeria,36.4834857,2.7967715,NA
 Horacio Ejilevich Grimaldi,61,Other Medical,Provincia de Buenos Aires,Argentina,-34.2743308,-59.15010559999999,NA
@@ -474,6 +510,7 @@ Tahereh Esmaili,NA,Nurse,Qom,Iran,34.6415764,50.8746035,NA
 Eleazar Rojas Espinoza,NA,Doctor,"Ureña, Táchira",Venezuela,7.921628500000001,-72.44356739999999,NA
 Orlando Espinoza,53,Doctor,Florida,United States,26.190096,-80.365865,NA
 "Javier ""Javi"" Espinoza Alfaro",NA,Nurse,State of Mexico,Mexico,19.4968732,-99.72326729999999,NA
+Cristian Espinoza Cayo,NA,Other Medical,San Miguel de Tucumán,Argentina,-26.8082848,-65.2175903,NA
 María Jesús Rebeca Espinoza López,NA,Doctor,Mexico City,Mexico,19.4326077,-99.133208,NA
 Maribel Espinoza Marquez,NA,Other Medical,State of Mexico,Mexico,19.4968732,-99.72326729999999,NA
 David Esquer Rivera,NA,Doctor,Sonora,Mexico,29.2972247,-110.3308814,NA
@@ -502,6 +539,7 @@ Henry Fernandez,77,Doctor,Ilocos Region,Philippines,15.8949055,120.2863183,NA
 Fidel Fernández Adán,NA,Doctor,Cancún,Mexico,21.161908,-86.8515279,NA
 Julie Lafuente Fernandez,74,Nurse,Ilocos Region,Philippines,15.8949055,120.2863183,NA
 Javier Fernández Ferrer,NA,Doctor,Hidalgo,Mexico,20.0910963,-98.7623874,NA
+Ciro Alberto Fernández Gil,NA,Doctor,Merida,Venezuela,8.5698244,-71.1804988,NA
 John Ferrarella,70,Other,Wayne,United States,40.92537249999999,-74.2765441,NA
 Jessie Ferreras,52,Doctor,Waldwick,United States,41.0106528,-74.1179203,NA
 Eduardo Ferreyra Tello,NA,Doctor,Iquitos,Peru,-3.7436735,-73.25163260000001,NA
@@ -513,7 +551,12 @@ Karen Figueroa Rodríguez,40,Other Medical,Valparaíso,Chile,-33.047238,-71.6126
 Barbara Finch,63,Nurse,Emporia,United States,36.6859829,-77.5424809,NA
 David W. Finn,66,Doctor,New York,United States,40.5795317,-74.1502007,NA
 Chris Firlit,37,Doctor,Detroit,United States,42.331427,-83.0457538,NA
+Ana Mercedes Flores,NA,Doctor,Carabobo,Venezuela,10.1176433,-68.0477509,NA
 Adán Augusto Alonso Flores,62,Doctor,León,Nicaragua,12.4342803,-86.88052189999999,NA
+Carmen Flores,NA,Nurse,Caracas,Venezuela,10.4805937,-66.90360629999999,NA
+Dora Flores,NA,Nurse,Salta,Argentina,-24.7821269,-65.4231976,NA
+Zacarías Romero Flores,NA,Doctor,Santa Cruz de la Sierra,Bolivia,-17.8145819,-63.1560853,NA
+Einar Marcelo Flores Flores,NA,Doctor,Oruro,Bolivia,-17.9716723,-67.0931378,NA
 Fredy Flores Hernández,NA,Doctor,Mexico City,Mexico,19.4326077,-99.133208,NA
 Ángel Flores Miguel,NA,Doctor,NA,Mexico,23.634501,-102.552784,NA
 José Luis Flores Velasco,54,Doctor,Mexico City,Mexico,19.4326077,-99.133208,NA
@@ -521,6 +564,7 @@ Uribe Flores Román,NA,Other Medical,NA,Mexico,23.634501,-102.552784,NA
 Nadezhda Fomina,41,Nurse,Viciebsk,Belarus,55.1926809,30.206359,NA
 Louis Edouard Fontaine,NA,Doctor,New York,United States,40.6781784,-73.9441579,NA
 James Footit,56,Other Medical,Springfield,United States,42.1014831,-72.589811,NA
+Climer Forti,NA,Nurse,Bolívar,Venezuela,6.3585216,-63.580611,NA
 Glovis Foster,NA,Other Medical,New Mexico,United States,36.3882439,-108.2377519,NA
 Octavia Foxworth,66,Nurse,St. Clair Shores,United States,42.4974085,-82.89636039999999,NA
 Elizabeth Fragoso Moreno,NA,Doctor,Mexico City,Mexico,19.4326077,-99.133208,NA
@@ -536,6 +580,7 @@ Roberto Gerardo Frias,45,Doctor,Monclova,Mexico,26.9080378,-101.4215236,NA
 Jacques Fribourg,NA,Doctor,Trappes,France,48.776731,2.001844,NA
 Patricia Frieson,61,Retired,Chicago,United States,41.8781136,-87.6297982,NA
 "José Manuel ""Chepito"" Fuentes Gonzalez",NA,Nurse,San Marcos,Guatemala,14.9609782,-91.80745859999999,NA
+Alejandro Fuenmayor,28,Doctor,NA,Peru,-9.189967,-75.015152,NA
 Clair Marie Fuqua,28,Other,Pineville,United States,31.3224044,-92.4343035,NA
 Frank Gabrin,60,Doctor,New York,United States,40.7127753,-74.0059728,NA
 Maria Amparo Gadea Rodrigo,NA,Other Medical,Ciudad Real,Spain,38.9848295,-3.927377799999999,NA
@@ -547,7 +592,9 @@ Roberto Galva Jiménez,87,Retired,Alajuela,Costa Rica,10.0159394,-84.21417009999
 "Andrés ""Lobo"" Galván Reyes",NA,Doctor,Ecatepec de Morelos,Mexico,19.6057728,-99.03651119999999,NA
 Edward Douglas Gamarra Cámara,NA,Doctor,Comas,Peru,-11.9150865,-77.04784819999999,NA
 Roberto Gamboa,NA,Other,Mexico City,Mexico,19.4326077,-99.133208,NA
+Carlos Gandía,NA,Doctor,San Miguel de Tucumán,Argentina,-26.8082848,-65.2175903,NA
 Carlos Garay,NA,Doctor,Manabí,Ecuador,-1.0543434,-80.45264399999999,NA
+Alejandra Concepción Garay de Cerritos,NA,Nurse,San Salvador,El Salvador,13.6929403,-89.2181911,NA
 Dulce Garcia,29,Other,Chapel Hill,United States,35.9131996,-79.0558445,NA
 Francisco Luis García,61,Doctor,Jaén,Spain,37.7795941,-3.784905699999999,NA
 Jesús García,NA,Other,Caracas,Venezuela,10.4805937,-66.90360629999999,NA
@@ -579,10 +626,12 @@ Michael Giuliano,64,Doctor,Nutley,United States,40.8223168,-74.15987249999999,NA
 Miguel Angel Giron Guzmán,60,Other,Ciudad Nezahualcóyotl,Mexico,19.3994934,-98.9896643,NA
 Sami Gjoka,52,Doctor,Pristina,Kosovo,42.6629138,21.1655028,NA
 Gerard Fabian Goco,52,Doctor,Quezon City,Philippines,14.6225416,121.0232346,NA
+Antonio Goitía,NA,Other Medical,Monagas,Venezuela,9.3241652,-63.0147578,NA
 Mohammad Kazem Golresan,NA,Other,Yazd,Iran,31.8974232,54.3568562,NA
 Noemí Gómez,32,Nurse,Buenos Aires Province,Argentina,-37.2017285,-59.84106969999999,NA
 Sergio Félix Gomez,NA,Doctor,Tabasco,Mexico,17.8409173,-92.6189273,NA
 Angelina Gómez Estudillo,NA,Doctor,Quintana Roo,Mexico,19.1817393,-88.4791376,NA
+Deicy Johana Gómez López,32,Other Medical,Medellín,Colombia,6.2476376,-75.56581530000001,NA
 Héctor Gómez Medina,NA,Doctor,Heroica Veracruz,Mexico,19.173773,-96.1342241,NA
 Ismael Gómez Pacheco,NA,Nurse,Yucatan,Mexico,20.7098786,-89.0943377,NA
 Audy Atay González,56,Doctor,Santiago Metropolitan Region,Chile,-33.4488897,-70.6692655,NA
@@ -606,6 +655,7 @@ Juan José Guadamuz Bermudez,85,Doctor,Nicaragua,Nicaragua,12.865416,-85.207229,
 Marco Guananga Mayorga,69,Doctor,Vinces,Ecuador,-1.553873,-79.7624177,NA
 Luis Alonso Guardado González,NA,Doctor,Tela,Honduras,15.7732601,-87.46535019999999,NA
 Arturo Guerrero Alonso,NA,Other,Mexico City,Mexico,19.4326077,-99.133208,NA
+David Guerrero Fabre,NA,Other,Guayaquil,Ecuador,-2.1894128,-79.8890662,NA
 Jose Trinidad Angel Guerrero Valencia,67,Doctor,Tejupilco de Hidalgo,Mexico,18.9062177,-100.1507188,NA
 Carmen Yolanda Guillén,NA,Nurse,Merida,Venezuela,8.5698244,-71.1804988,NA
 Ali Dennis Guillermo,44,Nurse,Patchogue,United States,40.7659783,-73.01934299999999,NA
@@ -636,6 +686,7 @@ Ibtihal Hammoud,NA,Doctor,Aden,Yemen,12.7854969,45.0186548,NA
 Abdelkrim Hammoudi,61,Doctor,Sidi M'Hamed,Algeria,36.753768,3.0587561,NA
 Boukhari Hamza,60,Doctor,Blida,Algeria,36.4735715,2.8323153,NA
 Nasry Kamal Handal,NA,Doctor,San Pedro Sula,Honduras,15.5038827,-88.01386190000001,NA
+Elias José Hani Jimeno,64,Doctor,Magdalena,Colombia,10.4113014,-74.4056612,NA
 Hanifullah Hanif,42,Doctor,Kabul,Afghanistan,34.5553494,69.207486,NA
 Sandra Hardy-Rogers,56,Other,Toms River,United States,39.9537358,-74.1979458,NA
 Rose Harrison,NA,Other Medical,Hamilton,United States,34.1423235,-87.98864379999999,NA
@@ -652,6 +703,7 @@ Reagan Henry,39,Other Medical,Asheville,United States,35.5950581,-82.5514869,NA
 Young-Gu Heo,59,Doctor,Daegu,South Korea,35.8714354,128.601445,NA
 Simon Hercules,55,Doctor,Chennai,India,13.0826802,80.2707184,NA
 José Gregorio Herdez,NA,Doctor,Anzoategui,Venezuela,8.5913073,-63.95861110000001,NA
+Yorhelys Heredia,NA,Doctor,Lara,Venezuela,10.1537842,-69.8597406,NA
 Fernando Hernández,NA,Other Medical,Mexico City,Mexico,19.4326077,-99.133208,NA
 Fidencio Hernández,NA,Other,Heroica Veracruz,Mexico,19.173773,-96.1342241,NA
 Luz María Hern,NA,Nurse,Mexico City,Mexico,19.4326077,-99.133208,NA
@@ -664,6 +716,7 @@ Membran Alberto Hernández García,NA,Other,Managua,Nicaragua,12.1149926,-86.236
 Julio Hernández Hernández,45,Doctor,Hidalgo,Mexico,20.0910963,-98.7623874,NA
 Nicolás Jorge Hernández Hernández,NA,Doctor,Iquitos,Peru,-3.7436735,-73.25163260000001,NA
 Jorge Elias Hern,54,Doctor,Ecatepec de Morelos,Mexico,19.6057728,-99.03651119999999,NA
+Carlos Hernández Lazo,NA,Doctor,San Salvador,El Salvador,13.6929403,-89.2181911,NA
 Amelia Patricia Hernández Marroquín de Aguilar,NA,Doctor,Guatemala City,Guatemala,14.6349149,-90.5068824,NA
 Ramón Hernández Morales,NA,Doctor,Sinaloa de Leyva,Mexico,25.8226854,-108.2216704,NA
 Olga Blandina Hernández Muñoz,NA,Nurse,Mexico City,Mexico,19.4326077,-99.133208,NA
@@ -673,6 +726,7 @@ Martha Hernández Ramírez,NA,Nurse,Mexico City,Mexico,19.4326077,-99.133208,NA
 Jaime Hernández Rodríguez,NA,Doctor,Tamaulipas,Mexico,24.26694,-98.8362755,NA
 María Hernández Rodríguez,45,Nurse,Trujillo Alto,Puerto Rico,18.3563169,-66.0033838,NA
 Jorge Hernandez Sánchez,NA,Doctor,Mexico City,Mexico,19.4326077,-99.133208,NA
+Elvin Stiven Hernández Vega,27,Other Medical,Atlantico,Colombia,10.6966159,-74.8741045,NA
 Nellys Hernández de Villasmil,66,Doctor,Zulia,Venezuela,10.2910237,-72.1416132,NA
 Julio Herrera,NA,Nurse,Reynosa,Mexico,26.0508406,-98.29789509999999,NA
 Marina Herrera,NA,Doctor,Aragua,Venezuela,10.0635758,-67.2847875,NA
@@ -709,6 +763,7 @@ Aaron Hughes,NA,Doctor,New Orleans,United States,29.95106579999999,-90.0715323,N
 Pam Hughes,50,Other Medical,Columbia,United States,37.102841,-85.3063504,NA
 Robert Hull,78,Doctor,Rogers,United States,36.3320196,-94.1185366,NA
 Albasha Hume,63,Other,Saint Paul,United States,44.9537029,-93.0899578,NA
+Carlene Hurst,NA,Doctor,Choluteca,Honduras,13.3198572,-87.1622344,NA
 Tarek Hussein,62,Doctor,Kuwait City,Kuwait,29.375859,47.9774052,NA
 Nelson Eduardo Ibarra Páez,69,Doctor,Sonora,Mexico,29.2972247,-110.3308814,NA
 Sebastian Ibarra Salas,58,Other,State of Mexico,Mexico,19.4968732,-99.72326729999999,NA
@@ -722,6 +777,7 @@ Vahid Iravani,56,Doctor,Tehran,Iran,35.6891975,51.3889736,NA
 Mahmoud Irvani,NA,Doctor,Tehran,Iran,35.6891975,51.3889736,NA
 Juanita Petra Silva Isidoro,54,Nurse,Mexico City,Mexico,19.4326077,-99.133208,NA
 Louay Ismail,32,Doctor,Tyre,Lebanon,33.2704888,35.2037641,NA
+Aquiles Antonio Iturbe Finol,64,Doctor,Caracas,Venezuela,10.4805937,-66.90360629999999,NA
 Goran Ivankovic,56,Doctor,Ćuprija,Serbia,43.925537,21.3748327,NA
 Borislav Ivanov,77,Doctor,Vidin,Bulgaria,43.996159,22.8679302,NA
 Iliana Ivanova,43,Doctor,Sliven,Bulgaria,42.6816536,26.3228685,NA
@@ -745,6 +801,7 @@ César Hugo Jara Baca,NA,Doctor,Iquitos,Peru,-3.7436735,-73.25163260000001,NA
 Mario Jorge Jara Naula,NA,Doctor,Guayaquil,Ecuador,-2.1894128,-79.8890662,NA
 Washington Germán Tutasi Jaramillo,68,Doctor,Guayaquil,Ecuador,-2.1967475,-79.8869531,NA
 Ricardo Jaramillo Basurto,NA,Other Medical,Mexico City,Mexico,19.4326077,-99.133208,NA
+Adnan Jasem,58,Doctor,Al Bab,Syria,36.3571943,37.5014999,NA
 Mohammad Javed,55,Doctor,Peshawar,Pakistan,34.0151366,71.5249154,NA
 Victor de Jesus,58,Doctor,Caguas,Puerto Rico,18.2387995,-66.035249,NA
 Jiang Xueqing,55,Doctor,Wuhan,China,30.592849,114.305539,NA
@@ -842,6 +899,7 @@ José Luis Liahut Bramardi,NA,Doctor,Heroica Veracruz,Mexico,19.173773,-96.13422
 Rose Liberto,64,Nurse,Charlotte,United States,35.2270869,-80.8431267,NA
 Grover Licona Dìaz,45,Nurse,Buenos Aires,Argentina,-34.6036844,-58.3815591,NA
 Roger Liddell,64,Other,Flint,United States,43.0125274,-83.6874562,NA
+César Lijerón,68,Other,Beni Department,Bolivia,-14.3782747,-65.0957792,NA
 Mary Grace Lim,40,Doctor,Muntinlupa,Philippines,14.4183645,121.0384987,NA
 Azaí Linares,NA,Doctor,Puerto Cabello,Venezuela,10.4697685,-68.02986539999999,NA
 Vasiliy Lipilin,50,Other Medical,Barysaw,Belarus,54.2243254,28.5119119,NA
@@ -884,7 +942,10 @@ Eric Loupiac,60,Doctor,Lons-le-Saunier,France,46.671361,5.550796,NA
 Ludwig Eduardo Lucas Muñoz,58,Doctor,Guatemala City,Guatemala,14.6349149,-90.5068824,NA
 Oswaldo Luces,NA,Doctor,Anzoategui,Venezuela,8.5913073,-63.95861110000001,NA
 "Doreen Adisa Lugaliki, ",38,Doctor,Nairobi,Kenya,-1.2920659,36.8219462,NA
+Daniel Lugli,62,Nurse,Rosario,Argentina,-32.9587022,-60.69304159999999,NA
+Edith Lugo,NA,Doctor,Maracay,Venezuela,10.2441931,-67.60661640000001,NA
 Victor Lugo,NA,Other Medical,Valencia,Venezuela,10.1579312,-67.9972104,NA
+Elsa Luis Toro,NA,Retired,Aragua,Venezuela,10.0635758,-67.2847875,NA
 Francisco Avelino Siy Lukban,62,Doctor,Metro Manila,Philippines,14.6090537,121.0222565,NA
 Felicisimo Luna,62,Nurse,Elizabeth,United States,40.6639916,-74.2107006,NA
 Miguel Luna,NA,Other,Buenos Aires,Argentina,-34.6037618,-58.38171499999999,NA
@@ -894,6 +955,7 @@ Bertha Angelica Luna Guzmán,NA,Other Medical,State of Mexico,Mexico,19.4968732,
 Francisco Lunar Vargas,NA,Doctor,Michoacán,Mexico,19.5665192,-101.7068294,NA
 Maureen Lunney,59,Nurse,New York,United States,40.5795317,-74.1502007,NA
 "Romeo Gregorio ""Greg"" Macasaet III",62,Doctor,Manila,Philippines,14.5995124,120.9842195,NA
+Angel Mateos Maestre,61,Other Medical,Catalonia,Spain,41.5849177,1.612949,NA
 Cipriano Magaña Arias,NA,Other,Villahermosa,Mexico,17.989456,-92.9475061,NA
 Jasper Magat,46,Other,Quezon City,Philippines,14.6421672,121.0478702,NA
 Guadalupe Magdaleno Águila,53,Other Medical,Heroica Veracruz,Mexico,19.173773,-96.1342241,NA
@@ -913,14 +975,17 @@ Sisir Mandal,69,Doctor,Kolkata,India,22.572646,88.36389500000001,NA
 Christine Mandegarian,54,Other,Toronto,Canada,43.7764258,-79.2317521,NA
 "Hilario John ""Larry"" Mangoba",NA,Doctor,Quezon City,Philippines,14.6760413,121.0437003,NA
 William Mantell,NA,Other Medical,New York,United States,40.7282239,-73.7948516,NA
+Edgar Manzanero Quiroz,72,Doctor,Zulia,Venezuela,10.2910237,-72.1416132,NA
 Emilio Isaías Manzo Espinoza,NA,Other Medical,Guayaquil,Ecuador,-2.1894128,-79.8890662,NA
 Hafiz Maqsood,NA,Doctor,Lahore,Pakistan,31.5203696,74.35874729999999,NA
+Carlos Yamil Maradiaga Muñoz,NA,Other Medical,Choluteca,Honduras,13.3198572,-87.1622344,NA
 Michael Robert Marampe,28,Doctor,Bekasi,Indonesia,-6.2382699,106.9755726,NA
 Attilio Marcantonio,63,Other Medical,Mariano Comense,Italy,45.6981773,9.1824505,NA
 "Michael ""Mike"" Marceaux",NA,Nurse,Shreveport,United States,32.5251516,-93.7501789,NA
+Daniel Carlos Marconetto,62,Other Medical,Rafael Calzada,Argentina,-34.7898171,-58.35377239999999,NA
 Celia Lardizabal Marcos,61,Nurse,Los Angeles,United States,34.0522342,-118.2436849,NA
 Jody Mares,48,Other Medical,Albuquerque,United States,35.0843859,-106.650422,NA
-César Augusto Marroquín Solórzano,53,Doctor,Guatemala City,Guatemala,14.6277074,-90.4956862,NA
+Elio José Margiotta Figueroa,60,Doctor,Nueva Esparta,Venezuela,10.9970723,-63.91132959999999,NA
 Óscar Raúl Miranda Martino,73,Doctor,Piura,Peru,-5.1782884,-80.6548882,NA
 Cinthia Marín Guerrero,32,Other Medical,Baja California Sur,Mexico,26.0444446,-111.6660725,NA
 Francisco Marín,61,Doctor,Chaco Province,Argentina,-27.4257175,-59.02437839999999,NA
@@ -929,18 +994,25 @@ Ivelin Markov,70,Doctor,Dobrich,Bulgaria,43.57259,27.8272606,NA
 Dragan Marković,63,Other,Belgrade,Serbia,44.786568,20.4489216,NA
 Reuven Maroth,NA,Other Medical,Hackensack,United States,40.8859325,-74.0434736,NA
 "Gregorio ""Goyo"" Márquez Bautista",NA,Doctor,Heroica Veracruz,Mexico,19.173773,-96.1342241,NA
+Yolimar Márquez de Salgado,48,Doctor,Sucre,Venezuela,10.4055886,-63.297505,NA
 Stephen Marrone,62,Other,New York,United States,40.6781784,-73.9441579,NA
+César Augusto Marroquín Solórzano,53,Doctor,Guatemala City,Guatemala,14.6277074,-90.4956862,NA
 David Martin,NA,Other Medical,Natchez,United States,31.5604442,-91.40317100000001,NA
+Ana Margarita Martínez,NA,Other Medical,Sonsonate,El Salvador,13.7099653,-89.7286147,NA
+Beatriz Martínez,NA,Nurse,Caracas,Venezuela,10.4805937,-66.90360629999999,NA
 Eduardo Martínez,65,Doctor,Santiago De Los Caballeros,Dominican Republic,19.4791963,-70.6930568,NA
 Juan Martinez,60,Other,Chicago,United States,41.8781136,-87.6297982,NA
 Juan David Martinez Castro,54,Doctor,Piedras Negras,Mexico,28.6916182,-100.5408622,NA
 Miguel Ángel Martínez,NA,Nurse,Mexico City,Mexico,19.4326077,-99.133208,NA
 Roberto Daniel Martínez Gutiérrez,NA,Doctor,Mexico City,Mexico,19.4326077,-99.133208,NA
 Ricardo Adán Martínez Guzmán,NA,Doctor,San Salvador,El Salvador,13.6929403,-89.2181911,NA
+Alexánder Martínez Meléndez,NA,Doctor,Soyapango,El Salvador,13.710045,-89.13725269999999,NA
 María Esthela de los Dolores Martínez Molina,92,Nurse,Cuenca,Ecuador,-2.9001285,-79.00589649999999,NA
 JD Martínez Pérez,NA,Nurse,Sonora,Mexico,29.2972247,-110.3308814,NA
 Karen Martinsen-Sbordone,60,Nurse,New York,United States,40.6781784,-73.9441579,NA
+Augusto Alberto Martoni,NA,Doctor,Santa Cruz de la Sierra,Bolivia,-17.8145819,-63.1560853,NA
 Magdy Eryan Massak,64,Other Medical,New York,United States,40.7127753,-74.0059728,NA
+Delia Mata,NA,Retired,Anzoategui,Venezuela,8.5913073,-63.95861110000001,NA
 Jorge Mateo,NA,Other Medical,Miami,United States,25.7616798,-80.1917902,NA
 Ronaldo Mateo,48,Doctor,Calabarzon,Philippines,14.2456329,120.8785658,NA
 Luis Fernando Mateos,64,Doctor,Salamanca,Spain,40.9701039,-5.663539699999999,NA
@@ -976,6 +1048,9 @@ Sergio Ernesto Méndez Borjas,37,Doctor,State of Mexico,Mexico,19.4968732,-99.72
 José Guadalupe Méndez Cundafe,NA,Doctor,Tabasco,Mexico,17.8409173,-92.6189273,NA
 Pablo Mené,42,Other,Buenos Aires,Argentina,-34.6037618,-58.38171499999999,NA
 Eduardo Méndez Martinez,65,Retired,Mexico City,Mexico,19.4326077,-99.133208,NA
+Jilem Cesar Méndez Pérez,NA,Doctor,Heroica Veracruz,Mexico,19.173773,-96.1342241,NA
+Asdrúbal Mendoza,NA,Doctor,Yaracuy,Venezuela,10.339389,-68.81088489999999,NA
+Carlos Mendoza,NA,Doctor,Bolívar,Venezuela,6.3585216,-63.580611,NA
 "Cynthia ""Chi"" Mendoza",68,Retired,Norfolk,United States,36.8507689,-76.28587259999999,NA
 Joel Carpio Mendoza,NA,Doctor,Central Luzon,Philippines,15.079409,120.6199895,NA
 Hilario Francisco Mendoza Ferrer,67,Doctor,Pucallpa,Peru,-8.3928622,-74.5826166,NA
@@ -984,6 +1059,7 @@ Sergio Arturo Mendoza Romero,53,Other Medical,Mexico City,Mexico,19.4326077,-99.
 Yuri Mengoa Quintanilla,48,Doctor,Arequipa,Peru,-16.4090474,-71.53745099999999,NA
 Cumandá Mera,NA,Nurse,Guayaquil,Ecuador,-2.1894128,-79.8890662,NA
 Ramiro Mercado Ambriz,NA,Doctor,Baja California,Mexico,30.8406338,-115.2837585,NA
+Zonia Maribel Mercado de Magaña,69,Doctor,San Miguel,El Salvador,13.4792922,-88.1779182,NA
 Agustín Mercado Rivas,NA,Doctor,State of Mexico,Mexico,19.4968732,-99.72326729999999,NA
 Janine Meritet,59,Doctor,Smithtown,United States,40.8559314,-73.2006687,NA
 Assyad Meryem,NA,Doctor,Casablanca,Morocco,33.5731104,-7.589843399999999,NA
@@ -1011,6 +1087,7 @@ Mohammad Mohammadi,NA,Doctor,Rasht,Iran,37.2682177,49.5891233,NA
 Paul Moise,50,Nurse,Perth Amboy,United States,40.5067723,-74.2654234,NA
 Daniel Mojica,NA,Other,Mexico City,Mexico,19.4326077,-99.133208,NA
 Keila Molaya,NA,Nurse,Maracaibo,Venezuela,10.642707,-71.6125366,NA
+Carlos Molina,NA,Other Medical,San Julian,El Salvador,13.6202692,-89.79311729999999,NA
 Luis Molinares Padilla,83,Doctor,Bogota,Colombia,4.710988599999999,-74.072092,NA
 "Francis ""Frankie"" Molinari",70,Doctor,Belleville,United States,40.7936744,-74.15004689999999,NA
 Jose Alfredo Mollinedo Paniagua,70,Doctor,Guatemala City,Guatemala,14.6349149,-90.5068824,NA
@@ -1020,6 +1097,8 @@ John Mondello,23,Other Medical,New York,United States,40.7127753,-74.0059728,NA
 Md Moniruzzaman,55,Retired,Dhaka,Bangladesh,23.810332,90.4125181,NA
 Stuart Monk,48,Other Medical,England,United Kingdom,53.4575955,-2.1578377,NA
 Vahid Monsef,NA,Doctor,Rasht,Iran,37.2682177,49.5891233,NA
+Alex Montaner,70,Doctor,Miami,United States,25.7616798,-80.1917902,NA
+Carlos Montangero,79,Doctor,Buenos Aires,Argentina,-34.6036844,-58.3815591,NA
 Jesús Montarroso Martín,64,Doctor,Ciudad Real,Spain,38.9848295,-3.927377799999999,NA
 Edgar Montejo Espinel,NA,Doctor,Aragua,Venezuela,10.0635758,-67.2847875,NA
 Eduardo Montenegro Alfaro,NA,Doctor,NA,Guatemala,15.783471,-90.23075899999999,NA
@@ -1034,8 +1113,10 @@ Matthew Moore,52,Other Medical,New York,United States,40.5795317,-74.1502007,NA
 Nola Mae Moore,88,Doctor,Shoreline,United States,47.7559659,-122.3456972,NA
 Fouad Ahmed Moqbel,NA,Doctor,Sana'a,Yemen,15.3694451,44.1910066,NA
 Ali Sheikh Moradi,NA,Nurse,Rasht,Iran,37.2682177,49.5891233,NA
+Cecilia Gertrudis Morales,NA,Nurse,San Salvador,El Salvador,13.6929403,-89.2181911,NA
 Daniel Morales,39,Nurse,El Paso,United States,31.7618778,-106.4850217,NA
 Gilberto Morales Cárdenas,NA,Doctor,Heroica Veracruz,Mexico,19.173773,-96.1342241,NA
+Yamileth Morales Duarte,NA,Doctor,Tegucigalpa,Honduras,14.065049,-87.1715002,NA
 José de Jesús Morales Harrison,NA,Doctor,Chiapas,Mexico,16.7569318,-93.12923529999999,NA
 Álvaro Morales Méndez,NA,Doctor,Puebla,Mexico,19.0414398,-98.2062727,NA
 Fernando Morales Mirabeth,NA,Doctor,Chiapas,Mexico,16.7569318,-93.12923529999999,NA
@@ -1043,10 +1124,12 @@ Fernando Morales Mirabeth,NA,Doctor,Chiapas,Mexico,16.7569318,-93.12923529999999
 Ernesto Morán Roque,NA,Nurse,Mexico,Mexico,23.634501,-102.552784,NA
 Udiel Morán Ovalle,NA,Nurse,Chiapas,Mexico,16.7569318,-93.12923529999999,NA
 Rueven Morath,NA,Other Medical,Hackensack,United States,40.8859325,-74.0434736,NA
+Ana Marta Concepción Moreno de Araujo,NA,Doctor,San Salvador,El Salvador,13.6929403,-89.2181911,NA
 Ferdinando Moretti,73,Other,Oceanside,United States,40.6387141,-73.6401296,NA
 Glenford Morgan,60,Other Medical,Hartford,United States,41.7658043,-72.6733723,NA
 Golam Mostafa,NA,Doctor,Medina,Saudi Arabia,24.5246542,39.5691841,NA
 Seyyedeh Azemat Mousavi,NA,Doctor,Sari,Iran,36.5658729,53.0586328,NA
+Alexis de Jesús Moya Alcántara,68,Doctor,Anzoategui,Venezuela,8.5913073,-63.95861110000001,NA
 Mónica Moyano,33,Nurse,Chaco Province,Argentina,-27.4257175,-59.02437839999999,NA
 Gustavo Adolfo Munizaga Concha,73,Doctor,Manta,Ecuador,-0.9676533,-80.7089101,NA
 Elvia Muñoz,50,Doctor,Panama City,United States,30.1588129,-85.6602058,NA
@@ -1084,10 +1167,12 @@ Veronica Norman,75,Nurse,Washington,United States,38.9071923,-77.0368707,NA
 Younes Norouzi,NA,Doctor,Shahin Shahr,Iran,32.8796692,51.5465539,NA
 Nahid Noshad,NA,Nurse,Gilan Province,Iran,37.2809455,49.5924134,NA
 Paul Novicki,NA,Other Medical,Detroit,United States,42.331427,-83.0457538,NA
+Douglas Aldo Novoa,NA,Doctor,San Salvador,El Salvador,13.7318043,-89.1817079,NA
 Victor Serafimovich Novosyolov,73,Doctor,Moscow,Russia,55.755826,37.6172999,NA
 Lucila Juana Núñez,57,Nurse,Buenos Aires,Argentina,-34.6037618,-58.38171499999999,NA
 Fernando Núñez Lazcano,NA,Doctor,Beni Department,Bolivia,-14.3782747,-65.0957792,NA
 Gladys Nyemba,NA,Nurse,Nottingham,United Kingdom,52.95478319999999,-1.1581086,NA
+Lezly Orine Ocampo,31,Nurse,Abu Dhabi,United Arab Emirates,24.453884,54.3773438,NA
 Luis Ángel Ocampo Donair,32,Doctor,El Crucero,Nicaragua,11.9805692,-86.3110516,NA
 Evelyn Ochoa-Celano,63,Other Medical,New York,United States,40.8447819,-73.8648268,NA
 Freda Ocran,50,Nurse,New York,United States,40.855993,-73.8463639,NA
@@ -1103,8 +1188,8 @@ Lugand Olivier,58,Other,Saint-Germain-en-Laye,France,48.898908,2.093761,NA
 Ibrahim Ornek,56,Doctor,İstanbul,Turkey,41.0082376,28.9783589,NA
 Jesús Onofre Oliveros,NA,Doctor,Tamaulipas,Mexico,24.26694,-98.8362755,NA
 Turk Mustafa Oral,68,Doctor,İzmir,Turkey,38.423734,27.142826,NA
+Daniel Orellana,39,Nurse,Entre Rios,Argentina,-31.7746654,-60.49564609999999,NA
 José Luis Orendain,62,Doctor,Santiago,Mexico,25.4166153,-100.1591213,NA
-Lezly Orine Ocampo,31,Nurse,Abu Dhabi,United Arab Emirates,24.453884,54.3773438,NA
 Pamela Ann Orlando,56,Nurse,Ridgewood,United States,40.9792645,-74.11653129999999,NA
 Gabriela Ornelas Pacheco,49,Doctor,Michoacán,Mexico,19.5665192,-101.7068294,NA
 Jesús Abraham Orozco Ortega,32,Nurse,Baja California Sur,Mexico,26.0444446,-111.6660725,NA
@@ -1121,6 +1206,7 @@ Rosa María Ortiz Gómez,NA,Other,Heroica Veracruz,Mexico,19.173773,-96.1342241,
 Agustín Ortiz Martínez,NA,Doctor,San Juan Bautista Tuxtepec,Mexico,18.0809028,-96.1420947,NA
 José Antonio Ortiz Morales,NA,Doctor,Guerrero,Mexico,17.4391926,-99.54509739999999,NA
 Heberth Ortuño Vallejos,NA,Doctor,NA,Bolivia,-16.290154,-63.58865299999999,NA
+Alfredo Oseguera Licona,NA,Doctor,Sabana Grande,Honduras,13.8093174,-87.2593454,NA
 Olmar Osorio Hernández,NA,Other Medical,Heroica Veracruz,Mexico,19.173773,-96.1342241,NA
 Yenni Osto,NA,Nurse,Ciudad Bolívar,Venezuela,8.088279100000001,-63.5535552,NA
 Natasha Ott,39,Other,New Orleans,United States,29.95106579999999,-90.0715323,NA
@@ -1144,10 +1230,11 @@ Luis Alberto Panduro Rengifo,NA,Doctor,Iquitos,Peru,-3.7436735,-73.2516326000000
 Alexis Panetta,40,Nurse,Santa Marta,Colombia,11.2403547,-74.2110227,NA
 Laurentius Panggabean,57,Other,Jakarta,Indonesia,-6.2087634,106.84559900000001,NA
 Shatrughan Panjwani,62,Doctor,Indore,India,22.7195687,75.8577258,NA
+Carlos Parada,NA,Doctor,San Pedro Sula,Honduras,15.5038827,-88.01386190000001,NA
 Alicia Vicencio Paran,71,Nurse,Secaucus,United States,40.7895453,-74.05652979999999,NA
-Milan Parvanov,NA,Doctor,Gotse Delchev,Bulgaria,41.5728211,23.7282719,NA
 José Humberto Paredes Abanto,NA,Doctor,Callao Region,Peru,-12.0463731,-77.042754,NA
 Yanira Paruta,NA,Other Medical,Anzoategui,Venezuela,8.5913073,-63.95861110000001,NA
+Milan Parvanov,NA,Doctor,Gotse Delchev,Bulgaria,41.5728211,23.7282719,NA
 Sefik Pasagic,61,Other,Sarajevo,Bosnia and Herzegovina,43.8562586,18.4130763,NA
 Arvin Pascual,44,Nurse,Manila,Philippines,14.5995124,120.9842195,NA
 Mustafa Kamal Pasha,62,Doctor,Punjab,Pakistan,31.1704063,72.7097161,NA
@@ -1159,14 +1246,19 @@ Tomas Pattugalan,70,Doctor,New York,United States,40.7282239,-73.7948516,NA
 "Jaime Mauro ""Chinito"" Paulino Cotrina",66,Doctor,Callao Region,Peru,-12.0463731,-77.042754,NA
 Omark Kadota Payán,39,Doctor,La Paz,Mexico,24.1426408,-110.3127531,NA
 José David Payares Treco,40,Doctor,Guayaquil,Ecuador,-2.1894128,-79.8890662,NA
+Dírmero Paz Jiménez,NA,Doctor,Zulia,Venezuela,10.2910237,-72.1416132,NA
 Habibullah Peiravi,NA,Doctor,Tehran,Iran,35.6891975,51.3889736,NA
 Miguel Ángel Peiteado Martínez,73,Doctor,Toledo,Spain,39.8628316,-4.027323099999999,NA
+Diómedes Pena,NA,Retired,Carabobo,Venezuela,10.1176433,-68.0477509,NA
 Jesús Peña Peña,67,Doctor,Merida,Venezuela,8.5698244,-71.1804988,NA
 Roberto Peñalba,NA,Doctor,San Miguelito,Panama,9.0485176,-79.5082571,NA
+Delfín Edgardo Peñaloza Gallo,76,Doctor,Cordoba,Colombia,8.049293,-75.57405,NA
 Esteban Peñarrubia,57,Nurse,Leganés,Spain,40.3319506,-3.7686545,NA
 Peng Yinhua,29,Doctor,Wuhan,China,30.592849,114.305539,NA
 Lungile Pepeta,46,Doctor,Port Elizabeth,South Africa,-33.9608369,25.6022423,NA
+Alcira Perache,52,Doctor,Bolívar,Venezuela,6.3585216,-63.580611,NA
 Guillermo Peralta,NA,Doctor,Heroica Veracruz,Mexico,19.173773,-96.1342241,NA
+Enny Coromoto Peraza Riera,NA,Doctor,Barquisimeto,Venezuela,10.0677719,-69.3473509,NA
 Reynaldo Perdomo Sanabria,62,Other,San Pedro Sula,Honduras,15.5038827,-88.01386190000001,NA
 David Perea,35,Nurse,Reno,United States,39.5296329,-119.8138027,NA
 Jesus Raúl Perea González,61,Doctor,Chihuahua,Mexico,28.6329957,-106.0691004,NA
@@ -1200,6 +1292,7 @@ Luis Ernesto Polanco Pérez,NA,Doctor,Santa Ana,El Salvador,13.9778279,-89.56391
 José Porras,38,Doctor,Mexico City,Mexico,19.4326077,-99.133208,NA
 Gaetano Portale,81,Doctor,NA,Italy,41.87194,12.56738,NA
 Mary Ellen Porter,65,Nurse,New York,United States,40.5795317,-74.1502007,NA
+Dora Alicia Portillo,NA,Nurse,San Salvador,El Salvador,13.7005099,-89.2060004,NA
 José Portillo,55,Doctor,San Lorenzo,Argentina,-32.7477485,-60.7341297,NA
 Fernando López Portillo Villaluz,NA,Other,Mexico City,Mexico,19.4326077,-99.133208,NA
 Jean Pouaha,58,Doctor,Metz,France,49.1299572,6.1383201,NA
@@ -1209,6 +1302,7 @@ Freddy Pow Hing,59,Doctor,Duran,Ecuador,-2.168974,-79.8397207,NA
 MB Pranesh,83,Doctor,Coimbatore,India,11.0168445,76.9558321,NA
 Víctor Manuel Prato,40,Nurse,Trujillo,Venezuela,9.356449699999999,-70.4372404,NA
 Sumith Premachandra,55,Nurse,Victoria,Australia,-37.8136276,144.9630576,NA
+Eduardo Rafael Prieto Peralta,56,Doctor,Atlantico,Colombia,10.6966159,-74.8741045,NA
 Valeriu Pripa,59,Doctor,Chișinău,Moldova,47.0104529,28.8638102,NA
 Azinet Pudpud,61,Nurse,New York,United States,40.8447819,-73.8648268,NA
 María Isabel Puertos García,NA,Doctor,Michoacán,Mexico,19.5665192,-101.7068294,NA
@@ -1243,6 +1337,7 @@ Gita Ramjee,64,Other,Durban,South Africa,-29.85868039999999,31.0218404,NA
 Luis Ramírez Cadavid,NA,Doctor,Lara,Venezuela,10.1537842,-69.8597406,NA
 Armando Ramírez Hernández,43,Doctor,Ecatepec de Morelos,Mexico,19.6057728,-99.03651119999999,NA
 Heriberto Ramírez Morales,NA,Other,Mexico City,Mexico,19.4326077,-99.133208,NA
+Eduardo Ramos,NA,Doctor,CP1101,El Salvador,13.7067416,-89.2320728,NA
 Francisco Reinaldo Ramos Carcelén,63,Other Medical,Quito,Ecuador,-0.1806532,-78.4678382,NA
 Francisco Javier Ramos Cortes,NA,Nurse,Chihuahua,Mexico,28.6329957,-106.0691004,NA
 "África Isaura ""Chawy"" Ramos Díaz",43,Nurse,State of Mexico,Mexico,19.4968732,-99.72326729999999,NA
@@ -1251,9 +1346,11 @@ Humberto Noe Ramos Orozco,43,Doctor,San Nicolás de los Garza,Mexico,25.7493469,
 Mamoona Rana,48,Doctor,London,United Kingdom,51.5073509,-0.1277583,NA
 Mohammad Shafiullah Ranak,NA,Doctor,Riyadh,Saudi Arabia,24.7135517,46.6752957,NA
 Miguel Angel Rangel,NA,Doctor,Caracas,Venezuela,10.4805937,-66.90360629999999,NA
+Edmundo Rangel Farías,57,Doctor,Santiago Metropolitan Region,Chile,-33.4488897,-70.6692655,NA
 Gracialis Rangel Francés,34,Doctor,Barcelona,Venezuela,10.1445691,-64.67768,NA
 Rollin E. Rathbun III,51,Other Medical,Crestview,United States,30.7541808,-86.5727995,NA
 Luigi Ravasio,NA,Doctor,NA,Italy,41.87194,12.56738,NA
+Elvi Dolores Raymundo Barillas,NA,Other,San Salvador,El Salvador,13.6929403,-89.2181911,NA
 Jean-Jacques Razafindranazy,67,Doctor,Compiègne,France,49.41781599999999,2.826145,NA
 Pedro Vacacela Rea,NA,Doctor,Guayaquil,Ecuador,-2.1894128,-79.8890662,NA
 Sami Reda,63,Doctor,Parmain,France,49.113904,2.208519,NA
@@ -1277,12 +1374,15 @@ Hortensia Reyes Méndez,NA,Other Medical,Heroica Veracruz,Mexico,19.173773,-96.1
 Onésimo Reyes Olivares,NA,Doctor,Mexico City,Mexico,19.2572314,-99.1029664,NA
 Jorge Manuel Reyes Villón,NA,Doctor,Guayaquil,Ecuador,-2.1894128,-79.8890662,NA
 Mario Reyes Romero,NA,Doctor,Mexico City,Mexico,19.4326077,-99.133208,NA
+Yaquelin Reyna,NA,Nurse,Carabobo,Venezuela,10.1176433,-68.0477509,NA
 Usama Riaz,26,Doctor,Gilgit,Pakistan,35.881911,74.4642861,NA
 Jesús Ricardo Ríos,NA,Doctor,State of Mexico,Mexico,19.5679989,-99.26531279999999,NA
 Juan Ríos Sevillano,NA,Doctor,Iquitos,Peru,-3.7436735,-73.25163260000001,NA
 Petal Williams Richards,57,Other Medical,New York,United States,40.8447819,-73.8648268,NA
+Efrén Rincón Leyton,NA,Doctor,Tolima,Colombia,4.092516799999999,-75.1545381,NA
 Kerwin Salazar Ríos,NA,Doctor,Guayaquil,Ecuador,-2.1894128,-79.8890662,NA
 Claudio José Ríos Arguello,NA,Doctor,El Crucero,Nicaragua,11.9805692,-86.3110516,NA
+David Edgardo Rivas Molina,NA,Doctor,Santa Tecla,El Salvador,13.6757837,-89.2894733,NA
 Máximo Rivera,NA,Nurse,Guayaquil,Ecuador,-2.1894128,-79.8890662,NA
 Miguelina Rivera,NA,Doctor,Maripa,Venezuela,7.415444399999999,-65.1892471,NA
 Victor C. Rivera,77,Doctor,Langhorne,United States,40.1745538,-74.92266649999999,NA
@@ -1292,6 +1392,10 @@ Víctor Rivera Uribe,NA,Doctor,Heroica Veracruz,Mexico,19.173773,-96.1342241,NA
 "Maria ""Bambi"" Roaquin",58,Nurse,Cortlandt Manor,United States,41.2804112,-73.87147519999999,NA
 Gary Roberts,64,Other Medical,Jacksonville,United States,30.3321838,-81.65565099999999,NA
 Sharon Roberts,59,Other,Toronto,Canada,43.7615377,-79.41107939999999,NA
+Egon Robinson Vargas,54,Nurse,Chubut Province,Argentina,-43.2934246,-65.11148179999999,NA
+Arnaldo Rodas,NA,Doctor,NA,Honduras,15.199999,-86.241905,NA
+Ángel Rodríguez,NA,Other Medical,Vargas,Venezuela,10.5890015,-66.7367345,NA
+Arturo Rodríguez,NA,Doctor,Nueva Esparta,Venezuela,10.9970723,-63.91132959999999,NA
 Irma Rodríguez,NA,Nurse,Tegucigalpa,Honduras,14.065049,-87.1715002,NA
 Jacinta Rodríguez,NA,Nurse,Guayaquil,Ecuador,-2.1894128,-79.8890662,NA
 "José Manuel ""Chelín"" Rodríguez",NA,Doctor,Dajabon,Dominican Republic,19.5499241,-71.7086514,NA
@@ -1301,7 +1405,9 @@ Yoel Rodríguez,46,Nurse,Puerto La Cruz,Venezuela,10.2007985,-64.6334643,NA
 Mayra Xochitl Rodríguez Geraldo,44,Doctor,Sonora,Mexico,29.2972247,-110.3308814,NA
 Sergio Rodríguez Hernández,NA,Doctor,Durango,Mexico,24.0277202,-104.6531759,NA
 Enrique Rodríguez Méndez,NA,Doctor,Heroica Veracruz,Mexico,19.173773,-96.1342241,NA
+Andrés Rodríguez Pacheco,NA,Doctor,Baja California Sur,Mexico,26.0444446,-111.6660725,NA
 Israel Abraham Rodríguez Pinillo,37,Doctor,Tamaulipas,Mexico,24.26694,-98.8362755,NA
+Yaneth del Carmen Rodríguez de Rodríguez,NA,Nurse,Usulutan,El Salvador,13.3453114,-88.4428112,NA
 Elena Rojas,62,Other Medical,Buenos Aires,Argentina,-34.6037618,-58.38171499999999,NA
 Guillermo Rojas,NA,Doctor,Moca,Dominican Republic,19.3908634,-70.5231108,NA
 Francisco Javier Rojas Cruz,NA,Doctor,Ciudad Madero,Mexico,22.2768755,-97.8331049,NA
@@ -1311,6 +1417,7 @@ Sonia Román,61,Nurse,San Juan,Puerto Rico,18.4655394,-66.1057355,NA
 Raymundo Guadalupe Román Armenta,NA,Doctor,Baja California Sur,Mexico,26.0444446,-111.6660725,NA
 Jesús Romero,NA,Doctor,Zulia,Venezuela,10.2910237,-72.1416132,NA
 Leónidas Romero,NA,Doctor,San Pedro Sula,Honduras,15.5038827,-88.01386190000001,NA
+Manuel Romero,54,Doctor,Zulia,Venezuela,10.2910237,-72.1416132,NA
 Alfonso Romero Sánchez,NA,Doctor,Minatitlán,Mexico,17.9939225,-94.5466067,NA
 Marcelo Romio,64,Nurse,Buenos Aires,Argentina,-34.6037618,-58.38171499999999,NA
 Roghieh Ronaghi,NA,Other Medical,Someh Sara,Iran,37.3048852,49.3178484,NA
@@ -1339,6 +1446,7 @@ Brian Saddler,60,Nurse,Paterson,United States,40.9167654,-74.17181099999999,NA
 Guillermo Sáez,NA,Doctor,La Guaira,Venezuela,10.6024787,-66.9313444,NA
 Jasslyn Saffold,32,Other Medical,Chicago,United States,41.8781136,-87.6297982,NA
 Charlie Safley,78,Doctor,Memphis,United States,35.1495343,-90.0489801,NA
+Tatyana Safonova,67,Doctor,Moscow,Russia,55.755826,37.6172999,NA
 Ciro Willy Sagástegui León,NA,Doctor,Chiclayo,Peru,-6.7700798,-79.8549907,NA
 Erdinc Sahin,50,Doctor,Mersin,Turkey,36.8121041,34.6414811,NA
 Peter Sakas,67,Other Medical,Northbrook,United States,42.1275267,-87.82895479999999,NA
@@ -1382,6 +1490,7 @@ Ruth Itzel Santillán Salazar,26,Nurse,State of Mexico,Mexico,19.4968732,-99.723
 Gustavo Santos,72,Other,Salcedo,Dominican Republic,19.3787458,-70.41676149999999,NA
 Efren German Santos Rodriguez,NA,Doctor,Guayaquil,Ecuador,-2.1894128,-79.8890662,NA
 Sandra Sarantis,NA,Nurse,Huntersville,United States,35.410694,-80.84285040000002,NA
+Aida Saravia,NA,Nurse,San Salvador,El Salvador,13.7032589,-89.2032029,NA
 Herson Alberto Saravia Lobos,34,Doctor,San Salvador,El Salvador,13.6929403,-89.2181911,NA
 Juan Carlos Sardaneta,NA,Nurse,Heroica Veracruz,Mexico,19.173773,-96.1342241,NA
 Miftah Fauzi Sarengat,34,Doctor,Surabaya,Indonesia,-7.2574719,112.7520883,NA
@@ -1402,6 +1511,7 @@ Richard Seaberry,63,Other Medical,New York,United States,40.703541800000004,-74.
 Abdorreza Sedghi,44,Doctor,Stevenage,United Kingdom,51.903761,-0.196612,NA
 Javier Segales Rojas,30,Doctor,Cochabamba,Bolivia,-17.4139766,-66.1653224,NA
 Jorge Orlando Semería,NA,Retired,Salitre Canton,Ecuador,-1.8341992,-79.8156667,NA
+Asen Senkov,77,Doctor,Varbina,Bulgaria,41.5587348,24.9715029,NA
 "Jose ""Jun"" Islani Allapitan Sepal Jr",60,Other,Livingston,United States,40.7862871,-74.3300842,NA
 Rafael Sepúlveda,NA,Other,Cúcuta,Colombia,7.8890971,-72.4966896,NA
 Zahoor Ahmed Shaikh,58,Retired,Karachi,Pakistan,24.8607343,67.0011364,NA
@@ -1437,16 +1547,20 @@ Penny Scarangella Smith,48,Nurse,Bartow,United States,27.8964147,-81.8431374,NA
 Soekotjo Soerodiwirio,54,Other Medical,Bandung,Indonesia,-6.9174639000000004,107.6191228,NA
 Guillermo Solar Oyanedel,73,Doctor,Santiago Metropolitan Region,Chile,-33.4488897,-70.6692655,NA
 Ernesto Jaime Solis,NA,Doctor,Mexico City,Mexico,19.4326077,-99.133208,NA
+Beatriz Solís Guevara,NA,Nurse,State of Mexico,Mexico,19.4968732,-99.72326729999999,NA
 David Solís Sánchez,32,Other,Mexico City,Mexico,19.4326077,-99.133208,NA
 Estelita Atienza Solomon,72,Retired,New York,United States,40.6781784,-73.9441579,NA
+César José Somoza Torres,50,Doctor,Portuguesa,Venezuela,9.094399899999999,-69.097023,NA
 Song Yingjie,28,Other Medical,Wuhan,China,30.592849,114.305539,NA
 Abdul Qadir Soomro,55,Doctor,Karachi,Pakistan,24.8607343,67.0011364,NA
+William Soriano,NA,Doctor,San Salvador,El Salvador,13.6929403,-89.2181911,NA
 Dalia Gabriela Sosa Atondo,NA,Other,Culiacán,Mexico,24.8090649,-107.3940117,NA
 Artemio Sotelo Galeana,NA,Doctor,Guerrero,Mexico,17.4391926,-99.54509739999999,NA
 Alicia Soto,NA,Other Medical,Culiacán,Mexico,24.8090649,-107.3940117,NA
 José Antonio Soto,56,Doctor,Miami,United States,25.7616798,-80.1917902,NA
 Thomas Soto,60,Other Medical,New York,United States,40.6781784,-73.9441579,NA
 Miguel Ángel Soto Brenis,NA,Doctor,Heroica Veracruz,Mexico,19.173773,-96.1342241,NA
+Carlos Eduardo Soto Hernández,NA,Doctor,Mejicanos,El Salvador,13.7344714,-89.2179286,NA
 Rey David Soto Hernández,NA,Nurse,Heroica Veracruz,Mexico,19.173773,-96.1342241,NA
 Kabkéo Souvanlasy,65,Doctor,Sevran,France,48.93897,2.538716,NA
 Marlon Jose Soza Chavarria,49,Doctor,Managua,Nicaragua,12.1149926,-86.2361744,NA
@@ -1455,6 +1569,7 @@ Julian Stamov,49,Doctor,Sofia,Bulgaria,42.6977082,23.3218675,NA
 Miguel Humberto Stefanuto Heredia,NA,Doctor,Guayaquil,Ecuador,-2.1894128,-79.8890662,NA
 Cristian Stupiuc,55,Nurse,Suceava County,Romania,47.55055480000001,25.741062,NA
 Elvia Suárez,NA,Nurse,Guayaquil,Ecuador,-2.1894128,-79.8890662,NA
+Judith Suárez,NA,Nurse,Delta Amacuro,Venezuela,8.8499307,-61.14031960000001,NA
 Jimmy Alberto Suarez Suarez,NA,Doctor,Ancon,Ecuador,-2.324663,-80.854766,NA
 Eugenio Suárez Utria,NA,Doctor,Machala,Ecuador,-3.2581112,-79.9553924,NA
 Ketty Herawati Sultana,NA,Other,South Jakarta,Indonesia,-6.2614927,106.8105998,NA
@@ -1484,11 +1599,13 @@ Anthony Thomas,NA,Other Medical,New York,United States,40.742193,-73.9739553,NA
 Arneice Thomas,57,Other,Winslow,United States,35.0241873,-110.6973571,NA
 Daniel Thomas,73,Other,Los Angeles,United States,34.0522342,-118.2436849,NA
 Julio Cesar Thomas Bornachera,34,Doctor,Santa Marta,Colombia,11.2403547,-74.2110227,NA
+Adlin Thompson,56,Other Medical,New York,United States,40.8409611,-73.9414554,NA
 Vianna Thompson,52,Nurse,Reno,United States,39.5296329,-119.8138027,NA
 Marisol Tigrera,NA,Doctor,Maracaibo,Venezuela,10.642707,-71.6125366,NA
 Eduardo Tigua Castro,NA,Doctor,Guayaquil,Ecuador,-2.1894128,-79.8890662,NA
 Iván Sinuhe Tiozol Rodriguez,NA,Other,Coatzacoalcos,Mexico,18.1344779,-94.4589858,NA
 Juan Rafael Tirado Moreno,NA,Doctor,Quintana Roo,Mexico,19.1817393,-88.4791376,NA
+Carlos Enrique Tobar,NA,Doctor,Ahuachapan,El Salvador,13.9259486,-89.84113819999999,NA
 Naek Lumban Tobing,79,Doctor,Jakarta,Indonesia,-6.2087634,106.84559900000001,NA
 Fabián Toledo Aguilar,33,Doctor,Cuernavaca,Mexico,18.9242095,-99.22156590000002,NA
 Juan Carlos Toledo Cruz,NA,Other,Chiapas,Mexico,16.7569318,-93.12923529999999,NA
@@ -1539,6 +1656,7 @@ Nurhan Uzun,NA,Other Medical,İstanbul,Turkey,41.0082376,28.9783589,NA
 Ehsan Vafakhah,38,Doctor,Torbat Heydariyeh,Iran,35.279843,59.216145,NA
 Musa Vakliov,60,Doctor,Kraishte,Bulgaria,41.9216553,23.5883342,NA
 Emil Vaklyov,33,Doctor,Blagoevgrad,Bulgaria,42.0208569,23.0943385,NA
+Ava Vaklyova,NA,Nurse,Belitsa,Bulgaria,41.9507744,23.5592214,NA
 Eugenio Enrique Valarezo Barzola,57,Other,Guayaquil,Ecuador,-2.1894128,-79.8890662,NA
 Nerio Valarino González,59,Doctor,Murcia,Spain,37.9922399,-1.1306544,NA
 Jairo Valbuena,NA,Doctor,Maracaibo,Venezuela,10.5998072,-71.6213751,NA
@@ -1549,6 +1667,7 @@ Irene Valero,57,Nurse,Aragua,Venezuela,10.0635758,-67.2847875,NA
 Jérôme Valette,65,Doctor,La Tour-d'Auvergne,France,45.533494,2.69142,NA
 Carlos Francisco Vallejo,57,Doctor,Miami,United States,25.7616798,-80.1917902,NA
 Jorge A. Vallejo,89,Retired,Miami,United States,25.7616798,-80.1917902,NA
+Mireya Bethy Vallés de Rodríguez,NA,Retired,Cojedes,Venezuela,9.6220448,-68.9196819,NA
 "Mónica Patricia ""Licen Moni"" Valverde Beltrán",NA,Nurse,Riobamba,Ecuador,-1.6650227,-78.6588786,NA
 Napoleon Rodolfo Vanegas Mieles,NA,Doctor,Machala,Ecuador,-3.2581112,-79.9553924,NA
 Arturo Vanegas Olivares,NA,Doctor,Mexico City,Mexico,19.2572314,-99.1029664,NA
@@ -1560,8 +1679,11 @@ Pedro Miguel Vargas Condor,NA,Doctor,Callao Region,Peru,-12.0463731,-77.042754,N
 Jesús Vargas Gutiérrez,NA,Doctor,Maracaibo,Venezuela,10.642707,-71.6125366,NA
 Mehdi Variji,NA,Doctor,Tehran,Iran,35.6891975,51.3889736,NA
 Edgar Antonio Vázquez García,NA,Nurse,Mexico City,Mexico,19.4326077,-99.133208,NA
+Andrés Vázquez Olivares,65,Doctor,Chihuahua,Mexico,28.6329957,-106.0691004,NA
 Fernando Vázquez Rojas,NA,Doctor,Puebla,Mexico,19.0414398,-98.2062727,NA
 Omar Alejandro Vega Lagos,55,Doctor,Bogota,Colombia,4.710988599999999,-74.072092,NA
+Emilsy Vegas Contreras,NA,Doctor,Barinas,Venezuela,8.6231498,-70.2371045,NA
+Ada Esther Velásquez,NA,Doctor,NA,Honduras,15.199999,-86.241905,NA
 Roberto Velázquez Ávila,43,Nurse,Heroica Veracruz,Mexico,19.173773,-96.1342241,NA
 Arturo Tapia Vélez,NA,Doctor,Mexico City,Mexico,19.4326077,-99.133208,NA
 Eduardo Vélez Pérez,NA,Doctor,Mexico City,Mexico,19.4326077,-99.133208,NA
@@ -1572,9 +1694,12 @@ Raúl Vera Aguilar,59,Doctor,Heroica Veracruz,Mexico,19.173773,-96.1342241,NA
 Paul Gino Vera Junchaya,NA,Doctor,Villa María del Triunfo,Peru,-12.1675125,-76.9201161,NA
 Rachel Verbaan,45,Other Medical,Amsterdam,Netherlands,52.3675734,4.9041389,NA
 Francisco Verde,67,Doctor,Miranda,Venezuela,10.2509303,-66.4271499,NA
+Carlos Enrique Verdú Larreal,NA,Doctor,Valencia,Venezuela,10.1579312,-67.9972104,NA
 Ronald Verrier,59,Doctor,New York,United States,40.8447819,-73.8648268,NA
+Carlos Ignacio Viana Guerrero,69,Doctor,La Guajira,Colombia,11.3547743,-72.5204827,NA
 Susana Vicencio Aguilar,NA,Nurse,Heroica Veracruz,Mexico,19.173773,-96.1342241,NA
 Encarni Vicente Verdejo,52,Nurse,Bilbao,Spain,43.2630126,-2.9349852,NA
+Agustin Vichez,NA,Nurse,San Salvador,El Salvador,13.6929403,-89.2181911,NA
 Juan Carlos Vichini,NA,Doctor,Cochabamba,Bolivia,-17.4139766,-66.1653224,NA
 Aurora Violeta Victoria Álvarez,NA,Nurse,Mexico City,Mexico,19.4326077,-99.133208,NA
 Cristina Vigil Pérez,45,Nurse,Coatzacoalcos,Mexico,18.1344779,-94.4589858,NA
@@ -1642,6 +1767,7 @@ Rebar Zandi,62,Doctor,Stockholm,Sweden,59.32932349999999,18.0685808,NA
 Héctor Raúl Zapata Ibarra,67,Doctor,Piedras Negras,Mexico,28.6916182,-100.5408622,NA
 Héctor Mario Zapata de la Garza,NA,Doctor,Coahuila,Mexico,27.058676,-101.7068294,NA
 Cesar Fernando Zapata Rojas,NA,Doctor,Pucusana,Peru,-12.4826088,-76.7733823,NA
+Zaida Zarate,NA,Nurse,Apure,Venezuela,6.926948299999999,-68.52471489999999,NA
 Salvador Zavala,NA,Retired,Puebla,Mexico,19.0414398,-98.2062727,NA
 Mr. Zehtab,NA,Other Medical,Rasht,Iran,37.2682177,49.5891233,NA
 Hamidreza Zeinali,NA,Other Medical,Tehran,Iran,35.6891975,51.3889736,NA
@@ -2080,6 +2206,14 @@ Davoud Ahangari,NA,Doctor,NA,Italy,41.87194,12.56738,2020-07-25
 Nello Di Spigno,NA,Doctor,NA,Italy,41.87194,12.56738,2020-07-23
 Paolo Marandola,NA,Doctor,NA,Italy,41.87194,12.56738,2020-08-01
 Luigi Erli,NA,Retired,NA,Italy,41.87194,12.56738,2020-05-08
+Giuseppe Ascione,NA,Doctor,NA,Italy,41.87194,12.56738,2020-10-01
+Ernesto Celentano,NA,Doctor,NA,Italy,41.87194,12.56738,2020-10-18
+Giovanni Briglia,NA,Other,NA,Italy,41.87194,12.56738,2020-10-14
+Salvatore Arena,NA,Doctor,NA,Italy,41.87194,12.56738,2020-07-20
+Mirko Ragazzon,NA,Doctor,NA,Italy,41.87194,12.56738,2020-10-24
+Paolo Melenchi,NA,Doctor,NA,Italy,41.87194,12.56738,2020-11-01
+Vittorio Collesano,NA,Doctor,NA,Italy,41.87194,12.56738,2020-10-31
+Alberto Gazzera,NA,Retired,NA,Italy,41.87194,12.56738,2020-10-30
 Evgeniya Abdulkarimova,61,Doctor,Republic of Dagestan,Russia,42.14318859999999,47.0949799,NA
 Aleksey Aristov,62,Doctor,Nizhny Novgorod,Russia,56.3268684,44.0058793,NA
 Arpik Asratyan,69,Other,Moskva,Russia,55.7580806,37.6120615,NA
@@ -2110,12 +2244,14 @@ Abubakarova Tsibats Kurbanovna,70,Other,Republic of Dagestan,Russia,42.143188599
 Avdovenko Anatoly Leonidovich,60,Doctor,Tula Oblast,Russia,54.163768,37.5649507,NA
 Avdonina Tatyana Nikolaevna,59,Nurse,Saint Petersburg,Russia,59.9310584,30.3609096,NA
 Avetisyan Vartan Razmikovich,54,Doctor,Krasnodar Krai,Russia,45.6415289,39.7055977,NA
+Avtaikina Nina Alekseevna,67,Doctor,Mordovia Republic,Russia,54.2369441,44.068397,NA
 Ageeva Nina Ivanovna,84,Doctor,Moscow,Russia,55.755826,37.6172999,NA
 Agisheva Natalya Valentinovna,44,Doctor,Perm,Russia,58.00916830000001,56.22696740000001,NA
 Aguzarov Dzhabrail Tembolatovich,75,Other Medical,North Ossetia–Alania Republic,Russia,43.0451302,44.2870972,NA
 Azhnakina Olga Vladimirovna,50,Doctor,Penza,Russia,53.2272903,45,NA
 Azelgarieva Flyura Khadeevna,57,Nurse,Republic of Bashkortostan,Russia,54.2312172,56.1645257,NA
 Aidamirov Ramzan Avaluevich,37,Doctor,Chechnya,Russia,43.4023301,45.7187468,NA
+Hakobyan Anatoli Misakovich,67,Doctor,Saint Petersburg,Russia,59.9310584,30.3609096,NA
 Aliaskhabova Rukayut Amirkhanovna,60,Other Medical,Republic of Dagestan,Russia,42.14318859999999,47.0949799,NA
 Aliev Khamzat Shitievich,64,Doctor,Chechnya,Russia,43.4023301,45.7187468,NA
 Alicheeva Elmira Magomedovna,55,Nurse,Republic of Dagestan,Russia,42.14318859999999,47.0949799,NA
@@ -2123,6 +2259,7 @@ Alhauaj Mohammed Abdullah,NA,Doctor,Saint Petersburg,Russia,59.9310584,30.360909
 Amaev Magomed Sadaevich,75,Other Medical,Republic of Dagestan,Russia,42.14318859999999,47.0949799,NA
 Amaeva Zagidat Telmanovna,59,Doctor,Republic of Dagestan,Russia,42.14318859999999,47.0949799,NA
 Amelin Nikolay Alexandrovich,64,Doctor,Moscow Oblast,Russia,55.340396,38.2917651,NA
+Andreyko Dmitry Viktorovich,52,Doctor,Yaroslavl,Russia,57.62607440000001,39.8844709,NA
 Andreychuk Elena Viktorovna,43,Other Medical,Volgograd,Russia,48.708048,44.5133035,NA
 Anpilogova Lyubov Vasilievna,63,Nurse,Kursk Oblast,Russia,51.76340260000001,35.3811812,NA
 Antipov Alexander Vladimirovich,NA,Doctor,Moscow Oblast,Russia,55.340396,38.2917651,NA
@@ -2138,9 +2275,11 @@ Arsenin Igor Alekseevich,65,Other,Lipetsk,Russia,52.6121996,39.5981225,NA
 Arslanbekova Umragil,NA,Other Medical,Republic of Dagestan,Russia,42.14318859999999,47.0949799,NA
 Artemieva Lyudmila Vasilievna,69,Nurse,Perm,Russia,58.00916830000001,56.22696740000001,NA
 Artemyeva Nina Nikolaevna,83,Doctor,Saint Petersburg,Russia,59.9310584,30.3609096,NA
+Artyukhova Alla Pavlovna,48,Other Medical,Tomarovka,Russia,50.6771785,36.2314146,NA
 Arkhipova Svetlana Borisovna,55,Nurse,Moscow Oblast,Russia,55.340396,38.2917651,NA
 Asedova Sakinat,45,Nurse,Republic of Dagestan,Russia,42.14318859999999,47.0949799,NA
 Assonova Natalia Borisovna,62,Doctor,Moscow,Russia,55.755826,37.6172999,NA
+Astafieva Svetlana Yurievna,51,Other Medical,Orenburg,Russia,51.768156,55.0969797,NA
 Astakhov Yuri Sergeevich,80,Doctor,Saint Petersburg,Russia,59.9310584,30.3609096,NA
 Astashova Elena Vladimirovna,52,Doctor,Chelyabinsk Oblast,Russia,54.43194219999999,60.87889629999999,NA
 Askhabov Magomed Aripovich,66,Doctor,Republic of Dagestan,Russia,42.14318859999999,47.0949799,NA
@@ -2152,8 +2291,10 @@ Ahmedov Ahmed Kurbanovich,40,Doctor,Republic of Dagestan,Russia,42.1431885999999
 Akhmedova Sakinat Abdulaevna,58,Nurse,Kizlyar,Russia,43.84386569999999,46.71524290000001,NA
 Akhtaev Isa Adievich,51,Doctor,Moscow,Russia,55.755826,37.6172999,NA
 Ayupova Naila Khakimovna,60,Nurse,Mordovia Republic,Russia,54.2369441,44.068397,NA
+Babaytseva Zoya Vasilievna,67,Doctor,Lipetsk,Russia,52.6121996,39.5981225,NA
 Babaytseva Tatiana Ivanovna,53,Doctor,Volgograd Oblast,Russia,49.7604522,45,NA
 Babenko Victor Vasilievich,65,Other,Krasnodar Krai,Russia,45.6415289,39.7055977,NA
+Babenkov Ivan Alexandrovich,75,Doctor,Saratov Oblast,Russia,51.83692629999999,46.7539397,NA
 Babiychuk Elena Adamovna,67,Other Medical,Moscow Oblast,Russia,55.340396,38.2917651,NA
 Baburova Elena Mikhailovna,67,Other Medical,Moscow,Russia,55.755826,37.6172999,NA
 Badzyma Vladimir Georgievich,71,Doctor,Moscow,Russia,55.755826,37.6172999,NA
@@ -2163,17 +2304,21 @@ Badik Valentina Danilovna,71,Other Medical,Leningrad Oblast,Russia,60.0793208,31
 Baykova Lyudmila Vladimirovna,64,Doctor,Moscow,Russia,55.755826,37.6172999,NA
 Balashevich Lyubov Aleksandrovna,73,Doctor,Khanty-Mansi Autonomous Okrug,Russia,62.2287062,70.6410057,NA
 Balukov Alexander Alexandrovich,42,Other Medical,Moscow,Russia,55.755826,37.6172999,NA
+Baranov Konstantin Viktorovich,49,Doctor,Tula,Russia,54.204836,37.6184915,NA
+Bardakhchiyan Nikolay Stepanovich,62,Doctor,Rostov-on-Don,Russia,47.2357137,39.701505,NA
 Bardusov Victor Gennadevich,57,Other,Ulyanovsk,Russia,54.3186575,48.397776,NA
 Bark Boris Mikhailovich,83,Retired,Ryazan Oblast,Russia,54.3875964,41.2595661,NA
 Barsuk Andrey Nikolaevich,51,Other Medical,Ryazan,Russia,54.6095418,39.7125857,NA
 Barsukov Alexander Yakovlevich (Abbot Tikhon),65,Doctor,Moscow Oblast,Russia,55.340396,38.2917651,NA
 Baybulatova Sakinat Magomedovna,54,Nurse,Republic of Dagestan,Russia,42.14318859999999,47.0949799,NA
 Moneyless Marina Sergeevna,56,Other Medical,Kemerovo,Russia,55.3443282,86.06208649999999,NA
+Belaenko Ulsuma Mindiakhmetovna,52,Doctor,Chelyabinsk,Russia,55.1644419,61.4368432,NA
 Belkin Sergey Borisovich,50,Doctor,Vladimir Oblast,Russia,56.1553465,40.5926685,NA
 Belokoneva Tatyana Konstantinovna,58,Doctor,Penza,Russia,53.2272903,45,NA
 Belorus Victor Nikolaevich,60,Other,Moscow,Russia,55.755826,37.6172999,NA
 Belousova Claudia Leonidovna,64,Nurse,Udmurt Republic,Russia,57.0670218,53.0277948,NA
 Belugina Natalya Evgenievna,65,Other Medical,North Ossetia–Alania Republic,Russia,43.0451302,44.2870972,NA
+Belyaeva (Pakhomova) Oksana Guramievna,45,Doctor,Orenburg,Russia,51.768156,55.0969797,NA
 Belyakova Anna Vladimirovna,42,Doctor,Chelyabinsk,Russia,55.1644419,61.4368432,NA
 Berezin Boris Konstantinovich,57,Doctor,Kaluga,Russia,54.5135904,36.2636786,NA
 Berikhanov Gazimagomet Saidmagometovich,66,Doctor,Chechnya,Russia,43.4023301,45.7187468,NA
@@ -2189,6 +2334,7 @@ Bogolyubova Natalia Georgievna,70,Other Medical,Yekaterinburg,Russia,56.8430993,
 Bozieva Albina Takhirovna,27,Nurse,Kabardino-Balkarian Republic,Russia,43.3932469,43.5628498,NA
 Bokotey Evgeny Viktorovich,58,Doctor,Moscow,Russia,55.755826,37.6172999,NA
 Bondareva Maria Grigorievna,65,Other,Kursk,Russia,51.7482395,36.1947023,NA
+Bondarenko Andrey Gennadievich,62,Doctor,Rostov Oblast,Russia,47.6853247,41.8258952,NA
 Bondarenko Vladimir Ilyich,67,Other Medical,Omsk,Russia,54.9913545,73.3645204,NA
 Bondarenko Sergey Petrovich,68,Doctor,Tver,Russia,56.85872140000001,35.9175965,NA
 Borisov Sergey Borisovich,49,Doctor,Moscow Oblast,Russia,55.340396,38.2917651,NA
@@ -2207,17 +2353,20 @@ Burnysheva Irina Alekseevna,55,Doctor,Saint Petersburg,Russia,59.9310584,30.3609
 Busovikov Petr Viktorovich,NA,Doctor,Kemerovo,Russia,55.3443282,86.06208649999999,NA
 Butenina Tatyana Nikolaevna,66,Nurse,Moscow Oblast,Russia,55.340396,38.2917651,NA
 Buhniev Yuri Dmitrievich,71,Doctor,Bryansk Oblast,Russia,53.0408599,33.26909,NA
+Bushueva Natalia Ivanovna,60,Doctor,Volgograd,Russia,48.708048,44.5133035,NA
 Bykova Marina Valerevna,54,Doctor,Chuvashia Republic,Russia,55.55959920000001,46.9283535,NA
 Vasyukov Alexey Valentinovich,52,Doctor,Kaluga,Russia,54.5135904,36.2636786,NA
 Vakhtinsky Nikolay Nikolaevich,57,Doctor,Moscow,Russia,55.755826,37.6172999,NA
 Vegera Lidia Pavlovna,70,Other Medical,Irkutsk Oblast,Russia,56.13214199999999,103.948625,NA
 Veliev Nadir Azizovich,65,Doctor,Moscow,Russia,55.755826,37.6172999,NA
 Velichko Vladimir Alexandrovich,57,Doctor,Moscow,Russia,55.755826,37.6172999,NA
+Vermenko Alexandra Genievna,55,Doctor,Krasnodar,Russia,45.036035,38.97457060000001,NA
 Veselago Larisa Mikhailovna,71,Doctor,Saint Petersburg,Russia,59.9310584,30.3609096,NA
 Veselova Lyudmila Ivanovna,69,Nurse,Saint Petersburg,Russia,59.9310584,30.3609096,NA
 Vinokurov Viktor Innokentievich,66,Doctor,Sakha Republic,Russia,66.7613451,124.123753,NA
 Visaitova Khavra Hamidovna,57,Nurse,Chechnya,Russia,43.4023301,45.7187468,NA
 Vladimirova Irina Ivanovna,59,Doctor,Stavropol Krai,Russia,44.6680993,43.520214,NA
+Vladina Elena Nikolaevna,49,Nurse,Novosibirsk,Russia,54.9832693,82.8963831,NA
 Voronchikhin Yuri Gennadievich,62,Doctor,Mound,Russia,NA,NA,NA
 Vukolov Igor Vadimovich,56,Other,Moscow Oblast,Russia,55.340396,38.2917651,NA
 Gabeeva Zara Borisovna,72,Doctor,North Ossetia–Alania Republic,Russia,43.0451302,44.2870972,NA
@@ -2238,9 +2387,11 @@ Gasangosenov Magomed Gasangosenovich,80,Doctor,Republic of Dagestan,Russia,42.14
 Gasangusenov Gabibulla Magomedovich,58,Doctor,Republic of Dagestan,Russia,42.14318859999999,47.0949799,NA
 Hasanova Zubaidat Gabibulaevna,66,Other Medical,Republic of Dagestan,Russia,42.14318859999999,47.0949799,NA
 Gvozdikov Alexander Viktorovich,65,Doctor,Moscow,Russia,55.755826,37.6172999,NA
+Gerasimova Nina Nikolaevna,57,Nurse,Saint Petersburg,Russia,59.9310584,30.3609096,NA
 Glazov Leonid Leonidovich,60,Doctor,Moscow,Russia,55.755826,37.6172999,NA
 Glyzina Valentina Sergeevna,80,Retired,Moscow Oblast,Russia,55.340396,38.2917651,NA
 Golovina Galina Valerevna,44,Nurse,Tula,Russia,54.204836,37.6184915,NA
+Elena Nikolaevna Golovina,48,Doctor,Oryol,Russia,52.9668468,36.06248980000001,NA
 Golovlev Igor Mikhailovich,60,Other Medical,Irkutsk,Russia,52.2854834,104.2890222,NA
 Golnik Anatoly Ivanovich,NA,Other Medical,Saint Petersburg,Russia,59.9310584,30.3609096,NA
 Goman Larisa Ivanovna,57,Other Medical,Moscow Oblast,Russia,55.340396,38.2917651,NA
@@ -2259,6 +2410,7 @@ Guseva Natalya Vasilievna,42,Nurse,Stavropol Krai,Russia,44.6680993,43.520214,NA
 Davletnurova Olesya Nikolaevna,54,Doctor,Republic of Bashkortostan,Russia,54.2312172,56.1645257,NA
 Davtyan Svetlana Valerevna,55,Nurse,Saint Petersburg,Russia,59.9310584,30.3609096,NA
 Dakuev Magomed Khamzatovich,61,Other,Krasnoyarsk Krai,Russia,64.24797579999999,95.11041759999999,NA
+Danilina Tatiana Andreevna,62,Nurse,Moscow Oblast,Russia,55.340396,38.2917651,NA
 Daniyalova Khasrat Abdulhamidovna,53,Nurse,Republic of Dagestan,Russia,42.14318859999999,47.0949799,NA
 Dankova Tatyana Vasilievna,62,Nurse,Moscow,Russia,55.755826,37.6172999,NA
 Dankova Venera Islamovna,60,Doctor,Ulyanovsk,Russia,54.3186575,48.397776,NA
@@ -2268,28 +2420,40 @@ Deev Igor Timofeevich,66,Doctor,Altai Krai,Russia,51.7936298,82.6758596,NA
 Demeneva Zinaida Vladimirovna,62,Doctor,Perm,Russia,58.00916830000001,56.22696740000001,NA
 Demidov Igor Yuryevich,55,Doctor,Moscow,Russia,55.755826,37.6172999,NA
 Demidova Svetlana Alekseevna,56,Other Medical,Moscow,Russia,55.755826,37.6172999,NA
+Demyanov Yuri Genrikhovich,80,Doctor,Saint Petersburg,Russia,59.9310584,30.3609096,NA
 Denisov Alexey Viktorovich,58,Doctor,Voronezh Oblast,Russia,50.8589713,39.8644374,NA
 Dergunova Natalia Nikolaevna,67,Nurse,Bashkortostan,Russia,56.24397370000001,56.25425929999999,NA
+Derevshchikov Alexander Maksimovich,56,Doctor,Lipetsk,Russia,52.6121996,39.5981225,NA
 Derova Tatyana Nikolaevna,41,Nurse,Nizhny Novgorod,Russia,56.3268684,44.0058793,NA
 Javathanova Zainab Magomedovna,56,Nurse,Republic of Dagestan,Russia,42.14318859999999,47.0949799,NA
 Dzilikhova Lena Dzakhoevna,57,Doctor,Vladikavkaz,Russia,43.0252344,44.6659759,NA
 Didarova Alma Hasanbekovna,65,Doctor,North Ossetia–Alania Republic,Russia,43.0451302,44.2870972,NA
 Dmitriev Sergey Vasilievich,64,Doctor,Moscow Oblast,Russia,55.340396,38.2917651,NA
+Dolgatova Erike Ilyasovna,NA,Doctor,Republic of Dagestan,Russia,42.14318859999999,47.0949799,NA
 Donushkin Alexey Vyacheslavovich,58,Other Medical,Tula Oblast,Russia,54.163768,37.5649507,NA
 Drozd Tatyana Petrovna,65,Nurse,Moscow,Russia,55.755826,37.6172999,NA
+Drozdovskiy Yuri Vikentievich,NA,Doctor,Omsk,Russia,54.9913545,73.3645204,NA
+Dronov Yuri Ivanovich,59,Doctor,Rostov-on-Don,Russia,47.2357137,39.701505,NA
 Dryaev Taimuraz Hadzhumarovich,57,Other,North Ossetia–Alania Republic,Russia,43.0451302,44.2870972,NA
 Dudaeva Valentina Khizyrovna,57,Doctor,Karachay-Cherkessia,Russia,43.8845143,41.7303939,NA
 Dudarev Igor Valentinovich,59,Doctor,Rostov-on-Don,Russia,47.2357137,39.701505,NA
 Evgrafova Irina Vasilievna,52,Doctor,Saratov,Russia,51.5461754,46.0154123,NA
+Evsin Mikhail Nikolaevich,58,Doctor,Novosibirsk,Russia,54.9832693,82.8963831,NA
 Evteev Sergey Borisovich,48,Doctor,Moscow,Russia,55.755826,37.6172999,NA
 Egorova Elena Andreevna,65,Nurse,Leningrad Oblast,Russia,60.0793208,31.8926645,NA
+Egorova Sardana Nikandrovna,51,Doctor,Sakha Republic,Russia,66.7613451,124.123753,NA
 Elagina Valentina Ivanovna,64,Other Medical,Tula Oblast,Russia,54.163768,37.5649507,NA
 Eliseeva Svetlana Andreevna,33,Other Medical,Rostov-on-Don,Russia,47.2357137,39.701505,NA
+Elpatova Valentina Andreevna,83,Doctor,Orenburg,Russia,51.768156,55.0969797,NA
 Emelyanov Alexander Gennadievich,53,Other Medical,Astrakhan,Russia,46.3586008,48.05694829999999,NA
+Epifanov Alexey Gerasimovich,70,Doctor,Ryazan,Russia,54.6095418,39.7125857,NA
+Epifantsev Petr Evgenievich,72,Doctor,Primorsky Krai,Russia,45.0525641,135,NA
 Eremeev Andrey Viktorovich,53,Other,Saint Petersburg,Russia,59.9310584,30.3609096,NA
+Eremina Olga,42,Nurse,Moscow,Russia,55.755826,37.6172999,NA
 Erofeev Vladimir Ivanovich,70,Other Medical,Stavropol Krai,Russia,44.6680993,43.520214,NA
 Efimova Tatiana Mikhailovna,60,Nurse,Kursk Oblast,Russia,51.76340260000001,35.3811812,NA
 Efremov Igor Konstantinovich,61,Doctor,Kursk,Russia,51.7482395,36.1947023,NA
+Efremova Marina Grigorievna,58,Other Medical,Krasnodar,Russia,45.036035,38.97457060000001,NA
 Zhabrailov Bekhan Naibovich,NA,Doctor,Chechnya,Russia,43.4023301,45.7187468,NA
 Zharkov Ilya Vladimirovich,49,Doctor,Novosibirsk,Russia,54.9832693,82.8963831,NA
 Belly Igor Igorovich,54,Other Medical,Lipetsk,Russia,52.6121996,39.5981225,NA
@@ -2365,6 +2529,7 @@ Kartashova Valentina Antonovna,70,Doctor,Belgorod,Russia,50.5997134,36.5982621,N
 Kesebezhev Aslan Nurbievich,46,Doctor,Adygea Republic,Russia,44.8229155,40.1754463,NA
 Ketselev Viktor Yakovlevich,59,Other,Moscow Oblast,Russia,55.340396,38.2917651,NA
 Kirillova Larisa Elmarovna,57,Other Medical,Saint Petersburg,Russia,59.9310584,30.3609096,NA
+Kirsanova Vera Vasilievna,61,Nurse,Moscow Oblast,Russia,55.340396,38.2917651,NA
 Kiseleva Lyubov Alexandrovna,72,Doctor,North Ossetia–Alania Republic,Russia,43.0451302,44.2870972,NA
 Kiseleva Maria Dmitrievna,79,Doctor,Saint Petersburg,Russia,59.9310584,30.3609096,NA
 Kislyakova Inna Anatolevna,36,Other,Kaluga,Russia,54.5135904,36.2636786,NA
@@ -2384,6 +2549,7 @@ Kolesnik Tamila Konstantinovna,83,Nurse,Moscow,Russia,55.755826,37.6172999,NA
 Kolesnikova Valentina Fedorovna,74,Nurse,Volgograd Oblast,Russia,49.7604522,45,NA
 Kolodyazhnaya Valentina Grigoryevna,61,Nurse,Kaliningrad,Russia,54.7104264,20.4522144,NA
 Kolyada Irina Evgenievna,51,Nurse,Moscow Oblast,Russia,55.340396,38.2917651,NA
+Komarov Andrey Konstantinovich,53,Doctor,Orenburg,Russia,51.768156,55.0969797,NA
 Komarov Mikhail Nikolaevich,59,Other Medical,Moscow,Russia,55.755826,37.6172999,NA
 Komarova Yanulla Eleftheriosovna (Yana Pavlovna),55,Nurse,Moscow,Russia,55.755826,37.6172999,NA
 Kontseva Evgeny Igorevich,26,Doctor,Republic of Khakassia,Russia,53.0452281,90.3982145,NA
@@ -2406,6 +2572,7 @@ Kotova Tatiana Anatolyevna,54,Doctor,Vladimir,Russia,56.1428026,40.3895795,NA
 Kofanov Marat Sergeevich,49,Other Medical,Moscow Oblast,Russia,55.340396,38.2917651,NA
 Koshkina Ekaterina Aleksandrovna,78,Doctor,Moscow,Russia,55.755826,37.6172999,NA
 Kravchenko Lyudmila Viktorovna,60,Doctor,Krasnodar Krai,Russia,45.6415289,39.7055977,NA
+Krainova Valentina Semyonovna,67,Doctor,Ulyanovsk,Russia,54.3186575,48.397776,NA
 Krasavina Natalya Olegovna,49,Nurse,Mordovia Republic,Russia,54.2369441,44.068397,NA
 Krivushina Tatyana Alekseevna,64,Other Medical,Moscow Oblast,Russia,55.340396,38.2917651,NA
 Kryukova Larisa Vladimirovna,53,Other Medical,Moscow,Russia,55.755826,37.6172999,NA
@@ -2418,11 +2585,11 @@ Kuzin Andrey Evgenievich,59,Other Medical,Tula,Russia,54.204836,37.6184915,NA
 Kuznetsov Dmitry Yuryevich,47,Doctor,Solnechnogorsk,Russia,56.19091299999999,36.9721914,NA
 Kuznetsova Galina Gennadevna,53,Other Medical,Vladimir Oblast,Russia,56.1553465,40.5926685,NA
 Kuzminskaya Lidia Alekseevna,71,Doctor,Tver,Russia,56.85872140000001,35.9175965,NA
-Kulikovsky Vladimir Fedorovich,70,Doctor,Belgorod,Russia,50.5997134,36.5982621,NA
 Kukaeva Birlant Adamovna,47,Nurse,Chechnya,Russia,43.4023301,45.7187468,NA
 Kuklin Sergey Alexandrovich,58,Doctor,Perm,Russia,58.00916830000001,56.22696740000001,NA
 Kulabukhova Valentina Fedorovna,96,Retired,Sakhalin Oblast,Russia,50.6909848,142.9505689,NA
 Kulikova Elena Anatolyevna,46,Doctor,Moscow Oblast,Russia,55.340396,38.2917651,NA
+Kulikovsky Vladimir Fedorovich,70,Doctor,Belgorod,Russia,50.5997134,36.5982621,NA
 Kuntsev Andrey Viktorovich,49,Other,Moscow,Russia,55.755826,37.6172999,NA
 Kuprina Natalya Sergeevna,64,Other Medical,Moscow Oblast,Russia,55.340396,38.2917651,NA
 Kurbanismailov Magomed Ibrahimovich,69,Other Medical,Republic of Dagestan,Russia,42.14318859999999,47.0949799,NA
@@ -2436,6 +2603,7 @@ Kuchiev Marat Chermenovich,69,Doctor,Sakhalin Oblast,Russia,50.6909848,142.95056
 Lavkova Galina Grigorievna,54,Doctor,Orenburg,Russia,51.768156,55.0969797,NA
 Lapin Alexander Vasilievich,68,Doctor,Saint Petersburg,Russia,59.9310584,30.3609096,NA
 Lapin Konstantin Alexandrovich,35,Doctor,Saint Petersburg,Russia,59.9310584,30.3609096,NA
+Laschenkov Alexander Sergeevich,58,Doctor,Ulyanovsk,Russia,54.3186575,48.397776,NA
 Lebedeva Galina Nikolaevna,58,Doctor,Krasnoyarsk Krai,Russia,64.24797579999999,95.11041759999999,NA
 Lebedeva Natalya Vladimirovna,48,Doctor,Moscow Oblast,Russia,55.340396,38.2917651,NA
 Levin Ilya,NA,Doctor,Moscow,Russia,55.755826,37.6172999,NA
@@ -2474,11 +2642,14 @@ Manakov Anatoly Ivanovich,NA,Other Medical,Yekaterinburg,Russia,56.8430993,60.64
 Manochkina Olga Anatolevna,49,Nurse,Novosibirsk,Russia,54.9832693,82.8963831,NA
 Mansurova Dina Akhmyatovna,56,Nurse,Moscow,Russia,55.755826,37.6172999,NA
 Mansurov Yuri Vladimirovich,54,Doctor,Yekaterinburg,Russia,56.8430993,60.64540859999999,NA
+Manko Sergey Petrovich,70,Other Medical,Tyumen,Russia,57.1553394,65.5618637,NA
 Man'kovich Vladimir Samuilovich,67,Other,Saint Petersburg,Russia,59.9310584,30.3609096,NA
 Marenkov Nikolay Ivanovich,58,Other,Volgograd Oblast,Russia,49.7604522,45,NA
+Markin Alexander Vyacheslavovich,37,Other,Orenburg,Russia,51.768156,55.0969797,NA
 Markina Anna Pavlovna,64,Nurse,Moscow Oblast,Russia,55.340396,38.2917651,NA
 Markova Natalya Viktorovna,45,Nurse,Veliky Novgorod,Russia,58.52556980000001,31.2741929,NA
 Martynov Alexey Alexandrovich,33,Doctor,Moscow Oblast,Russia,55.340396,38.2917651,NA
+Marchenko Tatiana Vasilievna,63,Nurse,Krasnodar Krai,Russia,45.6415289,39.7055977,NA
 Marchenkov Sergey Gennadevich,47,Other Medical,Moscow,Russia,55.755826,37.6172999,NA
 Marshev Mikhail Yuryevich,53,Doctor,Moscow,Russia,55.755826,37.6172999,NA
 Maslov Alexander Ruslanovich,65,Other Medical,Sverdlovsk Oblast,Russia,59.007735,61.9316226,NA
@@ -2489,6 +2660,7 @@ Maturina Asiya Izmailovna,58,Nurse,Penza,Russia,53.2272903,45,NA
 Makhov Igor,65,Doctor,Sverdlovsk Oblast,Russia,59.007735,61.9316226,NA
 Medzhidova Aminat Musaevna,44,Other Medical,Republic of Dagestan,Russia,42.14318859999999,47.0949799,NA
 Melkumyan Lev Aleksandrovich,52,Other Medical,Krasnodar Krai,Russia,45.6415289,39.7055977,NA
+Melnichuk Tatiana Sergeevna,42,Doctor,Chelyabinsk Oblast,Russia,54.43194219999999,60.87889629999999,NA
 Menaker Igor Olegovich,NA,Doctor,Saint Petersburg,Russia,59.9310584,30.3609096,NA
 Menshin Sergey Vladimirovich,62,Other,Volgograd,Russia,48.708048,44.5133035,NA
 Merkulov Maxim Yuryevich,56,Other Medical,Moscow Oblast,Russia,55.340396,38.2917651,NA
@@ -2511,6 +2683,7 @@ Mikheeva Alevtina Nikolaevna,61,Nurse,Leningrad Oblast,Russia,60.0793208,31.8926
 Mikhin Alexander Nikolaevich,70,Doctor,Moscow,Russia,55.755826,37.6172999,NA
 Mikhnev Igor Ivanovich,58,Other Medical,Moscow,Russia,55.755826,37.6172999,NA
 Mongush Eltona Nikolaevna,NA,Doctor,Tuva Republic,Russia,51.8872669,95.62601719999999,NA
+Morozov Alexander Leonidovich,45,Doctor,Bashkortostan,Russia,56.24397370000001,56.25425929999999,NA
 Mosyagina Natalia Anatolyevna,62,Nurse,Moscow,Russia,55.755826,37.6172999,NA
 Mrakin Igor Viktorovich,60,Doctor,Astrakhan,Russia,46.3586008,48.05694829999999,NA
 Muzlanov Mikhail Petrovich,60,Other,Moscow,Russia,55.755826,37.6172999,NA
@@ -2519,6 +2692,7 @@ Murashkin Igor Valentinovich,57,Doctor,Moscow,Russia,55.755826,37.6172999,NA
 Murashko Elena Mikhailovna,57,Doctor,Moscow,Russia,55.755826,37.6172999,NA
 Mussaeva Valentina Ivanovna,61,Doctor,Penza,Russia,53.2272903,45,NA
 Mustafaeva Badiyat Makhmudovna,65,Nurse,Republic of Dagestan,Russia,42.14318859999999,47.0949799,NA
+Mukhametshina Zulia Khusnetdinovna,66,Other Medical,Bashkortostan,Russia,56.24397370000001,56.25425929999999,NA
 Myachina Lidiya Alekseevna,60,Nurse,Moscow Oblast,Russia,55.340396,38.2917651,NA
 Namashamov Bakytbek Zhumanazarovich,59,Doctor,Moscow,Russia,55.755826,37.6172999,NA
 Naumova Irina Alekseevna,60,Nurse,Tula,Russia,54.204836,37.6184915,NA
@@ -2537,11 +2711,14 @@ Nikiforov Denis Valerievich,39,Doctor,Kaliningrad,Russia,54.7104264,20.4522144,N
 Nikolaev Mikhail Alexandrovich,72,Doctor,Chuvashia Republic,Russia,55.55959920000001,46.9283535,NA
 Nikolaenko Eduard Mikhailovich,80,Doctor,Moscow,Russia,55.755826,37.6172999,NA
 Nikonorova Elena Pavlovna,56,Nurse,Bashkortostan,Russia,56.24397370000001,56.25425929999999,NA
+Nikulochkina Lyudmila Ivanovna,67,Doctor,Kursk,Russia,51.7482395,36.1947023,NA
+Maxim Novikov,54,Doctor,Kursk,Russia,51.7482395,36.1947023,NA
 Novikova Zoya Ivanovna,60,Doctor,Moscow Oblast,Russia,55.340396,38.2917651,NA
 Novikova Lyubov Mikhailovna,59,Doctor,Ulyanovsk,Russia,54.3186575,48.397776,NA
 Novikova Olga Olegovna,46,Nurse,Saint Petersburg,Russia,59.9310584,30.3609096,NA
 Novikova Tamara Andreevna,65,Other,Republic of Tatarstan,Russia,55.1802364,50.7263945,NA
 Novoselov Victor Serafimovich,73,Doctor,Moscow,Russia,55.755826,37.6172999,NA
+Novokhatsky Sergey,56,Other,Orenburg,Russia,51.768156,55.0969797,NA
 Nogova Elena Vladimirovna,56,Doctor,Moscow,Russia,55.755826,37.6172999,NA
 Nurlygayanova Larisa Razifovna,54,Doctor,Republic of Bashkortostan,Russia,54.2312172,56.1645257,NA
 Odinaev Safarbek Makhmadshoevich,62,Other Medical,Bashkortostan,Russia,56.24397370000001,56.25425929999999,NA
@@ -2563,6 +2740,7 @@ Pankova Svetlana Vladimirovna,58,Other Medical,Vladimir Oblast,Russia,56.1553465
 Pankratov Alexander Ivanovich,61,Other,Vladimir Oblast,Russia,56.1553465,40.5926685,NA
 Pankratov Vladimir Vladimirovich,69,Other,Moscow Oblast,Russia,55.340396,38.2917651,NA
 Panteleev Sergei Mikhailovich,68,Other,Tyumen,Russia,57.1553394,65.5618637,NA
+Paramonova Nadezhda Vladimirovna,68,Doctor,Vologda,Russia,59.21806649999999,39.8978053,NA
 Parafilo Viktor Timofeevich,71,Other Medical,Saint Petersburg,Russia,59.9310584,30.3609096,NA
 Parshina Lyudmila Valentinovna,53,Nurse,Volgograd Oblast,Russia,49.7604522,45,NA
 Pasenov Nikolay Zalikovich,56,Doctor,Belgorod,Russia,50.5997134,36.5982621,NA
@@ -2573,6 +2751,7 @@ Pershin Sergey Gennadievich,52,Other Medical,Moscow,Russia,55.755826,37.6172999,
 Petrakova Nadezhda Nikolaevna,44,Nurse,Smolensk,Russia,54.7903112,32.0503663,NA
 Petrov Boris Vladimirovich,73,Other,Saint Petersburg,Russia,59.9310584,30.3609096,NA
 Petrov Victor Mitrofanovich,62,Doctor,Voronezh Oblast,Russia,50.8589713,39.8644374,NA
+Petrov Petr Alexandrovich,68,Doctor,Belgorod,Russia,50.5997134,36.5982621,NA
 Petrova Natalya Gennadevna,38,Other Medical,Moscow Oblast,Russia,55.340396,38.2917651,NA
 Petrova Elvina Yakovlevna,83,Other Medical,Voronezh,Russia,51.6683487,39.19192880000001,NA
 Petrovsky Igor Vasilievich,66,Other,Tula Oblast,Russia,54.163768,37.5649507,NA
@@ -2589,6 +2768,7 @@ Pokrovskaya Tatyana Borisovna,62,Nurse,Tula,Russia,54.204836,37.6184915,NA
 Polienko Igor Leonidovich,55,Doctor,Tula Oblast,Russia,54.163768,37.5649507,NA
 Polyakov Alexey Mikhailovich,51,Doctor,Tyumen,Russia,57.1553394,65.5618637,NA
 Polyakov Vladimir Ivanovich,66,Doctor,Moscow Oblast,Russia,55.340396,38.2917651,NA
+Elena Nikolaevna Pometova,67,Other Medical,Leningrad Oblast,Russia,60.0793208,31.8926645,NA
 Popova Valentina Ivanovna,54,Other,Moscow,Russia,55.755826,37.6172999,NA
 Popova Nellya Alexandrovna,48,Nurse,Novosibirsk,Russia,54.9832693,82.8963831,NA
 Pronin Yakov Vasilievich,65,Doctor,Moscow,Russia,55.755826,37.6172999,NA
@@ -2597,6 +2777,7 @@ Puchkin Yuri Alekseevich,56,Doctor,Moscow,Russia,55.755826,37.6172999,NA
 Pshukova Radina Germanovna,45,Nurse,Kabardino-Balkarian Republic,Russia,43.3932469,43.5628498,NA
 Pyrkov Gennady Nikolaevich,41,Other Medical,Krasnodar Krai,Russia,45.6415289,39.7055977,NA
 Razmyslova Svetlana Grigoryevna,45,Nurse,Komi Republic,Russia,63.8630539,54.831269,NA
+Revelskaya Tatiana Gennadievna,60,Doctor,Chelyabinsk Oblast,Russia,54.43194219999999,60.87889629999999,NA
 Reshetova Liana Dmitrievna,70,Doctor,Moscow,Russia,55.755826,37.6172999,NA
 Robustova Olga Vyacheslavovna,47,Doctor,Moscow,Russia,55.755826,37.6172999,NA
 Rodikova Marina Alekseevna,NA,Nurse,Krasnoyarsk Krai,Russia,64.24797579999999,95.11041759999999,NA
@@ -2604,6 +2785,7 @@ Rozhkova Natalya Borisovna,58,Nurse,Saint Petersburg,Russia,59.9310584,30.360909
 Rosolovsky Roman Ivanovich,47,Doctor,Murmansk,Russia,68.97331129999999,33.0855849,NA
 Rostomyan Melik Simonovich,56,Doctor,Kaliningrad,Russia,54.7104264,20.4522144,NA
 Rubatsova Galina Vasilievna,60,Doctor,Moscow Oblast,Russia,55.340396,38.2917651,NA
+Ruzhenkov Viktor Alexandrovich,65,Doctor,Belgorod,Russia,50.5997134,36.5982621,NA
 Ruzankina Irina Viktorovna,47,Other Medical,Republic of Dagestan,Russia,42.14318859999999,47.0949799,NA
 Rutsinsky Anatoly,72,Other,Krasnodar,Russia,45.036035,38.97457060000001,NA
 Rusova Nina Petrovna,65,Nurse,Nizhny Novgorod,Russia,56.3268684,44.0058793,NA
@@ -2615,6 +2797,7 @@ Ryzhov Sergey Petrovich,57,Other Medical,Moscow,Russia,55.755826,37.6172999,NA
 Rylov Sergey Pavlovich,NA,Other,NA,Russia,61.52401,105.318756,NA
 Rylova Galina Dmitrievna,57,Other,Rostov Oblast,Russia,47.6853247,41.8258952,NA
 Rynda Antonina Yakovlevna,69,Doctor,Saint Petersburg,Russia,59.9310584,30.3609096,NA
+Rytenkov Sergey Mikhailovich,69,Doctor,Vologda,Russia,59.21806649999999,39.8978053,NA
 Ryabov Alexey Viktorovich,38,Doctor,Mordovia Republic,Russia,54.2369441,44.068397,NA
 Sabanova Fatima Tarkanovna,72,Other Medical,North Ossetia–Alania Republic,Russia,43.0451302,44.2870972,NA
 Sabirov Anvar Umarovich,51,Doctor,Pskov,Russia,57.8166994,28.3344735,NA
@@ -2635,6 +2818,7 @@ Safonova Tatyana Egorovna,67,Doctor,Moscow,Russia,55.755826,37.6172999,NA
 Seidov Hasan Rzayevich,60,Doctor,Republic of Dagestan,Russia,42.14318859999999,47.0949799,NA
 Seleznev Yuri Petrovich,63,Doctor,Moscow,Russia,55.755826,37.6172999,NA
 Selivanova Nelly,71,Other Medical,Saint Petersburg,Russia,59.9310584,30.3609096,NA
+Selivanets Ludmila Nikolaevna,NA,Doctor,Bashkortostan,Russia,56.24397370000001,56.25425929999999,NA
 Semenova Lyudmila Petrovna,63,Doctor,Moscow Oblast,Russia,55.340396,38.2917651,NA
 Semenova Olga Ivanovna,56,Other Medical,Nizhny Novgorod,Russia,56.3268684,44.0058793,NA
 Semigin Igor Alekseevich,65,Doctor,Moscow Oblast,Russia,55.340396,38.2917651,NA
@@ -2676,6 +2860,7 @@ Solovyov Boris Nikolaevich,57,Doctor,Chelyabinsk Oblast,Russia,54.43194219999999
 Soloviev Petr Ivanovich,64,Other Medical,Leningrad Oblast,Russia,60.0793208,31.8926645,NA
 Solsaev Soip Nakaevich,59,Other,Chechnya,Russia,43.4023301,45.7187468,NA
 Sorokin Grigory Valentinovich,47,Doctor,Moscow,Russia,55.755826,37.6172999,NA
+Sosnovaya Svetlana Borisovna,52,Doctor,Krasnodar Krai,Russia,45.6415289,39.7055977,NA
 Stepanov Andrey Nikolaevich,59,Doctor,Moscow,Russia,55.755826,37.6172999,NA
 Stolbikova Valentina Aleksandrovna,68,Other Medical,Chelyabinsk Oblast,Russia,54.43194219999999,60.87889629999999,NA
 Stroilova Alexandra Alexandrovna,48,Nurse,Moscow,Russia,55.755826,37.6172999,NA
@@ -2695,6 +2880,7 @@ Teziev Vladimir Batyrbekovich,68,Other Medical,North Ossetia–Alania Republic,R
 Tezieva Zarema Ramazanovna,49,Other Medical,North Ossetia–Alania Republic,Russia,43.0451302,44.2870972,NA
 Temirkhanova Rupee,60,Other Medical,Republic of Dagestan,Russia,42.14318859999999,47.0949799,NA
 Terekhin Valery Ivanovich,58,Doctor,Moscow Oblast,Russia,55.340396,38.2917651,NA
+Tereshchenko Yuri Vladimirovich,57,Other,Moscow,Russia,55.755826,37.6172999,NA
 Ternovaya Tatyana Nikolaevna,51,Other Medical,Krasnodar,Russia,45.036035,38.97457060000001,NA
 Ternov Tatyana Mitrofanovna,61,Nurse,Voronezh,Russia,51.6683487,39.19192880000001,NA
 Timofeev Evgeny Viktorovich,64,Doctor,Moscow Oblast,Russia,55.340396,38.2917651,NA
@@ -2709,7 +2895,6 @@ Tolmachev Mikhail Vladimirovich,52,Doctor,Vladimir Oblast,Russia,56.1553465,40.5
 Tolchenitsyna Alfiya Gabdulfatovna,72,Doctor,Kaluga,Russia,54.5135904,36.2636786,NA
 Travinichev Vasily Yuryevich,56,Doctor,Moscow Oblast,Russia,55.340396,38.2917651,NA
 Travkin Andrey Evgenievich,55,Doctor,Moscow Oblast,Russia,55.340396,38.2917651,NA
-Trishin Mikhail Viktorovich,NA,Doctor,Vologda,Russia,59.21806649999999,39.8978053,NA
 Trubnikova Galina Anatolevna,53,Doctor,Saratov,Russia,51.5461754,46.0154123,NA
 Tuaeva Fatima Nesterovna,54,Nurse,North Ossetia–Alania Republic,Russia,43.0451302,44.2870972,NA
 Tuzovsky Konstantin Valentinovich,60,Doctor,Saint Petersburg,Russia,59.9310584,30.3609096,NA
@@ -2720,6 +2905,7 @@ Turkina Karina Anatolevna,50,Other Medical,Moscow,Russia,55.755826,37.6172999,NA
 Turhanova Larisa Vladimirovna,54,Doctor,Novosibirsk,Russia,54.9832693,82.8963831,NA
 Tyrnov Oleg Ivanovich,51,Other,Moscow,Russia,55.755826,37.6172999,NA
 Tyshko Maria Sergeevna,30,Nurse,Saint Petersburg,Russia,59.9310584,30.3609096,NA
+Ubersky Vladimir Anatolievich,NA,Other Medical,Tver Oblast,Russia,57.0021654,33.9853142,NA
 Uzunyan Maria Viktorovna,56,Other Medical,Moscow,Russia,55.755826,37.6172999,NA
 Won Lilia Suonovna,64,Doctor,Saint Petersburg,Russia,59.9310584,30.3609096,NA
 Urinov Alexander Vitalievich,42,Doctor,Krasnodar Krai,Russia,45.6415289,39.7055977,NA
@@ -2730,6 +2916,7 @@ Fedorova Marina Anatolyevna,59,Other Medical,Saint Petersburg,Russia,59.9310584,
 Fedoruk Grigory Vladimirovich,45,Doctor,Moscow,Russia,55.755826,37.6172999,NA
 Filipskikh Olga Vasilievna,58,Doctor,Tula Oblast,Russia,54.163768,37.5649507,NA
 Firsova Lyubov Mikhailovna,59,Nurse,Moscow,Russia,55.755826,37.6172999,NA
+Fisenko Lyubov Olegovna,68,Other Medical,Moscow Oblast,Russia,55.340396,38.2917651,NA
 Fobyanchuk Alexander Alexandrovich,54,Other Medical,Moscow,Russia,55.755826,37.6172999,NA
 Folomeeva Elena Vasilievna,54,Other,Moscow Oblast,Russia,55.340396,38.2917651,NA
 Freidlina Tatyana Anatolevna,37,Doctor,Moscow,Russia,55.755826,37.6172999,NA
@@ -2748,6 +2935,7 @@ Khizrieva Marzhanat Zainutdinovna,NA,Doctor,Republic of Dagestan,Russia,42.14318
 Hisamova Ilgina Rifkatovna,51,Other Medical,Republic of Tatarstan,Russia,55.1802364,50.7263945,NA
 Khodorenko Sergey Anatolyevich,58,Doctor,Altai Krai,Russia,51.7936298,82.6758596,NA
 Khorunzhin Yuri Nikolaevich,64,Other Medical,Astrakhan,Russia,46.3586008,48.05694829999999,NA
+Khrapunova Svetlana Alexandrovna,58,Doctor,Moscow Oblast,Russia,55.340396,38.2917651,NA
 Khrustaleva Nadezhda Aleksandrovna,67,Nurse,Moscow Oblast,Russia,55.340396,38.2917651,NA
 Tsapulina Olga Nikolaevna,42,Nurse,Saint Petersburg,Russia,59.9310584,30.3609096,NA
 Tsimlyakov Alexey Igorevich,55,Nurse,Saint Petersburg,Russia,59.9310584,30.3609096,NA
@@ -2767,6 +2955,8 @@ Chulanova Anastasia Filippovna,75,Doctor,Magadan,Russia,59.55943970000001,150.81
 Shadrukhin Boris Vasilievich,58,Other,Yaroslavl Oblast,Russia,57.8991523,38.8388633,NA
 Shainskaya Natalya Vasilievna,70,Nurse,Moscow,Russia,55.755826,37.6172999,NA
 Shalimova Nina Sergeevna,61,Other Medical,Moscow,Russia,55.755826,37.6172999,NA
+Shamardin Alexander Alexandrovich,73,Retired,Ivanovo,Russia,57.0050671,40.9766453,NA
+Shamilev Dmitry Mikhailovich,72,Doctor,Stavropol Krai,Russia,44.6680993,43.520214,NA
 Shapieva Ainugayat Yusupovna,59,Nurse,Republic of Dagestan,Russia,42.14318859999999,47.0949799,NA
 Sharovatova Galina Evgenievna,67,Other,Samara,Russia,53.203772,50.1606382,NA
 Sharonov Alexander Vladimirovich,45,Doctor,Saint Petersburg,Russia,59.9310584,30.3609096,NA
@@ -2776,38 +2966,45 @@ Shakhnavazova Bika Suleymanovna,59,Doctor,Republic of Dagestan,Russia,42.1431885
 Shevelev Evgeny Leonidovich,NA,Other Medical,NA,Russia,61.52401,105.318756,NA
 Shevtsov Vladimir Ivanovich,NA,Doctor,Saint Petersburg,Russia,59.9310584,30.3609096,NA
 Shevchenko Victor Nikolaevich,70,Doctor,Chelyabinsk,Russia,55.1644419,61.4368432,NA
+Shevchenko Konstantin Grigorievich,56,Other Medical,Tver,Russia,56.85872140000001,35.9175965,NA
 Shevchuk Natalya Petrovna,41,Other Medical,Penza,Russia,53.2272903,45,NA
 Sheiko Alexey Vasilievich,67,Doctor,Rostov-on-Don,Russia,47.2357137,39.701505,NA
 Sheptulin Valentin Filippovich,81,Retired,Saint Petersburg,Russia,59.9310584,30.3609096,NA
 Sheralapov Yuri Nikolaevich,55,Doctor,Chelyabinsk Oblast,Russia,54.43194219999999,60.87889629999999,NA
 Shilkina Natalya Georgievna,NA,Other Medical,Moscow Oblast,Russia,55.340396,38.2917651,NA
 Shirokov Ivan Vladimirovich,54,Doctor,Rostov Oblast,Russia,47.6853247,41.8258952,NA
+Shiryaev Andrey Anatolievich,61,Doctor,Bashkortostan,Russia,56.24397370000001,56.25425929999999,NA
 Shklyaev Andrey Viktorovich,58,Other,Perm,Russia,58.00916830000001,56.22696740000001,NA
+Shkrabatovsky Igor Vsevolodovich,59,Other Medical,Krasnodar Krai,Russia,45.6415289,39.7055977,NA
 Shlykova Nadezhda Ivanovna,65,Nurse,Kursk,Russia,51.7482395,36.1947023,NA
 Shlykova Svetlana Vladimirovna,68,Doctor,Leningrad Oblast,Russia,60.0793208,31.8926645,NA
 Shlyakova Svetlana Yakovlevna,49,Nurse,Krasnoyarsk Krai,Russia,64.24797579999999,95.11041759999999,NA
 Shlyapkina Tatyana Ivanovna,64,Doctor,Moscow,Russia,55.755826,37.6172999,NA
 Shmakova Nadezhda Fedorovna,61,Nurse,Moscow Oblast,Russia,55.340396,38.2917651,NA
-Shondzhiev Valentin Nikolaevich,65,Doctor,Moscow Oblast,Russia,55.340396,38.2917651,NA
+Shondzhiev Valentin Nikolaevich,62,Doctor,Moscow Oblast,Russia,55.340396,38.2917651,NA
 Shotemor Shirinsho Shirinshoevich,88,Other Medical,Moscow,Russia,55.755826,37.6172999,NA
 Shumilov Vladimir Vasilievich,79,Doctor,Yaroslavl,Russia,57.62607440000001,39.8844709,NA
 Shunina Elena Yuryevna,53,Nurse,Moscow,Russia,55.755826,37.6172999,NA
 Shuzhina Valentina Nikolaevna,56,Other Medical,Saint Petersburg,Russia,59.9310584,30.3609096,NA
 Shcheglova Nelya Nikolaevna,68,Other Medical,Novosibirsk,Russia,54.9832693,82.8963831,NA
 Shcherbina Vasily Vasilievich,41,Other Medical,Krasnodar Krai,Russia,45.6415289,39.7055977,NA
+Egamberdiev Adkhamjon Anvarberdievich,41,Doctor,Rostov-on-Don,Russia,47.2357137,39.701505,NA
 Edorkh Alexey Zhanovich,50,Doctor,Moscow,Russia,55.755826,37.6172999,NA
 Eminov Yamudin Shamsudinovich,62,Doctor,Republic of Dagestan,Russia,42.14318859999999,47.0949799,NA
 Yuzhakov Alexander Petrovich,65,Doctor,Saint Petersburg,Russia,59.9310584,30.3609096,NA
 Yuzov Mikhail Yuryevich,58,Doctor,Moscow,Russia,55.755826,37.6172999,NA
+Yurgel Nikolay Yurievich,60,Doctor,Omsk,Russia,54.9913545,73.3645204,NA
 Yurieva Irina Nikolaevna,55,Doctor,Sverdlovsk Oblast,Russia,59.007735,61.9316226,NA
 Yuryeva Natalya Mikhailovna,59,Nurse,Moscow Oblast,Russia,55.340396,38.2917651,NA
 Yusupova Zubarzhat Gasangadzhievna,54,Nurse,Republic of Dagestan,Russia,42.14318859999999,47.0949799,NA
 Yusupova Saidat Magomedovna,64,Doctor,Republic of Dagestan,Russia,42.14318859999999,47.0949799,NA
 Yakubovskaya Irina Sergeevna,51,Other Medical,Leningrad Oblast,Russia,60.0793208,31.8926645,NA
 Yakunin Sergei Ivanovich,54,Doctor,Saint Petersburg,Russia,59.9310584,30.3609096,NA
+Yakusheva Elena Vasilievna,52,Doctor,Volgograd,Russia,48.708048,44.5133035,NA
 Yanchev Alexander Ivanovich,57,Doctor,Moscow Oblast,Russia,55.340396,38.2917651,NA
 Yarova Lyudmila Alexandrovna,63,Nurse,Novosibirsk,Russia,54.9832693,82.8963831,NA
 Yarovoy Dmitry Andreevich,33,Doctor,Saint Petersburg,Russia,59.9310584,30.3609096,NA
+Yarokhno Natalia Nikolaevna,68,Doctor,Novosibirsk,Russia,54.9832693,82.8963831,NA
 Yaroshenko Natalia Vladimirovna,48,Nurse,North Ossetia–Alania Republic,Russia,43.0451302,44.2870972,NA
 Yasyulevich Julia Lvovna,54,Nurse,Saint Petersburg,Russia,59.9310584,30.3609096,NA
 Yashina Natalya Alexandrovna,67,Nurse,Moscow,Russia,55.755826,37.6172999,NA
@@ -2816,6 +3013,7 @@ Yashtina Natalia Nikolaevna,65,Doctor,Omsk,Russia,54.9913545,73.3645204,NA
 Ayzhigitov Bakbergen Sagymkozhaevich,57,Doctor,Karagandy Province,Kazakhstan,47.90221820000001,71.7706807,NA
 Akpanov Nariman,NA,Other Medical,Atyrau,Kazakhstan,47.0944959,51.9238373,NA
 Akperov Ibrahim Akperovich,68,Doctor,Tiraspol,Moldova,46.84818500000001,29.59680509999999,NA
+Alexandruk Tamara,67,Doctor,Kansas City,United States,39.0097241,-94.5589306,NA
 Antipova Natalya,42,Nurse,Viciebsk,Belarus,55.1926809,30.206359,NA
 Balaban Vyacheslav Georgievich,69,Doctor,Tiraspol,Moldova,46.84818500000001,29.59680509999999,NA
 Baranov Ion Petru,65,Doctor,Soroca,Moldova,48.1549743,28.2870783,NA
@@ -2826,9 +3024,11 @@ Bespalov Yuri Ivanovich,81,Doctor,Almaty,Kazakhstan,43.2220146,76.8512485,NA
 Twin Valentina Grigoryevna,56,Nurse,Rečyca,Belarus,52.3678183,30.3958802,NA
 Bozhuk Nikolay Nikolaevich,67,Doctor,Zakarpattia Oblast,Ukraine,48.6208,22.287883,NA
 Boltabaev Ikrom Ismailovich,NA,Doctor,Dushanbe,Tajikistan,38.5597722,68.7870384,NA
+Botnaryuk Maria,72,Other Medical,Hîncești,Moldova,46.8281147,28.5850889,NA
 Bordyanu Elena Grigoryevna,48,Other Medical,Chernivtsi,Ukraine,48.2620862,25.9260167,NA
 Boyan Gavril Maksimovich,74,Doctor,NNPC Children's Surgery named after N. Georgiu,Moldova,NA,NA,NA
 Vasilake Ion,NA,Doctor,Magpie,Moldova,NA,NA,NA
+Venzhinovich Ivan Fedorovich,51,Other Medical,Ternopil Oblast,Ukraine,49.553517,25.594767,NA
 Voivodic Dragan,61,Doctor,Chesterfield,United States,38.6549096,-90.5096135,NA
 Gaida Ivan Mikhailovich,58,Other,Western Medical Clinical Center,Ukraine,NA,NA,NA
 Gaida Oleg Mikhailovich,52,Doctor,Cherkasy,Ukraine,49.444433,32.059767,NA
@@ -2837,13 +3037,16 @@ Ghimpu Tatyana,57,Nurse,Briceni,Moldova,48.3632022,27.0750398,NA
 Godoroga Vera,62,Other Medical,Causeni,Moldova,46.6554715,29.4091222,NA
 Golichenko Victor Anatolievich,60,Other Medical,Odessa Oblast,Ukraine,46.484583,30.7326,NA
 Gortolomey Alla,65,Doctor,Dondușeni District,Moldova,48.2338305,27.5998087,NA
+Gorchinski Nikolay,78,Doctor,Soroca,Moldova,48.1549743,28.2870783,NA
 Grigorevich Alla,40,Nurse,Minsk,Belarus,53.9006011,27.558972,NA
+Grosu Veronica,61,Doctor,Chișinău,Moldova,47.0104529,28.8638102,NA
 Grosso Constantine,68,Doctor,Chișinău,Moldova,47.0104529,28.8638102,NA
 Grytsiv Bogdan,41,Other Medical,Ivano-Frankivsk,Ukraine,48.922633,24.711117,NA
 Goodumak Tamara,61,Other,Edinet,Moldova,48.1678991,27.2936143,NA
 Gurina Natalya Nikolaevna,50,Nurse,Brest Region,Belarus,52.5296641,25.460648,NA
 Huseynov Gasham,62,Doctor,Baku,Azerbaijan,40.40926169999999,49.8670924,NA
 Dabija Ion,66,Doctor,Balti,Moldova,47.7539947,27.9184148,NA
+Daraban Dumitru,62,Doctor,Bălți,Moldova,47.7721301,27.896765,NA
 Demerji Vasily Demyanovich,75,Other Medical,Gagauzia,Moldova,46.0979435,28.6384645,NA
 Dziuba Theodosia Petrovna,NA,Doctor,NA,Ukraine,48.379433,31.1655799,NA
 Dolgan Lyudmila,53,Nurse,Fălești District,Moldova,47.59212549999999,27.7641512,NA
@@ -2889,7 +3092,10 @@ Martynyuk Grigore,61,Doctor,Bălți,Moldova,47.7721301,27.896765,NA
 Machuga Victoria,45,Doctor,Chișinău,Moldova,47.0104529,28.8638102,NA
 Mikhalchuk Galina Trofimovna,70,Doctor,Lviv,Ukraine,49.839683,24.029717,NA
 Navrotsky Alexey Vladimirovich,48,Other Medical,Luhansk,Ukraine,48.574041,39.307815,NA
+Nagachevsky Leonid,NA,Doctor,Chișinău,Moldova,47.0104529,28.8638102,NA
 Nurgalieva Gulnazym Nasibullinovna,63,Doctor,Almaty,Kazakhstan,43.2220146,76.8512485,NA
+Orlov Igor Borisovich,71,Doctor,Lviv,Ukraine,49.839683,24.029717,NA
+Ostalsky Bogdan Romanovich,60,Doctor,L'viv,Ukraine,49.8417366,24.0316915,NA
 Pavalake Vera,58,Nurse,Chișinău,Moldova,47.0104529,28.8638102,NA
 Panaitova (Belchu) Vera Kirillovna,66,Other,Gagauzia,Moldova,46.0979435,28.6384645,NA
 Pashko Elena,54,Other Medical,Baranovichi,Belarus,53.132139,26.0166026,NA
@@ -2904,10 +3110,13 @@ Prikhodko Irina Pavlovna,73,Doctor,Ivano-Frankivsk,Ukraine,48.922633,24.711117,N
 Papushoy Jacob,66,Doctor,Cimișlia,Moldova,46.52461590000001,28.7754321,NA
 Rajabboyev Jurakul Rajabboyev,NA,Doctor,NA,Tajikistan,38.861034,71.276093,NA
 Radkevich Oksana,45,Nurse,Vitebsk Region,Belarus,55.2959833,28.7583627,NA
+Romanas Liviu,59,Doctor,Edineţ,Moldova,48.1837361,27.2965518,NA
 Rotaru Corneliu,46,Doctor,Chișinău,Moldova,47.0104529,28.8638102,NA
 Rozhnov Tatyana,NA,Doctor,Ivano-Frankivsk,Ukraine,48.922633,24.711117,NA
 Rushescu Dina,61,Doctor,Chișinău,Moldova,47.0104529,28.8638102,NA
+Savenko Vasily Alekseevich,60,Doctor,Lviv Oblast,Ukraine,49.839683,24.029717,NA
 Savich Leonid Anatolyevich,54,Other Medical,Lyuban,Belarus,52.7917612,27.9992898,NA
+Sandu Vera,57,Other Medical,NA,Moldova,47.411631,28.369885,NA
 Saryev Murat Zharylgapovich,57,Other,Jean Ozen,Kazakhstan,NA,NA,NA
 Safroni Alexey,77,Doctor,Chișinău,Moldova,47.0104529,28.8638102,NA
 Sitkevich Anna Kirillovna,61,Nurse,Minsk,Belarus,53.9006011,27.558972,NA
@@ -2939,6 +3148,17 @@ Sholokh Pavel Ivanovich,53,Doctor,Almaty,Kazakhstan,43.2431356,76.9279546,NA
 Yuzich Galina,55,Doctor,Lviv,Ukraine,49.839683,24.029717,NA
 Yurlova Tatyana,57,Other Medical,Briceni,Moldova,48.3632022,27.0750398,NA
 Yaskevich Valery Ivanovich,68,Other Medical,Brest,Belarus,52.0996507,23.7636662,NA
+Anonymous Brazilian Healthcare Worker,38,Nurse,NA,Brazil,-14.235004,-51.92528,2020-11-03
+Anonymous Brazilian Healthcare Worker,58,Other Medical,NA,Brazil,-14.235004,-51.92528,2020-11-03
+Anonymous Brazilian Healthcare Worker,64,Other Medical,NA,Brazil,-14.235004,-51.92528,2020-11-03
+Anonymous Brazilian Healthcare Worker,36,Other Medical,NA,Brazil,-14.235004,-51.92528,2020-11-03
+Anonymous Brazilian Healthcare Worker,33,Other Medical,NA,Brazil,-14.235004,-51.92528,2020-11-03
+Anonymous Brazilian Healthcare Worker,54,Other Medical,NA,Brazil,-14.235004,-51.92528,2020-10-20
+Anonymous Brazilian Healthcare Worker,48,Other Medical,NA,Brazil,-14.235004,-51.92528,2020-10-20
+Anonymous Brazilian Healthcare Worker,52,Other Medical,NA,Brazil,-14.235004,-51.92528,2020-10-20
+Anonymous Brazilian Healthcare Worker,46,Other Medical,NA,Brazil,-14.235004,-51.92528,2020-10-20
+Anonymous Brazilian Healthcare Worker,53,Other Medical,NA,Brazil,-14.235004,-51.92528,2020-10-16
+Anonymous Brazilian Healthcare Worker,51,Other Medical,NA,Brazil,-14.235004,-51.92528,2020-10-13
 Anonymous Brazilian Healthcare Worker,47,Nurse,NA,Brazil,-14.235004,-51.92528,2020-10-08
 Anonymous Brazilian Healthcare Worker,49,Other Medical,NA,Brazil,-14.235004,-51.92528,2020-10-08
 Anonymous Brazilian Healthcare Worker,38,Nurse,NA,Brazil,-14.235004,-51.92528,2020-10-08
@@ -2946,6 +3166,7 @@ Anonymous Brazilian Healthcare Worker,56,Other Medical,NA,Brazil,-14.235004,-51.
 Anonymous Brazilian Healthcare Worker,55,Nurse,NA,Brazil,-14.235004,-51.92528,2020-10-08
 Anonymous Brazilian Healthcare Worker,62,Other Medical,NA,Brazil,-14.235004,-51.92528,2020-10-08
 Anonymous Brazilian Healthcare Worker,65,Other Medical,NA,Brazil,-14.235004,-51.92528,2020-10-06
+Anonymous Brazilian Healthcare Worker,53,Other Medical,NA,Brazil,-14.235004,-51.92528,2020-10-05
 Anonymous Brazilian Healthcare Worker,50,Other Medical,NA,Brazil,-14.235004,-51.92528,2020-10-05
 Anonymous Brazilian Healthcare Worker,39,Other Medical,NA,Brazil,-14.235004,-51.92528,2020-10-05
 Anonymous Brazilian Healthcare Worker,55,Other Medical,NA,Brazil,-14.235004,-51.92528,2020-10-02
@@ -2990,7 +3211,6 @@ Anonymous Brazilian Healthcare Worker,55,Other Medical,NA,Brazil,-14.235004,-51.
 Anonymous Brazilian Healthcare Worker,61,Other Medical,NA,Brazil,-14.235004,-51.92528,2020-09-10
 Anonymous Brazilian Healthcare Worker,34,Other Medical,NA,Brazil,-14.235004,-51.92528,2020-09-10
 Anonymous Brazilian Healthcare Worker,56,Other Medical,NA,Brazil,-14.235004,-51.92528,2020-09-04
-Anonymous Brazilian Healthcare Worker,50,Other Medical,NA,Brazil,-14.235004,-51.92528,2020-09-03
 Anonymous Brazilian Healthcare Worker,47,Other Medical,NA,Brazil,-14.235004,-51.92528,2020-09-01
 Anonymous Brazilian Healthcare Worker,46,Other Medical,NA,Brazil,-14.235004,-51.92528,2020-09-01
 Anonymous Brazilian Healthcare Worker,52,Other Medical,NA,Brazil,-14.235004,-51.92528,2020-09-01

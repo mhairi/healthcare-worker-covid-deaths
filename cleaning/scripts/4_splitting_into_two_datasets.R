@@ -17,7 +17,7 @@ covid_deaths_full <-
     # Variables in analysis data
     name,
     age, 
-    occupation,
+    occupation = occupation_original,
     location,
     country,
     lat,
@@ -37,6 +37,7 @@ covid_deaths_full <-
     original_occupation = occupation_original,
     original_location = location_original,
     original_country = country_original,
+    cleaned_occupation = occupation,
     # Data as it was first scraped
     raw_data
   )
