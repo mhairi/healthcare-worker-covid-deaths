@@ -188,6 +188,7 @@ df <-
   df %>% 
   filter(name != "Priscilla Charrow") %>% 
   filter(name != "Iwan Dwi Prahasto") %>% 
-  filter(name != "Jesus Sambrano")
+  filter(name != "Jesus Sambrano") %>% 
+  filter(name != "Libia Carrión")
 
 write_csv(df, "data/intermediate_data/country_data/clean_medscape.csv")

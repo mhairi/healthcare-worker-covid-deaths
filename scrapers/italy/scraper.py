@@ -19,7 +19,11 @@ list_elements = main_list.find_all("li")
 outputs = []
 for element in list_elements:
 
-    name = element.find("strong").text
+    # Name mostly in a strong tag, but sometimes in a b tag
+    if element.find("strong") is None:
+        name = element.find("b").text
+    else:
+        name = element.find("strong").text
 
     br_tag = element.find("br")
 

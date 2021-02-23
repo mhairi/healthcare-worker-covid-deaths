@@ -10,8 +10,7 @@ html = request.content
 soup = BeautifulSoup(html, features="lxml")
 
 # Find all h2 elements, these contain the name and age
-main_article = soup.find("div",class_ = "article-body-commercial-selector css-79elbk")
-titles = soup.find_all("h2", class_ = None)
+titles = soup.find_all("h2")
 
 # Pull out information under each h2
 outputs = []

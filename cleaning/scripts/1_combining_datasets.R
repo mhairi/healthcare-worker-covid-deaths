@@ -93,7 +93,7 @@ russia %>%
 russia_join <-
   medscape %>% 
   filter(country == "Russia" | is.na(country)) %>% 
-  filter(id != 1811) %>%  # Remove Tatyana Safonova: we have two Tatyana Safonova's in the Russia data, so having one here messes up joining
+  filter(name != "Tatyana Safonova") %>%  # Remove Tatyana Safonova: we have two Tatyana Safonova's in the Russia data, so having one here messes up joining
   stringdist_inner_join(russia, by = c("name" = "joinable_name"), max_dist = russia_dist) 
 
 # Need to still check for names in the same order too
@@ -323,3 +323,5 @@ df %>%
 # María López Maria Lopez
 # José Porras José Torres
 # Alberto Paolini Alberto Pollini
+# Sirbu Vasile Hirbu Vasile
+

@@ -54,7 +54,8 @@ df %>%
     country,
     lat,
     lng,
-    dod
+    dod,
+    source
   )
 
 
